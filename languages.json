@@ -25,7 +25,7 @@
             "files": {
                 "mo": "es_ES/ratepress-es_ES.mo",
                 "po": "es_ES/ratepress-es_ES.po",
-                "json": "es_ES/ratepress-admin-es_ES-{version}.json"
+                "json": "es_ES/ratepress-admin-es_ES-1.0.0.json"
             }
         }
     ],
