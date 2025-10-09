@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "last_updated": "2025-10-09",
+    "supported_locales": [
+        {
+            "locale": "fa_IR",
+            "name": "فارسی",
+            "english_name": "Persian (Iran)",
+            "contributors": ["NovinCode Team"],
+            "completion": 100,
+            "last_updated": "2025-10-09",
+            "files": {
+                "po": "ratepress-fa_IR.po",
+                "mo": "ratepress-fa_IR.mo",
+                "json": "ratepress-admin-fa_IR-1.0.0.json"
+            }
+        }
+    ],
+    "in_progress": [],
+    "how_to_contribute": "https://github.com/novincode/ratepress-languages#contributing"
+}

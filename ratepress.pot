@@ -1,0 +1,1313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-09T03:56:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ratepress\n"
+
+#: core/includes/Admin/AdminPanel.php:54 core/includes/Admin/AdminPanel.php:55
+#: core/includes/Blocks/BlockRenderer.php:115
+msgid "RatePress"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:64
+msgid "Dashboard"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:65
+msgid "Settings"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:66
+msgid "Display"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:67
+msgid "Templates"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:68
+msgid "Analytics"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:69
+msgid "Data"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:70
+msgid "Support"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:215
+msgid "Binary (Like Only)"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:216
+msgid "Bipolar (Like & Dislike)"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:217
+msgid "Scale (Stars, 1-10)"
+msgstr ""
+
+#: core/includes/DB/RatingModel.php:315
+msgid "You must be logged in to rate this content."
+msgstr ""
+
+#: core/includes/DB/RatingQuery.php:588
+msgid "Unknown"
+msgstr ""
+
+#: core/includes/REST/Endpoints/DataAPI.php:82
+msgid "No data provided"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:67
+msgid "No settings provided"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:80
+msgid "Settings saved successfully"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:95
+msgid "Settings reset to defaults"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:107
+msgid "Invalid cooldown value"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:45
+msgid "Star rating widget"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:51
+msgid "Rate from 1 to 5 stars"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:63
+#, php-format
+msgid "Rate %d out of 5 stars"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:64
+#, php-format
+msgid "%d star%s"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:88
+#, php-format
+msgid "Average rating: %s out of 5 stars"
+msgstr ""
+
+#: core/templates/simple/five-stars/render.php:93
+#, php-format
+msgid "%d rating"
+msgid_plural "%d ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/templates/simple/heart/render.php:40
+msgid "Heart rating widget"
+msgstr ""
+
+#: core/templates/simple/heart/render.php:46
+#: core/templates/simple/heart/render.php:48
+msgid "Remove love"
+msgstr ""
+
+#: core/templates/simple/heart/render.php:46
+#: core/templates/simple/heart/render.php:48
+msgid "Love this"
+msgstr ""
+
+#: core/templates/simple/heart/render.php:69
+#, php-format
+msgid "%d person loves this"
+msgid_plural "%d people love this"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/templates/simple/like-dislike/render.php:58
+msgid "Like or dislike rating widget"
+msgstr ""
+
+#: core/templates/simple/like-dislike/render.php:66
+#: core/templates/simple/like-dislike/render.php:68
+msgid "Remove like"
+msgstr ""
+
+#: core/templates/simple/like-dislike/render.php:66
+#: core/templates/simple/like-dislike/render.php:68
+msgid "Like this"
+msgstr ""
+
+#: core/templates/simple/like-dislike/render.php:90
+#, php-format
+msgid "%d like"
+msgid_plural "%d likes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/templates/simple/like-dislike/render.php:101
+#: core/templates/simple/like-dislike/render.php:103
+msgid "Remove dislike"
+msgstr ""
+
+#: core/templates/simple/like-dislike/render.php:101
+#: core/templates/simple/like-dislike/render.php:103
+msgid "Dislike this"
+msgstr ""
+
+#: core/templates/simple/like-dislike/render.php:125
+#, php-format
+msgid "%d dislike"
+msgid_plural "%d dislikes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: TypeScript files
+msgid "Monitor your rating system performance and user engagement"
+msgstr ""
+
+#: TypeScript files
+msgid "Configure general settings and anti-spam options"
+msgstr ""
+
+#: TypeScript files
+msgid "Configure how ratings appear on posts and comments"
+msgstr ""
+
+#: TypeScript files
+msgid "Browse, install, and manage rating templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Track your rating performance and user engagement"
+msgstr ""
+
+#: TypeScript files
+msgid "Import, export, and manage your rating data"
+msgstr ""
+
+#: TypeScript files
+msgid "Get help and support"
+msgstr ""
+
+#: TypeScript files
+msgid "Loading chunk..."
+msgstr ""
+
+#: TypeScript files
+msgid "Discard"
+msgstr ""
+
+#: TypeScript files
+msgid "Saving..."
+msgstr ""
+
+#: TypeScript files
+msgid "Save Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Reset All Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to reset all settings to their default values?"
+msgstr ""
+
+#: TypeScript files
+msgid "This action cannot be undone."
+msgstr ""
+
+#: TypeScript files
+msgid "Cancel"
+msgstr ""
+
+#: TypeScript files
+msgid "Loading details..."
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to load details"
+msgstr ""
+
+#: TypeScript files
+msgid "Go Back"
+msgstr ""
+
+#: TypeScript files
+msgid "Content"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating"
+msgstr ""
+
+#: TypeScript files
+msgid "Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Date"
+msgstr ""
+
+#: TypeScript files
+msgid "Binary"
+msgstr ""
+
+#: TypeScript files
+msgid "Bipolar"
+msgstr ""
+
+#: TypeScript files
+msgid "Scale"
+msgstr ""
+
+#: TypeScript files
+msgid "Back"
+msgstr ""
+
+#: TypeScript files
+msgid "User Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "Go back to Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "Edit"
+msgstr ""
+
+#: TypeScript files
+msgid "Total Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating History"
+msgstr ""
+
+#: TypeScript files
+msgid "Download All as CSV"
+msgstr ""
+
+#: TypeScript files
+msgid "No ratings found"
+msgstr ""
+
+#: TypeScript files
+msgid "User"
+msgstr ""
+
+#: TypeScript files
+msgid "Post Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "View"
+msgstr ""
+
+#: TypeScript files
+msgid "Post Type:"
+msgstr ""
+
+#: TypeScript files
+msgid "Binary Avg"
+msgstr ""
+
+#: TypeScript files
+msgid "Bipolar Avg"
+msgstr ""
+
+#: TypeScript files
+msgid "Scale Avg"
+msgstr ""
+
+#: TypeScript files
+msgid "All Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Pro Feature"
+msgstr ""
+
+#: TypeScript files
+msgid "Upgrade to Pro to access detailed analytics and reporting features."
+msgstr ""
+
+#: TypeScript files
+msgid "Loading analytics data..."
+msgstr ""
+
+#: TypeScript files
+msgid "All Time"
+msgstr ""
+
+#: TypeScript files
+msgid "Today"
+msgstr ""
+
+#: TypeScript files
+msgid "Last 7 Days"
+msgstr ""
+
+#: TypeScript files
+msgid "Last 30 Days"
+msgstr ""
+
+#: TypeScript files
+msgid "Last 90 Days"
+msgstr ""
+
+#: TypeScript files
+msgid "Custom Range"
+msgstr ""
+
+#: TypeScript files
+msgid "All Categories"
+msgstr ""
+
+#: TypeScript files
+msgid "All Post Types"
+msgstr ""
+
+#: TypeScript files
+msgid "Posts"
+msgstr ""
+
+#: TypeScript files
+msgid "Pages"
+msgstr ""
+
+#: TypeScript files
+msgid "Overview"
+msgstr ""
+
+#: TypeScript files
+msgid "Trends"
+msgstr ""
+
+#: TypeScript files
+msgid "Users"
+msgstr ""
+
+#: TypeScript files
+msgid "Total"
+msgstr ""
+
+#: TypeScript files
+msgid "Actions"
+msgstr ""
+
+#: TypeScript files
+msgid "Details"
+msgstr ""
+
+#: TypeScript files
+msgid "Category"
+msgstr ""
+
+#: TypeScript files
+msgid "IP Address"
+msgstr ""
+
+#: TypeScript files
+msgid "First Rating"
+msgstr ""
+
+#: TypeScript files
+msgid "Post Title"
+msgstr ""
+
+#: TypeScript files
+msgid "Post Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Active Users"
+msgstr ""
+
+#: TypeScript files
+msgid "Average Rating"
+msgstr ""
+
+#: TypeScript files
+msgid "Top 10 Most Rated Posts"
+msgstr ""
+
+#: TypeScript files
+msgid "No rated posts found"
+msgstr ""
+
+#: TypeScript files
+msgid "Detailed Trends by Rating Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Posts in Selected Period"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"No rated posts found for the selected period. Try adjusting your filters or "
+"add some ratings!"
+msgstr ""
+
+#: TypeScript files
+msgid "No rated content found. Start by adding ratings to your posts!"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"No users found. Users will appear here once they start rating your content!"
+msgstr ""
+
+#: TypeScript files
+msgid "Analytics Dashboard"
+msgstr ""
+
+#: TypeScript files
+msgid "Select date range"
+msgstr ""
+
+#: TypeScript files
+msgid "Select category"
+msgstr ""
+
+#: TypeScript files
+msgid "Select post type"
+msgstr ""
+
+#: TypeScript files
+msgid "Reset"
+msgstr ""
+
+#: TypeScript files
+msgid "Start Date"
+msgstr ""
+
+#: TypeScript files
+msgid "Select start date"
+msgstr ""
+
+#: TypeScript files
+msgid "End Date"
+msgstr ""
+
+#: TypeScript files
+msgid "Select end date"
+msgstr ""
+
+#: TypeScript files
+msgid "Time Period"
+msgstr ""
+
+#: TypeScript files
+msgid "Reset Filters"
+msgstr ""
+
+#: TypeScript files
+msgid "Category Distribution"
+msgstr ""
+
+#: TypeScript files
+msgid "Loading chart..."
+msgstr ""
+
+#: TypeScript files
+msgid "Copied!"
+msgstr ""
+
+#: TypeScript files
+msgid "Copy to clipboard"
+msgstr ""
+
+#: TypeScript files
+msgid "Select date"
+msgstr ""
+
+#: TypeScript files
+msgid "Clear date"
+msgstr ""
+
+#: TypeScript files
+msgid "Select an option"
+msgstr ""
+
+#: TypeScript files
+msgid "No data available"
+msgstr ""
+
+#: TypeScript files
+msgid "Loading data..."
+msgstr ""
+
+#: TypeScript files
+msgid "Download as CSV"
+msgstr ""
+
+#: TypeScript files
+msgid "Download CSV"
+msgstr ""
+
+#: TypeScript files
+msgid "Showing"
+msgstr ""
+
+#: TypeScript files
+msgid "of"
+msgstr ""
+
+#: TypeScript files
+msgid "entries"
+msgstr ""
+
+#: TypeScript files
+msgid "Previous"
+msgstr ""
+
+#: TypeScript files
+msgid "Page"
+msgstr ""
+
+#: TypeScript files
+msgid "Next"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Trends"
+msgstr ""
+
+#: TypeScript files
+msgid "No Preview"
+msgstr ""
+
+#: TypeScript files
+msgid "Installed"
+msgstr ""
+
+#: TypeScript files
+msgid "Version %s available"
+msgstr ""
+
+#: TypeScript files
+msgid "Update to version %s"
+msgstr ""
+
+#: TypeScript files
+msgid "Updating..."
+msgstr ""
+
+#: TypeScript files
+msgid "Update"
+msgstr ""
+
+#: TypeScript files
+msgid "Delete template"
+msgstr ""
+
+#: TypeScript files
+msgid "Delete core template (will be restored on plugin update)"
+msgstr ""
+
+#: TypeScript files
+msgid "Deleting..."
+msgstr ""
+
+#: TypeScript files
+msgid "Delete"
+msgstr ""
+
+#: TypeScript files
+msgid "Installing..."
+msgstr ""
+
+#: TypeScript files
+msgid "Install"
+msgstr ""
+
+#: TypeScript files
+msgid "Template"
+msgstr ""
+
+#: TypeScript files
+msgid "Choose a template"
+msgstr ""
+
+#: TypeScript files
+msgid "Small"
+msgstr ""
+
+#: TypeScript files
+msgid "Medium"
+msgstr ""
+
+#: TypeScript files
+msgid "Large"
+msgstr ""
+
+#: TypeScript files
+msgid "Size"
+msgstr ""
+
+#: TypeScript files
+msgid "No templates available for this category"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
+msgstr ""
+
+#: TypeScript files
+msgid "Cleanup Analytics (Months)"
+msgstr ""
+
+#: TypeScript files
+msgid "0 = disabled. Deletes old analytics data to save space."
+msgstr ""
+
+#: TypeScript files
+msgid "Analytics dashboard coming soon."
+msgstr ""
+
+#: TypeScript files
+msgid "Anti-Spam"
+msgstr ""
+
+#: TypeScript files
+msgid "Configure anti-spam measures and rate limiting"
+msgstr ""
+
+#: TypeScript files
+msgid "Require Login to Rate"
+msgstr ""
+
+#: TypeScript files
+msgid "Only logged-in users can rate. Disables anonymous options below."
+msgstr ""
+
+#: TypeScript files
+msgid "Enable IP-Based Anti-Spam"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Stores IPs for checks (increases DB size ~10-20%; enable cleanup). Limits "
+"multiple ratings from same IP."
+msgstr ""
+
+#: TypeScript files
+msgid "IP Cooldown (Days)"
+msgstr ""
+
+#: TypeScript files
+msgid "Days before same IP can re-rate a post."
+msgstr ""
+
+#: TypeScript files
+msgid "Max Ratings per IP per Day"
+msgstr ""
+
+#: TypeScript files
+msgid "0 = unlimited. Warn: Heavy queries if high volume."
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Cookie-Based Anti-Spam"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Uses cookies for quick checks (GDPR note: Hash stored in DB if enabled)."
+msgstr ""
+
+#: TypeScript files
+msgid "Cookie Expiry (Days)"
+msgstr ""
+
+#: TypeScript files
+msgid "Days cookie locks rating per post."
+msgstr ""
+
+#: TypeScript files
+msgid "Max Ratings per Cookie per Day"
+msgstr ""
+
+#: TypeScript files
+msgid "0 = unlimited."
+msgstr ""
+
+#: TypeScript files
+msgid "Global Cooldown (Seconds)"
+msgstr ""
+
+#: TypeScript files
+msgid "Wait time between any ratings site-wide."
+msgstr ""
+
+#: TypeScript files
+msgid "Max Ratings per User per Day"
+msgstr ""
+
+#: TypeScript files
+msgid "For logged-in users. 0 = unlimited."
+msgstr ""
+
+#: TypeScript files
+msgid "Allow Admins Unlimited Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Administrators can rate without limits, useful for testing and debugging."
+msgstr ""
+
+#: TypeScript files
+msgid "Cleanup Old Ratings (Months)"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"0 = disabled. WARNING: Only deletes ratings with IP addresses (anti-spam "
+"data); preserves user rating history!"
+msgstr ""
+
+#: TypeScript files
+msgid "This Month"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Rated Posts"
+msgstr ""
+
+#: TypeScript files
+msgid "Export completed successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Export failed."
+msgstr ""
+
+#: TypeScript files
+msgid "Export failed. Please try again."
+msgstr ""
+
+#: TypeScript files
+msgid "Data cleaned successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean failed."
+msgstr ""
+
+#: TypeScript files
+msgid "Clean failed. Please try again."
+msgstr ""
+
+#: TypeScript files
+msgid "Please select a file to import."
+msgstr ""
+
+#: TypeScript files
+msgid "Please select a valid SQL file."
+msgstr ""
+
+#: TypeScript files
+msgid "Data imported successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Import failed."
+msgstr ""
+
+#: TypeScript files
+msgid "Import failed. Please try again."
+msgstr ""
+
+#: TypeScript files
+msgid "Data Management"
+msgstr ""
+
+#: TypeScript files
+msgid "Export, import, and clean your RatePress data"
+msgstr ""
+
+#: TypeScript files
+msgid "📤 Export Data"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Export your RatePress data as SQL files for backup or migration purposes."
+msgstr ""
+
+#: TypeScript files
+msgid "Export All Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Export all ratings, analytics, and settings data."
+msgstr ""
+
+#: TypeScript files
+msgid "Export Ratings Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Export only the ratings data."
+msgstr ""
+
+#: TypeScript files
+msgid "Export Analytics Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Export only the analytics data."
+msgstr ""
+
+#: TypeScript files
+msgid "🗑️ Clean Data"
+msgstr ""
+
+#: TypeScript files
+msgid "⚠️ Warning:"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"These actions cannot be undone. Please export your data first before "
+"cleaning!"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean All Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Remove all ratings, analytics, and reset settings to defaults."
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Ratings Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Remove all rating data but keep analytics and settings."
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Analytics Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Remove all analytics data but keep ratings and settings."
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Are you absolutely sure you want to reset ALL settings to defaults? This "
+"cannot be undone!"
+msgstr ""
+
+#: TypeScript files
+msgid "Reset all RatePress settings to their default values."
+msgstr ""
+
+#: TypeScript files
+msgid "📥 Import Data (Pro)"
+msgstr ""
+
+#: TypeScript files
+msgid "Import RatePress data from SQL export files."
+msgstr ""
+
+#: TypeScript files
+msgid "Import Data"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Select a RatePress SQL export file to import. This will merge data with "
+"existing records."
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to clean this data?"
+msgstr ""
+
+#: TypeScript files
+msgid "This action cannot be undone. Make sure to export your data first!"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to import this SQL file?"
+msgstr ""
+
+#: TypeScript files
+msgid "This will add data to your existing tables."
+msgstr ""
+
+#: TypeScript files
+msgid "All Types"
+msgstr ""
+
+#: TypeScript files
+msgid "Binary (Like)"
+msgstr ""
+
+#: TypeScript files
+msgid "Scale (Stars)"
+msgstr ""
+
+#: TypeScript files
+msgid "Position"
+msgstr ""
+
+#: TypeScript files
+msgid "Before text"
+msgstr ""
+
+#: TypeScript files
+msgid "Before content"
+msgstr ""
+
+#: TypeScript files
+msgid "After text"
+msgstr ""
+
+#: TypeScript files
+msgid "After content"
+msgstr ""
+
+#: TypeScript files
+msgid "Manual only"
+msgstr ""
+
+#: TypeScript files
+msgid "Filter Templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Show counts"
+msgstr ""
+
+#: TypeScript files
+msgid "Dark mode"
+msgstr ""
+
+#: TypeScript files
+msgid "Configure how and where ratings appear on your content types"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable ratings for"
+msgstr ""
+
+#: TypeScript files
+msgid "Single pages"
+msgstr ""
+
+#: TypeScript files
+msgid "Archive pages"
+msgstr ""
+
+#: TypeScript files
+msgid "Comment Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable comment ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Copy Code"
+msgstr ""
+
+#: TypeScript files
+msgid "Shortcode"
+msgstr ""
+
+#: TypeScript files
+msgid "PHP Code"
+msgstr ""
+
+#: TypeScript files
+msgid "HTML Attributes"
+msgstr ""
+
+#: TypeScript files
+msgid "General Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Only logged-in users can rate. Enables user-based rate limiting below."
+msgstr ""
+
+#: TypeScript files
+msgid "Enable JavaScript Mode (Cache-Friendly)"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Load rating data dynamically via JavaScript for better caching "
+"compatibility. Templates load as placeholders initially."
+msgstr ""
+
+#: TypeScript files
+msgid "SEO & Structured Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Structured Data (JSON-LD)"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Adds Google-compatible structured data for ratings to improve search results "
+"and enable rich snippets."
+msgstr ""
+
+#: TypeScript files
+msgid "Include Ratings in Meta Description"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Automatically includes rating information in page meta descriptions for "
+"better SEO."
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Rich Snippets Support"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Optimizes markup for Google rich snippets including stars in search results."
+msgstr ""
+
+#: TypeScript files
+msgid "Anti-Spam & Rate Limiting"
+msgstr ""
+
+#: TypeScript files
+msgid "Maximum ratings allowed per logged-in user per day. 0 = unlimited."
+msgstr ""
+
+#: TypeScript files
+msgid "IP Cooldown (Hours)"
+msgstr ""
+
+#: TypeScript files
+msgid "Hours before same IP can re-rate a post."
+msgstr ""
+
+#: TypeScript files
+msgid "Max Ratings per IP per"
+msgstr ""
+
+#: TypeScript files
+msgid "Hours"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"0 = unlimited. Limits ratings from the same IP within the cooldown period."
+msgstr ""
+
+#: TypeScript files
+msgid "Documentation and support resources"
+msgstr ""
+
+#: TypeScript files
+msgid "Documentation and support resources coming soon."
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to load templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Template installed successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to install template"
+msgstr ""
+
+#: TypeScript files
+msgid "Template updated successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to update template"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to delete the %s template?"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Are you sure you want to delete the %s template? (It will be restored on "
+"plugin update)"
+msgstr ""
+
+#: TypeScript files
+msgid "Template deleted successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to delete template"
+msgstr ""
+
+#: TypeScript files
+msgid "Template uploaded successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to upload template"
+msgstr ""
+
+#: TypeScript files
+msgid "Binary (Like/Dislike)"
+msgstr ""
+
+#: TypeScript files
+msgid "Bipolar (Hearts, Favorites)"
+msgstr ""
+
+#: TypeScript files
+msgid "Scale (Star Ratings)"
+msgstr ""
+
+#: TypeScript files
+msgid "Browse and install rating templates from the community"
+msgstr ""
+
+#: TypeScript files
+msgid "Upload"
+msgstr ""
+
+#: TypeScript files
+msgid "Refresh"
+msgstr ""
+
+#: TypeScript files
+msgid "Browse Templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Search templates..."
+msgstr ""
+
+#: TypeScript files
+msgid "Loading templates..."
+msgstr ""
+
+#: TypeScript files
+msgid "No templates found"
+msgstr ""
+
+#: TypeScript files
+msgid "Try adjusting your search or filter criteria"
+msgstr ""
+
+#: TypeScript files
+msgid "Five Stars"
+msgstr ""
+
+#: TypeScript files
+msgid "Heart"
+msgstr ""
+
+#: TypeScript files
+msgid "Like/Dislike"
+msgstr ""
+
+#: TypeScript files
+msgid "Stars (1-5)"
+msgstr ""
+
+#: TypeScript files
+msgid "Like Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Post"
+msgstr ""
+
+#: TypeScript files
+msgid "Comment"
+msgstr ""
+
+#: TypeScript files
+msgid "Loading preview..."
+msgstr ""
+
+#: TypeScript files
+msgid "with counts"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Object Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Counts"
+msgstr ""
+
+#: TypeScript files
+msgid "Advanced"
+msgstr ""
+
+#: TypeScript files
+msgid "Custom Object ID"
+msgstr ""
+
+#: TypeScript files
+msgid "Leave empty to use current object"
+msgstr ""
+
+#: TypeScript files
+msgid "Current object ID:"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Widget"
+msgstr ""
+
+#: TypeScript files
+msgid "Add a rating widget"
+msgstr ""
