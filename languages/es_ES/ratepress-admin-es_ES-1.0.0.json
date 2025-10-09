@@ -1,0 +1,15 @@
+{
+    "translation-revision-date": "2025-10-09T06:04:01.235Z",
+    "generator": "RatePress JSON Generator",
+    "source": "languages/es_ES/ratepress-es_ES.po",
+    "domain": "ratepress",
+    "locale_data": {
+        "ratepress": {
+            "": {
+                "domain": "ratepress",
+                "lang": "es_ES",
+                "plural-forms": "nplurals=2; plural=(n==0 || n==1);"
+            }
+        }
+    }
+}

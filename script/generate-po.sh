@@ -53,3 +53,13 @@ else
     exit 1
   fi
 fi
+
+# Add a comment section for untranslated strings at the bottom
+if command -v msgattrib &> /dev/null; then
+  UNTRANSLATED_COUNT=$(msgattrib --untranslated "$PO_FILE" | grep -c "^msgid " || echo "0")
+  if [ "$UNTRANSLATED_COUNT" -gt 1 ]; then  # More than just the header
+    echo ""
+    echo "📝 Found $((UNTRANSLATED_COUNT - 1)) untranslated strings"
+    echo "   Use Poedit or search for empty msgstr \"\" to find them"
+  fi
+fi
