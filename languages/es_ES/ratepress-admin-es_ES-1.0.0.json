@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2025-10-09T06:04:01.235Z",
+    "translation-revision-date": "2025-10-09T06:40:33.494Z",
     "generator": "RatePress JSON Generator",
     "source": "languages/es_ES/ratepress-es_ES.po",
     "domain": "ratepress",
@@ -9,7 +9,955 @@
                 "domain": "ratepress",
                 "lang": "es_ES",
                 "plural-forms": "nplurals=2; plural=(n==0 || n==1);"
-            }
+            },
+            "RatePress": [
+                "RatePress"
+            ],
+            "Dashboard": [
+                "Panel de Control"
+            ],
+            "Settings": [
+                "Configuración"
+            ],
+            "Display": [
+                "Visualización"
+            ],
+            "Templates": [
+                "Plantillas"
+            ],
+            "Analytics": [
+                "Analíticas"
+            ],
+            "Data": [
+                "Datos"
+            ],
+            "Support": [
+                "Soporte"
+            ],
+            "Binary (Like Only)": [
+                "Binario (Solo Me Gusta)"
+            ],
+            "Bipolar (Like & Dislike)": [
+                "Bipolar (Me Gusta y No Me Gusta)"
+            ],
+            "Scale (Stars, 1-10)": [
+                "Escala (Estrellas, 1-10)"
+            ],
+            "You must be logged in to rate this content.": [
+                "Debes iniciar sesión para valorar este contenido."
+            ],
+            "Unknown": [
+                "Desconocido"
+            ],
+            "No data provided": [
+                "No se proporcionaron datos"
+            ],
+            "No settings provided": [
+                "No se proporcionó configuración"
+            ],
+            "Settings saved successfully": [
+                "Configuración guardada correctamente"
+            ],
+            "Settings reset to defaults": [
+                "Configuración restaurada a valores predeterminados"
+            ],
+            "Invalid cooldown value": [
+                "Valor de tiempo de espera inválido"
+            ],
+            "RatePress Translation Available": [
+                "Traducción de RatePress Disponible"
+            ],
+            "RatePress is available in %s! Click here to download the translation.": [
+                "¡RatePress está disponible en %s! Haz clic aquí para descargar la traducción."
+            ],
+            "Download Translation": [
+                "Descargar Traducción"
+            ],
+            "Downloading...": [
+                "Descargando..."
+            ],
+            "Translation downloaded! Refreshing page...": [
+                "¡Traducción descargada! Actualizando página..."
+            ],
+            "Failed to download translation": [
+                "Error al descargar la traducción"
+            ],
+            "Star rating widget": [
+                "Widget de valoración con estrellas"
+            ],
+            "Rate from 1 to 5 stars": [
+                "Valorar de 1 a 5 estrellas"
+            ],
+            "Rate %d out of 5 stars": [
+                "Valorar %d de 5 estrellas"
+            ],
+            "%d star%s": [
+                "%d estrella%s"
+            ],
+            "Average rating: %s out of 5 stars": [
+                "Valoración promedio: %s de 5 estrellas"
+            ],
+            "Heart rating widget": [
+                "Widget de valoración con corazón"
+            ],
+            "Remove love": [
+                "Quitar me encanta"
+            ],
+            "Love this": [
+                "Me encanta"
+            ],
+            "Like or dislike rating widget": [
+                "Widget de me gusta o no me gusta"
+            ],
+            "Remove like": [
+                "Quitar me gusta"
+            ],
+            "Like this": [
+                "Me gusta"
+            ],
+            "Remove dislike": [
+                "Quitar no me gusta"
+            ],
+            "Dislike this": [
+                "No me gusta"
+            ],
+            "Monitor your rating system performance and user engagement": [
+                "Monitorea el rendimiento de tu sistema de valoraciones y la participación de usuarios"
+            ],
+            "Configure general settings and anti-spam options": [
+                "Configura ajustes generales y opciones anti-spam"
+            ],
+            "Configure how ratings appear on posts and comments": [
+                "Configura cómo aparecen las valoraciones en entradas y comentarios"
+            ],
+            "Browse, install, and manage rating templates": [
+                "Explora, instala y gestiona plantillas de valoración"
+            ],
+            "Track your rating performance and user engagement": [
+                "Rastrea el rendimiento de valoraciones y la participación de usuarios"
+            ],
+            "Import, export, and manage your rating data": [
+                "Importa, exporta y gestiona tus datos de valoración"
+            ],
+            "Get help and support": [
+                "Obtén ayuda y soporte"
+            ],
+            "Loading chunk...": [
+                "Cargando fragmento..."
+            ],
+            "Discard": [
+                "Descartar"
+            ],
+            "Saving...": [
+                "Guardando..."
+            ],
+            "Save Settings": [
+                "Guardar Configuración"
+            ],
+            "Settings saved successfully!": [
+                "¡Configuración guardada correctamente!"
+            ],
+            "Reset All Settings": [
+                "Restablecer Toda la Configuración"
+            ],
+            "Are you sure you want to import this SQL file?": [
+                "¿Estás seguro de que deseas importar este archivo SQL?"
+            ],
+            "This will add data to your existing tables.": [
+                "Esto añadirá datos a tus tablas existentes."
+            ],
+            "All Types": [
+                "Todos los Tipos"
+            ],
+            "Binary (Like)": [
+                "Binario (Me Gusta)"
+            ],
+            "Scale (Stars)": [
+                "Escala (Estrellas)"
+            ],
+            "Position": [
+                "Posición"
+            ],
+            "Before text": [
+                "Antes del texto"
+            ],
+            "Before content": [
+                "Antes del contenido"
+            ],
+            "After text": [
+                "Después del texto"
+            ],
+            "After content": [
+                "Después del contenido"
+            ],
+            "Manual only": [
+                "Solo manual"
+            ],
+            "Filter Templates": [
+                "Filtrar Plantillas"
+            ],
+            "Show counts": [
+                "Mostrar contadores"
+            ],
+            "Dark mode": [
+                "Modo oscuro"
+            ],
+            "Configure how and where ratings appear on your content types": [
+                "Configura cómo y dónde aparecen las valoraciones en tus tipos de contenido"
+            ],
+            "Enable ratings for": [
+                "Habilitar valoraciones para"
+            ],
+            "Single pages": [
+                "Páginas individuales"
+            ],
+            "Archive pages": [
+                "Páginas de archivo"
+            ],
+            "Comment Ratings": [
+                "Valoraciones de Comentarios"
+            ],
+            "Enable comment ratings": [
+                "Habilitar valoraciones de comentarios"
+            ],
+            "Copy Code": [
+                "Copiar Código"
+            ],
+            "Shortcode": [
+                "Shortcode"
+            ],
+            "PHP Code": [
+                "Código PHP"
+            ],
+            "HTML Attributes": [
+                "Atributos HTML"
+            ],
+            "General Settings": [
+                "Configuración General"
+            ],
+            "Only logged-in users can rate. Enables user-based rate limiting below.": [
+                "Solo usuarios conectados pueden valorar. Habilita limitación de tasa basada en usuario abajo."
+            ],
+            "Enable JavaScript Mode (Cache-Friendly)": [
+                "Habilitar Modo JavaScript (Compatible con Caché)"
+            ],
+            "Load rating data dynamically via JavaScript for better caching compatibility. Templates load as placeholders initially.": [
+                "Carga datos de valoración dinámicamente vía JavaScript para mejor compatibilidad con caché. Las plantillas se cargan como marcadores de posición inicialmente."
+            ],
+            "SEO & Structured Data": [
+                "SEO y Datos Estructurados"
+            ],
+            "Enable Structured Data (JSON-LD)": [
+                "Habilitar Datos Estructurados (JSON-LD)"
+            ],
+            "Adds Google-compatible structured data for ratings to improve search results and enable rich snippets.": [
+                "Añade datos estructurados compatibles con Google para valoraciones para mejorar resultados de búsqueda y habilitar fragmentos enriquecidos."
+            ],
+            "Include Ratings in Meta Description": [
+                "Incluir Valoraciones en Meta Descripción"
+            ],
+            "Automatically includes rating information in page meta descriptions for better SEO.": [
+                "Incluye automáticamente información de valoración en las meta descripciones de página para mejor SEO."
+            ],
+            "Enable Rich Snippets Support": [
+                "Habilitar Soporte de Fragmentos Enriquecidos"
+            ],
+            "Optimizes markup for Google rich snippets including stars in search results.": [
+                "Optimiza el marcado para fragmentos enriquecidos de Google incluyendo estrellas en resultados de búsqueda."
+            ],
+            "Anti-Spam & Rate Limiting": [
+                "Anti-Spam y Limitación de Tasa"
+            ],
+            "Maximum ratings allowed per logged-in user per day. 0 = unlimited.": [
+                "Máximo de valoraciones permitidas por usuario conectado por día. 0 = ilimitado."
+            ],
+            "IP Cooldown (Hours)": [
+                "Tiempo de Espera de IP (Horas)"
+            ],
+            "Hours before same IP can re-rate a post.": [
+                "Horas antes de que la misma IP pueda revalorar una entrada."
+            ],
+            "Max Ratings per IP per": [
+                "Máximo de Valoraciones por IP por"
+            ],
+            "Hours": [
+                "Horas"
+            ],
+            "0 = unlimited. Limits ratings from the same IP within the cooldown period.": [
+                "0 = ilimitado. Limita valoraciones desde la misma IP dentro del período de espera."
+            ],
+            "Documentation and support resources": [
+                "Documentación y recursos de soporte"
+            ],
+            "Documentation and support resources coming soon.": [
+                "Documentación y recursos de soporte próximamente."
+            ],
+            "Failed to load templates": [
+                "Error al cargar plantillas"
+            ],
+            "Template installed successfully!": [
+                "¡Plantilla instalada correctamente!"
+            ],
+            "Failed to install template": [
+                "Error al instalar plantilla"
+            ],
+            "Template updated successfully!": [
+                "¡Plantilla actualizada correctamente!"
+            ],
+            "Failed to update template": [
+                "Error al actualizar plantilla"
+            ],
+            "Are you sure you want to delete the %s template?": [
+                "¿Estás seguro de que deseas eliminar la plantilla %s?"
+            ],
+            "Are you sure you want to delete the %s template? (It will be restored on plugin update)": [
+                "¿Estás seguro de que deseas eliminar la plantilla %s? (Se restaurará con la actualización del plugin)"
+            ],
+            "Template deleted successfully!": [
+                "¡Plantilla eliminada correctamente!"
+            ],
+            "Failed to delete template": [
+                "Error al eliminar plantilla"
+            ],
+            "Template uploaded successfully!": [
+                "¡Plantilla subida correctamente!"
+            ],
+            "Failed to upload template": [
+                "Error al subir plantilla"
+            ],
+            "Binary (Like/Dislike)": [
+                "Binario (Me Gusta/No Me Gusta)"
+            ],
+            "Bipolar (Hearts, Favorites)": [
+                "Bipolar (Corazones, Favoritos)"
+            ],
+            "Scale (Star Ratings)": [
+                "Escala (Valoraciones con Estrellas)"
+            ],
+            "Browse and install rating templates from the community": [
+                "Explora e instala plantillas de valoración de la comunidad"
+            ],
+            "Upload": [
+                "Subir"
+            ],
+            "Refresh": [
+                "Actualizar"
+            ],
+            "Browse Templates": [
+                "Explorar Plantillas"
+            ],
+            "Search templates...": [
+                "Buscar plantillas..."
+            ],
+            "Loading templates...": [
+                "Cargando plantillas..."
+            ],
+            "No templates found": [
+                "No se encontraron plantillas"
+            ],
+            "Try adjusting your search or filter criteria": [
+                "Intenta ajustar tu búsqueda o criterios de filtro"
+            ],
+            "Five Stars": [
+                "Cinco Estrellas"
+            ],
+            "Heart": [
+                "Corazón"
+            ],
+            "Like/Dislike": [
+                "Me Gusta/No Me Gusta"
+            ],
+            "Stars (1-5)": [
+                "Estrellas (1-5)"
+            ],
+            "Like Only": [
+                "Solo Me Gusta"
+            ],
+            "Post": [
+                "Entrada"
+            ],
+            "Comment": [
+                "Comentario"
+            ],
+            "Loading preview...": [
+                "Cargando vista previa..."
+            ],
+            "with counts": [
+                "con contadores"
+            ],
+            "Rating Settings": [
+                "Configuración de Valoración"
+            ],
+            "Rating Type": [
+                "Tipo de Valoración"
+            ],
+            "Object Type": [
+                "Tipo de Objeto"
+            ],
+            "Show Counts": [
+                "Mostrar Contadores"
+            ],
+            "Advanced": [
+                "Avanzado"
+            ],
+            "Custom Object ID": [
+                "ID de Objeto Personalizado"
+            ],
+            "Leave empty to use current object": [
+                "Dejar vacío para usar objeto actual"
+            ],
+            "Current object ID:": [
+                "ID de objeto actual:"
+            ],
+            "Rating Widget": [
+                "Widget de Valoración"
+            ],
+            "Add a rating widget": [
+                "Añadir un widget de valoración"
+            ],
+            "Are you sure you want to reset all settings to their default values?": [
+                "¿Estás seguro de que deseas restablecer toda la configuración a sus valores predeterminados?"
+            ],
+            "This action cannot be undone.": [
+                "Esta acción no se puede deshacer."
+            ],
+            "Cancel": [
+                "Cancelar"
+            ],
+            "Loading details...": [
+                "Cargando detalles..."
+            ],
+            "Failed to load details": [
+                "Error al cargar detalles"
+            ],
+            "Go Back": [
+                "Volver"
+            ],
+            "Content": [
+                "Contenido"
+            ],
+            "Rating": [
+                "Valoración"
+            ],
+            "Type": [
+                "Tipo"
+            ],
+            "Date": [
+                "Fecha"
+            ],
+            "Binary": [
+                "Binario"
+            ],
+            "Bipolar": [
+                "Bipolar"
+            ],
+            "Scale": [
+                "Escala"
+            ],
+            "Back": [
+                "Atrás"
+            ],
+            "User Analytics": [
+                "Analíticas de Usuario"
+            ],
+            "Go back to Analytics": [
+                "Volver a Analíticas"
+            ],
+            "Edit": [
+                "Editar"
+            ],
+            "Total Ratings": [
+                "Valoraciones Totales"
+            ],
+            "Rating History": [
+                "Historial de Valoraciones"
+            ],
+            "Download All as CSV": [
+                "Descargar Todo como CSV"
+            ],
+            "No ratings found": [
+                "No se encontraron valoraciones"
+            ],
+            "User": [
+                "Usuario"
+            ],
+            "Post Analytics": [
+                "Analíticas de Entrada"
+            ],
+            "View": [
+                "Ver"
+            ],
+            "Post Type:": [
+                "Tipo de Entrada:"
+            ],
+            "Binary Avg": [
+                "Promedio Binario"
+            ],
+            "Bipolar Avg": [
+                "Promedio Bipolar"
+            ],
+            "Scale Avg": [
+                "Promedio de Escala"
+            ],
+            "All Ratings": [
+                "Todas las Valoraciones"
+            ],
+            "Pro Feature": [
+                "Función Pro"
+            ],
+            "Upgrade to Pro to access detailed analytics and reporting features.": [
+                "Actualiza a Pro para acceder a analíticas detalladas y funciones de informes."
+            ],
+            "Loading analytics data...": [
+                "Cargando datos de analíticas..."
+            ],
+            "All Time": [
+                "Todo el Tiempo"
+            ],
+            "Today": [
+                "Hoy"
+            ],
+            "Last 7 Days": [
+                "Últimos 7 Días"
+            ],
+            "Last 30 Days": [
+                "Últimos 30 Días"
+            ],
+            "Last 90 Days": [
+                "Últimos 90 Días"
+            ],
+            "Custom Range": [
+                "Rango Personalizado"
+            ],
+            "All Categories": [
+                "Todas las Categorías"
+            ],
+            "All Post Types": [
+                "Todos los Tipos de Entrada"
+            ],
+            "Posts": [
+                "Entradas"
+            ],
+            "Pages": [
+                "Páginas"
+            ],
+            "Overview": [
+                "Resumen"
+            ],
+            "Trends": [
+                "Tendencias"
+            ],
+            "Users": [
+                "Usuarios"
+            ],
+            "Total": [
+                "Total"
+            ],
+            "Actions": [
+                "Acciones"
+            ],
+            "Details": [
+                "Detalles"
+            ],
+            "Category": [
+                "Categoría"
+            ],
+            "IP Address": [
+                "Dirección IP"
+            ],
+            "First Rating": [
+                "Primera Valoración"
+            ],
+            "Post Title": [
+                "Título de la Entrada"
+            ],
+            "Post Type": [
+                "Tipo de Entrada"
+            ],
+            "Active Users": [
+                "Usuarios Activos"
+            ],
+            "Average Rating": [
+                "Valoración Promedio"
+            ],
+            "Top 10 Most Rated Posts": [
+                "Top 10 Entradas Más Valoradas"
+            ],
+            "No rated posts found": [
+                "No se encontraron entradas valoradas"
+            ],
+            "Detailed Trends by Rating Type": [
+                "Tendencias Detalladas por Tipo de Valoración"
+            ],
+            "Top Posts in Selected Period": [
+                "Principales Entradas en el Período Seleccionado"
+            ],
+            "No rated posts found for the selected period. Try adjusting your filters or add some ratings!": [
+                "No se encontraron entradas valoradas para el período seleccionado. ¡Intenta ajustar tus filtros o añade algunas valoraciones!"
+            ],
+            "No rated content found. Start by adding ratings to your posts!": [
+                "No se encontró contenido valorado. ¡Comienza añadiendo valoraciones a tus entradas!"
+            ],
+            "No users found. Users will appear here once they start rating your content!": [
+                "No se encontraron usuarios. ¡Los usuarios aparecerán aquí una vez que comiencen a valorar tu contenido!"
+            ],
+            "Analytics Dashboard": [
+                "Panel de Analíticas"
+            ],
+            "Select date range": [
+                "Seleccionar rango de fechas"
+            ],
+            "Select category": [
+                "Seleccionar categoría"
+            ],
+            "Select post type": [
+                "Seleccionar tipo de entrada"
+            ],
+            "Reset": [
+                "Restablecer"
+            ],
+            "Start Date": [
+                "Fecha de Inicio"
+            ],
+            "Select start date": [
+                "Seleccionar fecha de inicio"
+            ],
+            "End Date": [
+                "Fecha de Fin"
+            ],
+            "Select end date": [
+                "Seleccionar fecha de fin"
+            ],
+            "Time Period": [
+                "Período de Tiempo"
+            ],
+            "Reset Filters": [
+                "Restablecer Filtros"
+            ],
+            "Category Distribution": [
+                "Distribución por Categoría"
+            ],
+            "Loading chart...": [
+                "Cargando gráfico..."
+            ],
+            "Copied!": [
+                "¡Copiado!"
+            ],
+            "Copy to clipboard": [
+                "Copiar al portapapeles"
+            ],
+            "Select date": [
+                "Seleccionar fecha"
+            ],
+            "Clear date": [
+                "Borrar fecha"
+            ],
+            "Select an option": [
+                "Seleccionar una opción"
+            ],
+            "No data available": [
+                "No hay datos disponibles"
+            ],
+            "Loading data...": [
+                "Cargando datos..."
+            ],
+            "Download as CSV": [
+                "Descargar como CSV"
+            ],
+            "Download CSV": [
+                "Descargar CSV"
+            ],
+            "Showing": [
+                "Mostrando"
+            ],
+            "of": [
+                "de"
+            ],
+            "entries": [
+                "entradas"
+            ],
+            "Previous": [
+                "Anterior"
+            ],
+            "Page": [
+                "Página"
+            ],
+            "Next": [
+                "Siguiente"
+            ],
+            "Rating Trends": [
+                "Tendencias de Valoración"
+            ],
+            "No Preview": [
+                "Sin Vista Previa"
+            ],
+            "Installed": [
+                "Instalado"
+            ],
+            "Version %s available": [
+                "Versión %s disponible"
+            ],
+            "Update to version %s": [
+                "Actualizar a versión %s"
+            ],
+            "Updating...": [
+                "Actualizando..."
+            ],
+            "Update": [
+                "Actualizar"
+            ],
+            "Delete template": [
+                "Eliminar plantilla"
+            ],
+            "Delete core template (will be restored on plugin update)": [
+                "Eliminar plantilla principal (se restaurará con la actualización del plugin)"
+            ],
+            "Deleting...": [
+                "Eliminando..."
+            ],
+            "Delete": [
+                "Eliminar"
+            ],
+            "Installing...": [
+                "Instalando..."
+            ],
+            "Install": [
+                "Instalar"
+            ],
+            "Template": [
+                "Plantilla"
+            ],
+            "Choose a template": [
+                "Elegir una plantilla"
+            ],
+            "Small": [
+                "Pequeño"
+            ],
+            "Medium": [
+                "Mediano"
+            ],
+            "Large": [
+                "Grande"
+            ],
+            "Size": [
+                "Tamaño"
+            ],
+            "No templates available for this category": [
+                "No hay plantillas disponibles para esta categoría"
+            ],
+            "Enable Analytics": [
+                "Habilitar Analíticas"
+            ],
+            "Collect detailed analytics data (increases DB size; enable cleanup).": [
+                "Recopila datos de analíticas detallados (aumenta el tamaño de la BD; habilita limpieza)."
+            ],
+            "Cleanup Analytics (Months)": [
+                "Limpieza de Analíticas (Meses)"
+            ],
+            "0 = disabled. Deletes old analytics data to save space.": [
+                "0 = deshabilitado. Elimina datos de analíticas antiguos para ahorrar espacio."
+            ],
+            "Analytics dashboard coming soon.": [
+                "Panel de analíticas próximamente."
+            ],
+            "Anti-Spam": [
+                "Anti-Spam"
+            ],
+            "Configure anti-spam measures and rate limiting": [
+                "Configura medidas anti-spam y limitación de tasa"
+            ],
+            "Require Login to Rate": [
+                "Requiere Inicio de Sesión para Valorar"
+            ],
+            "Only logged-in users can rate. Disables anonymous options below.": [
+                "Solo usuarios conectados pueden valorar. Deshabilita opciones anónimas abajo."
+            ],
+            "Enable IP-Based Anti-Spam": [
+                "Habilitar Anti-Spam Basado en IP"
+            ],
+            "Stores IPs for checks (increases DB size ~10-20%; enable cleanup). Limits multiple ratings from same IP.": [
+                "Almacena IPs para verificación (aumenta tamaño de BD ~10-20%; habilita limpieza). Limita múltiples valoraciones desde la misma IP."
+            ],
+            "IP Cooldown (Days)": [
+                "Tiempo de Espera de IP (Días)"
+            ],
+            "Days before same IP can re-rate a post.": [
+                "Días antes de que la misma IP pueda revalorar una entrada."
+            ],
+            "Max Ratings per IP per Day": [
+                "Máximo de Valoraciones por IP por Día"
+            ],
+            "0 = unlimited. Warn: Heavy queries if high volume.": [
+                "0 = ilimitado. Advertencia: Consultas pesadas si hay alto volumen."
+            ],
+            "Enable Cookie-Based Anti-Spam": [
+                "Habilitar Anti-Spam Basado en Cookies"
+            ],
+            "Uses cookies for quick checks (GDPR note: Hash stored in DB if enabled).": [
+                "Usa cookies para verificaciones rápidas (nota GDPR: Hash almacenado en BD si está habilitado)."
+            ],
+            "Cookie Expiry (Days)": [
+                "Expiración de Cookie (Días)"
+            ],
+            "Days cookie locks rating per post.": [
+                "Días que la cookie bloquea la valoración por entrada."
+            ],
+            "Max Ratings per Cookie per Day": [
+                "Máximo de Valoraciones por Cookie por Día"
+            ],
+            "0 = unlimited.": [
+                "0 = ilimitado."
+            ],
+            "Global Cooldown (Seconds)": [
+                "Tiempo de Espera Global (Segundos)"
+            ],
+            "Wait time between any ratings site-wide.": [
+                "Tiempo de espera entre cualquier valoración en todo el sitio."
+            ],
+            "Max Ratings per User per Day": [
+                "Máximo de Valoraciones por Usuario por Día"
+            ],
+            "For logged-in users. 0 = unlimited.": [
+                "Para usuarios conectados. 0 = ilimitado."
+            ],
+            "Allow Admins Unlimited Ratings": [
+                "Permitir Valoraciones Ilimitadas a Administradores"
+            ],
+            "Administrators can rate without limits, useful for testing and debugging.": [
+                "Los administradores pueden valorar sin límites, útil para pruebas y depuración."
+            ],
+            "Cleanup Old Ratings (Months)": [
+                "Limpiar Valoraciones Antiguas (Meses)"
+            ],
+            "0 = disabled. WARNING: Only deletes ratings with IP addresses (anti-spam data); preserves user rating history!": [
+                "0 = deshabilitado. ADVERTENCIA: Solo elimina valoraciones con direcciones IP (datos anti-spam); ¡preserva el historial de valoraciones de usuario!"
+            ],
+            "This Month": [
+                "Este Mes"
+            ],
+            "Top Rated Posts": [
+                "Entradas Mejor Valoradas"
+            ],
+            "Export completed successfully!": [
+                "¡Exportación completada correctamente!"
+            ],
+            "Export failed.": [
+                "La exportación falló."
+            ],
+            "Export failed. Please try again.": [
+                "La exportación falló. Por favor, intenta de nuevo."
+            ],
+            "Data cleaned successfully!": [
+                "¡Datos limpiados correctamente!"
+            ],
+            "Clean failed.": [
+                "La limpieza falló."
+            ],
+            "Clean failed. Please try again.": [
+                "La limpieza falló. Por favor, intenta de nuevo."
+            ],
+            "Please select a file to import.": [
+                "Por favor, selecciona un archivo para importar."
+            ],
+            "Please select a valid SQL file.": [
+                "Por favor, selecciona un archivo SQL válido."
+            ],
+            "Data imported successfully!": [
+                "¡Datos importados correctamente!"
+            ],
+            "Import failed.": [
+                "La importación falló."
+            ],
+            "Import failed. Please try again.": [
+                "La importación falló. Por favor, intenta de nuevo."
+            ],
+            "Data Management": [
+                "Gestión de Datos"
+            ],
+            "Export, import, and clean your RatePress data": [
+                "Exporta, importa y limpia tus datos de RatePress"
+            ],
+            "📤 Export Data": [
+                "📤 Exportar Datos"
+            ],
+            "Export your RatePress data as SQL files for backup or migration purposes.": [
+                "Exporta tus datos de RatePress como archivos SQL para respaldo o migración."
+            ],
+            "Export All Data": [
+                "Exportar Todos los Datos"
+            ],
+            "Export all ratings, analytics, and settings data.": [
+                "Exporta todas las valoraciones, analíticas y datos de configuración."
+            ],
+            "Export Ratings Only": [
+                "Exportar Solo Valoraciones"
+            ],
+            "Export only the ratings data.": [
+                "Exporta solo los datos de valoraciones."
+            ],
+            "Export Analytics Only": [
+                "Exportar Solo Analíticas"
+            ],
+            "Export only the analytics data.": [
+                "Exporta solo los datos de analíticas."
+            ],
+            "🗑️ Clean Data": [
+                "🗑️ Limpiar Datos"
+            ],
+            "⚠️ Warning:": [
+                "⚠️ Advertencia:"
+            ],
+            "These actions cannot be undone. Please export your data first before cleaning!": [
+                "¡Estas acciones no se pueden deshacer. Por favor, exporta tus datos antes de limpiar!"
+            ],
+            "Clean All Data": [
+                "Limpiar Todos los Datos"
+            ],
+            "Remove all ratings, analytics, and reset settings to defaults.": [
+                "Elimina todas las valoraciones, analíticas y restablece la configuración a predeterminados."
+            ],
+            "Clean Ratings Only": [
+                "Limpiar Solo Valoraciones"
+            ],
+            "Remove all rating data but keep analytics and settings.": [
+                "Elimina todos los datos de valoraciones pero mantiene analíticas y configuración."
+            ],
+            "Clean Analytics Only": [
+                "Limpiar Solo Analíticas"
+            ],
+            "Remove all analytics data but keep ratings and settings.": [
+                "Elimina todos los datos de analíticas pero mantiene valoraciones y configuración."
+            ],
+            "Are you absolutely sure you want to reset ALL settings to defaults? This cannot be undone!": [
+                "¿Estás absolutamente seguro de que deseas restablecer TODA la configuración a predeterminados? ¡Esto no se puede deshacer!"
+            ],
+            "Reset all RatePress settings to their default values.": [
+                "Restablece toda la configuración de RatePress a sus valores predeterminados."
+            ],
+            "📥 Import Data (Pro)": [
+                "📥 Importar Datos (Pro)"
+            ],
+            "Import RatePress data from SQL export files.": [
+                "Importa datos de RatePress desde archivos de exportación SQL."
+            ],
+            "Import Data": [
+                "Importar Datos"
+            ],
+            "Select a RatePress SQL export file to import. This will merge data with existing records.": [
+                "Selecciona un archivo de exportación SQL de RatePress para importar. Esto fusionará los datos con los registros existentes."
+            ],
+            "Clean Data": [
+                "Limpiar Datos"
+            ],
+            "Are you sure you want to clean this data?": [
+                "¿Estás seguro de que deseas limpiar estos datos?"
+            ],
+            "This action cannot be undone. Make sure to export your data first!": [
+                "Esta acción no se puede deshacer. ¡Asegúrate de exportar tus datos primero!"
+            ],
+            "Are you sure you want to": [
+                "¿Estás seguro de que deseas"
+            ]
         }
     }
 }

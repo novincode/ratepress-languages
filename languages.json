@@ -14,7 +14,20 @@
                 "po": "fa_IR/ratepress-fa_IR.po",
                 "json": "fa_IR/ratepress-admin-fa_IR-1.0.0.json"
             }
-        }
+        },
+        {
+    "code": "es_ES",
+    "name": "Español",
+    "native_name": "Español",
+    "completion": 100,
+    "total_strings": 316,
+    "translated_strings": 316,
+    "files": {
+      "mo": "languages/es_ES/ratepress-es_ES.mo",
+      "po": "languages/es_ES/ratepress-es_ES.po",
+      "json": "languages/es_ES/ratepress-admin-es_ES-{version}.json"
+    }
+  }
     ],
     "in_progress": [],
     "how_to_contribute": "https://github.com/novincode/ratepress-languages#contributing"
