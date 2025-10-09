@@ -17,10 +17,14 @@ if [ ! -f "ratepress.pot" ]; then
   exit 1
 fi
 
+# Create language directory if it doesn't exist
+LANG_DIR="languages/$LOCALE"
+mkdir -p "$LANG_DIR"
+
 # Create PO file from POT
 if command -v msginit &> /dev/null; then
-  msginit --input=ratepress.pot --locale=$LOCALE --output=ratepress-$LOCALE.po --no-translator
-  echo "✅ Created ratepress-$LOCALE.po"
+  msginit --input=ratepress.pot --locale=$LOCALE --output="$LANG_DIR/ratepress-$LOCALE.po" --no-translator
+  echo "✅ Created $LANG_DIR/ratepress-$LOCALE.po"
   echo "📝 Edit this file with Poedit or any PO editor to add translations"
 else
   echo "❌ msginit not found. Install gettext tools:"

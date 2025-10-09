@@ -11,7 +11,9 @@ if [ -z "$LOCALE" ]; then
   exit 1
 fi
 
-PO_FILE="ratepress-$LOCALE.po"
+LANG_DIR="languages/$LOCALE"
+PO_FILE="$LANG_DIR/ratepress-$LOCALE.po"
+MO_FILE="$LANG_DIR/ratepress-$LOCALE.mo"
 
 if [ ! -f "$PO_FILE" ]; then
   echo "❌ $PO_FILE not found"
@@ -20,8 +22,8 @@ fi
 
 # Generate MO file
 if command -v msgfmt &> /dev/null; then
-  msgfmt $PO_FILE -o ratepress-$LOCALE.mo
-  echo "✅ Generated ratepress-$LOCALE.mo"
+  msgfmt "$PO_FILE" -o "$MO_FILE"
+  echo "✅ Generated $MO_FILE"
 else
   echo "❌ msgfmt not found. Install gettext tools:"
   echo "   macOS: brew install gettext"

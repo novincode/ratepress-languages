@@ -12,7 +12,9 @@ if [ -z "$LOCALE" ]; then
   exit 1
 fi
 
-PO_FILE="ratepress-$LOCALE.po"
+LANG_DIR="languages/$LOCALE"
+PO_FILE="$LANG_DIR/ratepress-$LOCALE.po"
+JSON_FILE="$LANG_DIR/ratepress-admin-$LOCALE-$VERSION.json"
 
 if [ ! -f "$PO_FILE" ]; then
   echo "❌ $PO_FILE not found"
@@ -76,8 +78,8 @@ function parsePOFile(poContent) {
 
 const locale = process.env.LOCALE;
 const version = process.env.VERSION || '1.0.0';
-const poFile = `ratepress-${locale}.po`;
-const jsonFile = `ratepress-admin-${locale}-${version}.json`;
+const poFile = `languages/${locale}/ratepress-${locale}.po`;
+const jsonFile = `languages/${locale}/ratepress-admin-${locale}-${version}.json`;
 
 const poContent = fs.readFileSync(poFile, 'utf8');
 const translations = parsePOFile(poContent);

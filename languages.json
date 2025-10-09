@@ -10,9 +10,9 @@
             "completion": 100,
             "last_updated": "2025-10-09",
             "files": {
-                "mo": "fa_IR/ratepress.mo",
-                "po": "fa_IR/ratepress.po",
-                "json": "fa_IR/ratepress-admin-1.0.0.json"
+                "mo": "fa_IR/ratepress-fa_IR.mo",
+                "po": "fa_IR/ratepress-fa_IR.po",
+                "json": "fa_IR/ratepress-admin-fa_IR-1.0.0.json"
             }
         }
     ],
