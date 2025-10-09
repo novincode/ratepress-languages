@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09T03:56:13+00:00\n"
+"POT-Creation-Date: 2025-10-09T05:41:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Persian <LL@li.org>\n"
@@ -86,6 +86,35 @@ msgstr "تنظیمات به حالت پیش‌فرض بازگشت"
 #: core/includes/REST/Endpoints/SettingsAPI.php:107
 msgid "Invalid cooldown value"
 msgstr "مقدار زمان انتظار نامعتبر است"
+
+#: core/includes/Utils/LanguageLoader.php:270
+msgid "RatePress Translation Available"
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:272
+#, php-format
+msgid "RatePress is available in %s! Click here to download the translation."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:278
+#: core/includes/Utils/LanguageLoader.php:301
+#, fuzzy
+msgid "Download Translation"
+msgstr "دانلود به صورت CSV"
+
+#: core/includes/Utils/LanguageLoader.php:286
+#, fuzzy
+msgid "Downloading..."
+msgstr "در حال حذف..."
+
+#: core/includes/Utils/LanguageLoader.php:296
+msgid "Translation downloaded! Refreshing page..."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:299
+#, fuzzy
+msgid "Failed to download translation"
+msgstr "بارگذاری قالب‌ها ناموفق بود"
 
 #: core/templates/simple/five-stars/render.php:45
 msgid "Star rating widget"

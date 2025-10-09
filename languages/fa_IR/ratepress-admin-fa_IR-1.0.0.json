@@ -1,7 +1,7 @@
 {
-    "translation-revision-date": "2025-10-09T03:56:13.361Z",
-    "generator": "RatePress Custom JSON Generator",
-    "source": "core/languages/ratepress-fa_IR.po",
+    "translation-revision-date": "2025-10-09T05:41:24.655Z",
+    "generator": "RatePress JSON Generator",
+    "source": "languages/fa_IR/ratepress-fa_IR.po",
     "domain": "ratepress",
     "locale_data": {
         "ratepress": {
@@ -63,6 +63,15 @@
             ],
             "Invalid cooldown value": [
                 "مقدار زمان انتظار نامعتبر است"
+            ],
+            "Download Translation": [
+                "دانلود به صورت CSV"
+            ],
+            "Downloading...": [
+                "در حال حذف..."
+            ],
+            "Failed to download translation": [
+                "بارگذاری قالب‌ها ناموفق بود"
             ],
             "Star rating widget": [
                 "ابزارک امتیازدهی ستاره‌ای"

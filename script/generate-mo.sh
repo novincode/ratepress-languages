@@ -5,6 +5,7 @@
 set -e
 
 LOCALE=${1}
+DOMAIN="ratepress"
 
 if [ -z "$LOCALE" ]; then
   echo "Usage: $0 <locale>  # Example: $0 fa_IR"
@@ -12,8 +13,8 @@ if [ -z "$LOCALE" ]; then
 fi
 
 LANG_DIR="languages/$LOCALE"
-PO_FILE="$LANG_DIR/ratepress-$LOCALE.po"
-MO_FILE="$LANG_DIR/ratepress-$LOCALE.mo"
+PO_FILE="$LANG_DIR/$DOMAIN-$LOCALE.po"
+MO_FILE="$LANG_DIR/$DOMAIN-$LOCALE.mo"
 
 if [ ! -f "$PO_FILE" ]; then
   echo "❌ $PO_FILE not found"

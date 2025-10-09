@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-09T03:56:13+00:00\n"
+"POT-Creation-Date: 2025-10-09T05:41:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ratepress\n"
@@ -83,6 +83,32 @@ msgstr ""
 
 #: core/includes/REST/Endpoints/SettingsAPI.php:107
 msgid "Invalid cooldown value"
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:270
+msgid "RatePress Translation Available"
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:272
+#, php-format
+msgid "RatePress is available in %s! Click here to download the translation."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:278
+#: core/includes/Utils/LanguageLoader.php:301
+msgid "Download Translation"
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:286
+msgid "Downloading..."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:296
+msgid "Translation downloaded! Refreshing page..."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:299
+msgid "Failed to download translation"
 msgstr ""
 
 #: core/templates/simple/five-stars/render.php:45
