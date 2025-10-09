@@ -1,0 +1,15 @@
+# Keep translations
+!*.po
+!*.mo
+!*.json
+!*.pot
+
+# Keep documentation
+!README.md
+!languages.json
+!CONTRIBUTING.md
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*~
