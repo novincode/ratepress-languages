@@ -7,201 +7,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-09T06:26:14+00:00\n"
+"POT-Creation-Date: 2025-10-10T05:52:48+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ratepress\n"
 
-#: core/includes/Admin/AdminPanel.php:54 core/includes/Admin/AdminPanel.php:55
-#: core/includes/Blocks/BlockRenderer.php:115
-msgid "RatePress"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:64
+#: TypeScript files
 msgid "Dashboard"
 msgstr ""
 
-#: core/includes/Admin/AdminPanel.php:65
-msgid "Settings"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:66
-msgid "Display"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:67
-msgid "Templates"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:68
-msgid "Analytics"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:69
-msgid "Data"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:70
-msgid "Support"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:215
-msgid "Binary (Like Only)"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:216
-msgid "Bipolar (Like & Dislike)"
-msgstr ""
-
-#: core/includes/Admin/AdminPanel.php:217
-msgid "Scale (Stars, 1-10)"
-msgstr ""
-
-#: core/includes/DB/RatingModel.php:315
-msgid "You must be logged in to rate this content."
-msgstr ""
-
-#: core/includes/DB/RatingQuery.php:588
-msgid "Unknown"
-msgstr ""
-
-#: core/includes/REST/Endpoints/DataAPI.php:82
-msgid "No data provided"
-msgstr ""
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:67
-msgid "No settings provided"
-msgstr ""
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:80
-msgid "Settings saved successfully"
-msgstr ""
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:95
-msgid "Settings reset to defaults"
-msgstr ""
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:107
-msgid "Invalid cooldown value"
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:270
-msgid "RatePress Translation Available"
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:272
-#, php-format
-msgid "RatePress is available in %s! Click here to download the translation."
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:278
-#: core/includes/Utils/LanguageLoader.php:301
-msgid "Download Translation"
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:286
-msgid "Downloading..."
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:296
-msgid "Translation downloaded! Refreshing page..."
-msgstr ""
-
-#: core/includes/Utils/LanguageLoader.php:299
-msgid "Failed to download translation"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:45
-msgid "Star rating widget"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:51
-msgid "Rate from 1 to 5 stars"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:63
-#, php-format
-msgid "Rate %d out of 5 stars"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:64
-#, php-format
-msgid "%d star%s"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:88
-#, php-format
-msgid "Average rating: %s out of 5 stars"
-msgstr ""
-
-#: core/templates/simple/five-stars/render.php:93
-#, php-format
-msgid "%d rating"
-msgid_plural "%d ratings"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/templates/simple/heart/render.php:40
-msgid "Heart rating widget"
-msgstr ""
-
-#: core/templates/simple/heart/render.php:46
-#: core/templates/simple/heart/render.php:48
-msgid "Remove love"
-msgstr ""
-
-#: core/templates/simple/heart/render.php:46
-#: core/templates/simple/heart/render.php:48
-msgid "Love this"
-msgstr ""
-
-#: core/templates/simple/heart/render.php:69
-#, php-format
-msgid "%d person loves this"
-msgid_plural "%d people love this"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/templates/simple/like-dislike/render.php:58
-msgid "Like or dislike rating widget"
-msgstr ""
-
-#: core/templates/simple/like-dislike/render.php:66
-#: core/templates/simple/like-dislike/render.php:68
-msgid "Remove like"
-msgstr ""
-
-#: core/templates/simple/like-dislike/render.php:66
-#: core/templates/simple/like-dislike/render.php:68
-msgid "Like this"
-msgstr ""
-
-#: core/templates/simple/like-dislike/render.php:90
-#, php-format
-msgid "%d like"
-msgid_plural "%d likes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/templates/simple/like-dislike/render.php:101
-#: core/templates/simple/like-dislike/render.php:103
-msgid "Remove dislike"
-msgstr ""
-
-#: core/templates/simple/like-dislike/render.php:101
-#: core/templates/simple/like-dislike/render.php:103
-msgid "Dislike this"
-msgstr ""
-
-#: core/templates/simple/like-dislike/render.php:125
-#, php-format
-msgid "%d dislike"
-msgid_plural "%d dislikes"
-msgstr[0] ""
-msgstr[1] ""
-
 #: TypeScript files
 msgid "Monitor your rating system performance and user engagement"
+msgstr ""
+
+#: TypeScript files
+msgid "Settings"
 msgstr ""
 
 #: TypeScript files
@@ -209,7 +29,15 @@ msgid "Configure general settings and anti-spam options"
 msgstr ""
 
 #: TypeScript files
+msgid "Display"
+msgstr ""
+
+#: TypeScript files
 msgid "Configure how ratings appear on posts and comments"
+msgstr ""
+
+#: TypeScript files
+msgid "Templates"
 msgstr ""
 
 #: TypeScript files
@@ -217,11 +45,23 @@ msgid "Browse, install, and manage rating templates"
 msgstr ""
 
 #: TypeScript files
+msgid "Analytics"
+msgstr ""
+
+#: TypeScript files
 msgid "Track your rating performance and user engagement"
 msgstr ""
 
 #: TypeScript files
+msgid "Data"
+msgstr ""
+
+#: TypeScript files
 msgid "Import, export, and manage your rating data"
+msgstr ""
+
+#: TypeScript files
+msgid "Support"
 msgstr ""
 
 #: TypeScript files
@@ -564,6 +404,10 @@ msgid "Copy to clipboard"
 msgstr ""
 
 #: TypeScript files
+msgid "Confirm"
+msgstr ""
+
+#: TypeScript files
 msgid "Select date"
 msgstr ""
 
@@ -822,10 +666,6 @@ msgid "This Month"
 msgstr ""
 
 #: TypeScript files
-msgid "Top Rated Posts"
-msgstr ""
-
-#: TypeScript files
 msgid "Export completed successfully!"
 msgstr ""
 
@@ -1005,6 +845,10 @@ msgid "Binary (Like)"
 msgstr ""
 
 #: TypeScript files
+msgid "Bipolar (Like & Dislike)"
+msgstr ""
+
+#: TypeScript files
 msgid "Scale (Stars)"
 msgstr ""
 
@@ -1117,6 +961,37 @@ msgid ""
 msgstr ""
 
 #: TypeScript files
+msgid "Enhance Existing Schema"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"If other SEO plugins have added schema, skip adding duplicate schema to "
+"avoid conflicts. Currently prevents duplicates; future versions may merge "
+"rating data."
+msgstr ""
+
+#: TypeScript files
+msgid "Include Ratings in Open Graph"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Adds rating information to Open Graph meta tags for better social media "
+"sharing."
+msgstr ""
+
+#: TypeScript files
+msgid "Include Ratings in Twitter Cards"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Adds rating information to Twitter Card meta tags for enhanced tweet "
+"previews."
+msgstr ""
+
+#: TypeScript files
 msgid "Include Ratings in Meta Description"
 msgstr ""
 
@@ -1124,15 +999,6 @@ msgstr ""
 msgid ""
 "Automatically includes rating information in page meta descriptions for "
 "better SEO."
-msgstr ""
-
-#: TypeScript files
-msgid "Enable Rich Snippets Support"
-msgstr ""
-
-#: TypeScript files
-msgid ""
-"Optimizes markup for Google rich snippets including stars in search results."
 msgstr ""
 
 #: TypeScript files
@@ -1193,16 +1059,6 @@ msgid "Failed to update template"
 msgstr ""
 
 #: TypeScript files
-msgid "Are you sure you want to delete the %s template?"
-msgstr ""
-
-#: TypeScript files
-msgid ""
-"Are you sure you want to delete the %s template? (It will be restored on "
-"plugin update)"
-msgstr ""
-
-#: TypeScript files
 msgid "Template deleted successfully!"
 msgstr ""
 
@@ -1219,11 +1075,11 @@ msgid "Failed to upload template"
 msgstr ""
 
 #: TypeScript files
-msgid "Binary (Like/Dislike)"
+msgid "Binary (Like only)"
 msgstr ""
 
 #: TypeScript files
-msgid "Bipolar (Hearts, Favorites)"
+msgid "Bipolar (Like + Dislike)"
 msgstr ""
 
 #: TypeScript files
@@ -1243,7 +1099,15 @@ msgid "Refresh"
 msgstr ""
 
 #: TypeScript files
-msgid "Browse Templates"
+msgid "All Templates"
+msgstr ""
+
+#: TypeScript files
+msgid "New Templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Needs Update"
 msgstr ""
 
 #: TypeScript files
@@ -1260,6 +1124,24 @@ msgstr ""
 
 #: TypeScript files
 msgid "Try adjusting your search or filter criteria"
+msgstr ""
+
+#: TypeScript files
+msgid "Delete Template"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to delete the %s template?"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Are you sure you want to delete the %s template? (It will be restored on "
+"plugin update)"
+msgstr ""
+
+#: TypeScript files
+msgid "RatePress"
 msgstr ""
 
 #: TypeScript files

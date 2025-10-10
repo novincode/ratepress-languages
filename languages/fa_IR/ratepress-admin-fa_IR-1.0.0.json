@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2025-10-09T06:04:14.069Z",
+    "translation-revision-date": "2025-10-10T05:52:48.746Z",
     "generator": "RatePress JSON Generator",
     "source": "languages/fa_IR/ratepress-fa_IR.po",
     "domain": "ratepress",
@@ -10,125 +10,44 @@
                 "lang": "fa_IR",
                 "plural-forms": "nplurals=2; plural=(n==0 || n==1);"
             },
-            "RatePress": [
-                "ریت‌پرس"
-            ],
             "Dashboard": [
                 "داشبورد"
-            ],
-            "Settings": [
-                "تنظیمات"
-            ],
-            "Display": [
-                "نمایش"
-            ],
-            "Templates": [
-                "قالب‌ها"
-            ],
-            "Analytics": [
-                "آمار و تحلیل"
-            ],
-            "Data": [
-                "داده‌ها"
-            ],
-            "Support": [
-                "پشتیبانی"
-            ],
-            "Binary (Like Only)": [
-                "دوتایی (فقط لایک)"
-            ],
-            "Bipolar (Like & Dislike)": [
-                "دوقطبی (لایک و دیسلایک)"
-            ],
-            "Scale (Stars, 1-10)": [
-                "مقیاس (ستاره، ۱-۱۰)"
-            ],
-            "You must be logged in to rate this content.": [
-                "برای امتیازدهی به این محتوا باید وارد شوید."
-            ],
-            "Unknown": [
-                "نامشخص"
-            ],
-            "No data provided": [
-                "داده‌ای ارائه نشده است"
-            ],
-            "No settings provided": [
-                "تنظیماتی ارائه نشده است"
-            ],
-            "Settings saved successfully": [
-                "تنظیمات با موفقیت ذخیره شد"
-            ],
-            "Settings reset to defaults": [
-                "تنظیمات به حالت پیش‌فرض بازگشت"
-            ],
-            "Invalid cooldown value": [
-                "مقدار زمان انتظار نامعتبر است"
-            ],
-            "Download Translation": [
-                "دانلود به صورت CSV"
-            ],
-            "Downloading...": [
-                "در حال حذف..."
-            ],
-            "Failed to download translation": [
-                "بارگذاری قالب‌ها ناموفق بود"
-            ],
-            "Star rating widget": [
-                "ابزارک امتیازدهی ستاره‌ای"
-            ],
-            "Rate from 1 to 5 stars": [
-                "امتیاز از ۱ تا ۵ ستاره"
-            ],
-            "Rate %d out of 5 stars": [
-                "امتیاز %d از ۵ ستاره"
-            ],
-            "%d star%s": [
-                "%d ستاره%s"
-            ],
-            "Average rating: %s out of 5 stars": [
-                "میانگین امتیاز: %s از ۵ ستاره"
-            ],
-            "Heart rating widget": [
-                "ابزارک امتیازدهی قلبی"
-            ],
-            "Remove love": [
-                "حذف علاقه"
-            ],
-            "Love this": [
-                "دوست دارم"
-            ],
-            "Like or dislike rating widget": [
-                "ابزارک امتیازدهی لایک/دیسلایک"
-            ],
-            "Remove like": [
-                "حذف لایک"
-            ],
-            "Like this": [
-                "لایک کردن"
-            ],
-            "Remove dislike": [
-                "حذف دیسلایک"
-            ],
-            "Dislike this": [
-                "دیسلایک کردن"
             ],
             "Monitor your rating system performance and user engagement": [
                 "عملکرد سیستم امتیازدهی و تعامل کاربران را رصد کنید"
             ],
+            "Settings": [
+                "تنظیمات"
+            ],
             "Configure general settings and anti-spam options": [
                 "تنظیمات کلی و گزینه‌های ضد اسپم را پیکربندی کنید"
+            ],
+            "Display": [
+                "نمایش"
             ],
             "Configure how ratings appear on posts and comments": [
                 "نحوه نمایش امتیازها در نوشته‌ها و دیدگاه‌ها را تنظیم کنید"
             ],
+            "Templates": [
+                "قالب‌ها"
+            ],
             "Browse, install, and manage rating templates": [
                 "قالب‌های امتیازدهی را مرور، نصب و مدیریت کنید"
+            ],
+            "Analytics": [
+                "آمار و تحلیل"
             ],
             "Track your rating performance and user engagement": [
                 "عملکرد امتیازدهی و تعامل کاربران را پیگیری کنید"
             ],
+            "Data": [
+                "داده‌ها"
+            ],
             "Import, export, and manage your rating data": [
                 "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+            ],
+            "Support": [
+                "پشتیبانی"
             ],
             "Get help and support": [
                 "راهنمایی و پشتیبانی دریافت کنید"
@@ -166,6 +85,9 @@
             "Failed to load details": [
                 "بارگذاری قالب‌ها ناموفق بود"
             ],
+            "Go Back": [
+                "بازگشت"
+            ],
             "Content": [
                 "محتوا"
             ],
@@ -187,11 +109,17 @@
             "Scale": [
                 "مقیاس"
             ],
+            "Back": [
+                "بازگشت"
+            ],
             "User Analytics": [
                 "آمار و تحلیل"
             ],
             "Go back to Analytics": [
                 "آمار و تحلیل"
+            ],
+            "Edit": [
+                "ویرایش"
             ],
             "Total Ratings": [
                 "کل امتیازها"
@@ -210,6 +138,9 @@
             ],
             "Post Analytics": [
                 "آمار و تحلیل"
+            ],
+            "View": [
+                "مشاهده"
             ],
             "Post Type:": [
                 "نوع نوشته"
@@ -230,7 +161,7 @@
                 "امکانات حرفه‌ای"
             ],
             "Upgrade to Pro to access detailed analytics and reporting features.": [
-                "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
+                "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید.برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
             ],
             "Loading analytics data...": [
                 "در حال بارگذاری داده‌های آماری..."
@@ -262,6 +193,9 @@
             "Posts": [
                 "نوشته"
             ],
+            "Pages": [
+                "صفحات"
+            ],
             "Overview": [
                 "نمای کلی"
             ],
@@ -270,6 +204,15 @@
             ],
             "Users": [
                 "کاربران"
+            ],
+            "Total": [
+                "همه"
+            ],
+            "Actions": [
+                "عملیات"
+            ],
+            "Details": [
+                "جزئیات"
             ],
             "Category": [
                 "دسته‌بندی"
@@ -301,6 +244,18 @@
             "Detailed Trends by Rating Type": [
                 "روندهای تفصیلی بر اساس نوع امتیاز"
             ],
+            "Top Posts in Selected Period": [
+                "پربازدیدترین پست‌های بازه انتخاب شده"
+            ],
+            "No rated posts found for the selected period. Try adjusting your filters or add some ratings!": [
+                "هیچ نوشته‌ای در بازه انتخاب شده پیدا نشد. فیلترهای خود را تغییر دهید و دوباره انتخاب کنید"
+            ],
+            "No rated content found. Start by adding ratings to your posts!": [
+                "هیچ محتوای امتیازداده شده‌ای پیدا نشد."
+            ],
+            "No users found. Users will appear here once they start rating your content!": [
+                "کاربری پیدا نشد. کاربران زمانی نمایش داده خواهند شد که به این پست امتیاز دهند"
+            ],
             "Analytics Dashboard": [
                 "داشبورد آمار"
             ],
@@ -328,6 +283,12 @@
             "Select end date": [
                 "تاریخ پایان را انتخاب کنید"
             ],
+            "Time Period": [
+                "بازه زمانی"
+            ],
+            "Reset Filters": [
+                "بازنشانی فیلتر‌ها"
+            ],
             "Category Distribution": [
                 "توزیع دسته‌بندی"
             ],
@@ -339,6 +300,9 @@
             ],
             "Copy to clipboard": [
                 "کپی در کلیپ‌بورد"
+            ],
+            "Confirm": [
+                "تایید"
             ],
             "Select date": [
                 "تاریخ را انتخاب کنید"
@@ -360,6 +324,24 @@
             ],
             "Download CSV": [
                 "دانلود CSV"
+            ],
+            "Showing": [
+                "درحال نمایش"
+            ],
+            "of": [
+                "از"
+            ],
+            "entries": [
+                "ورودی"
+            ],
+            "Previous": [
+                "قبلی"
+            ],
+            "Page": [
+                "صفحه"
+            ],
+            "Next": [
+                "بعدی"
             ],
             "Rating Trends": [
                 "روند امتیازدهی"
@@ -425,7 +407,7 @@
                 "فعال‌سازی آمار"
             ],
             "Collect detailed analytics data (increases DB size; enable cleanup).": [
-                "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید)."
+                "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید).جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید)."
             ],
             "Cleanup Analytics (Months)": [
                 "پاکسازی آمار (ماه)"
@@ -446,7 +428,7 @@
                 "ورود اجباری برای امتیازدهی"
             ],
             "Only logged-in users can rate. Disables anonymous options below.": [
-                "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال می‌کند."
+                "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال می‌کند.فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال می‌کند."
             ],
             "Enable IP-Based Anti-Spam": [
                 "فعال‌سازی ضد اسپم مبتنی بر IP"
@@ -510,9 +492,6 @@
             ],
             "This Month": [
                 "این ماه"
-            ],
-            "Top Rated Posts": [
-                "۱۰ نوشته برتر با بیشترین امتیاز"
             ],
             "Export completed successfully!": [
                 "صادرات با موفقیت انجام شد!"
@@ -643,6 +622,9 @@
             "Binary (Like)": [
                 "دوتایی (لایک)"
             ],
+            "Bipolar (Like & Dislike)": [
+                "دوقطبی (لایک و دیسلایک)"
+            ],
             "Scale (Stars)": [
                 "مقیاس (ستاره)"
             ],
@@ -707,7 +689,7 @@
                 "تنظیمات عمومی"
             ],
             "Only logged-in users can rate. Enables user-based rate limiting below.": [
-                "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت مبتنی بر کاربر را در زیر فعال می‌کند."
+                "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت امتیازدهی مبتنی بر کاربر را در زیر فعال می‌کند.فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت مبتنی بر کاربر را در زیر فعال می‌کند."
             ],
             "Enable JavaScript Mode (Cache-Friendly)": [
                 "فعال‌سازی حالت JavaScript (سازگار با کش)"
@@ -724,17 +706,17 @@
             "Adds Google-compatible structured data for ratings to improve search results and enable rich snippets.": [
                 "داده‌های ساختاریافته سازگار با گوگل را برای امتیازها اضافه می‌کند تا نتایج جستجو را بهبود بخشد و اسنیپت‌های غنی را فعال کند."
             ],
+            "Include Ratings in Open Graph": [
+                "درج امتیازها در توضیحات متا"
+            ],
+            "Include Ratings in Twitter Cards": [
+                "درج امتیازها در توضیحات متا"
+            ],
             "Include Ratings in Meta Description": [
                 "درج امتیازها در توضیحات متا"
             ],
             "Automatically includes rating information in page meta descriptions for better SEO.": [
                 "به طور خودکار اطلاعات امتیازدهی را در توضیحات متای صفحه برای سئو بهتر درج می‌کند."
-            ],
-            "Enable Rich Snippets Support": [
-                "فعال‌سازی پشتیبانی از اسنیپت‌های غنی"
-            ],
-            "Optimizes markup for Google rich snippets including stars in search results.": [
-                "مارک‌آپ را برای اسنیپت‌های غنی گوگل شامل ستاره‌ها در نتایج جستجو بهینه می‌کند."
             ],
             "Anti-Spam & Rate Limiting": [
                 "ضد اسپم و محدودیت امتیازدهی"
@@ -778,12 +760,6 @@
             "Failed to update template": [
                 "بروزرسانی قالب ناموفق بود"
             ],
-            "Are you sure you want to delete the %s template?": [
-                "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
-            ],
-            "Are you sure you want to delete the %s template? (It will be restored on plugin update)": [
-                "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی خواهد شد)"
-            ],
             "Template deleted successfully!": [
                 "قالب با موفقیت حذف شد!"
             ],
@@ -796,11 +772,11 @@
             "Failed to upload template": [
                 "آپلود قالب ناموفق بود"
             ],
-            "Binary (Like/Dislike)": [
-                "دوتایی (لایک/دیسلایک)"
+            "Binary (Like only)": [
+                "دوتایی (فقط لایک)"
             ],
-            "Bipolar (Hearts, Favorites)": [
-                "دوقطبی (قلب، علاقه‌مندی)"
+            "Bipolar (Like + Dislike)": [
+                "دوقطبی (لایک و دیسلایک)"
             ],
             "Scale (Star Ratings)": [
                 "مقیاس (امتیازدهی ستاره‌ای)"
@@ -814,8 +790,14 @@
             "Refresh": [
                 "بروزرسانی"
             ],
-            "Browse Templates": [
-                "مرور قالب‌ها"
+            "All Templates": [
+                "قالب‌ها"
+            ],
+            "New Templates": [
+                "قالب‌ها"
+            ],
+            "Needs Update": [
+                "بروزرسانی"
             ],
             "Search templates...": [
                 "جستجوی قالب‌ها..."
@@ -828,6 +810,18 @@
             ],
             "Try adjusting your search or filter criteria": [
                 "جستجو یا فیلترهای خود را تغییر دهید"
+            ],
+            "Delete Template": [
+                "حذف قالب"
+            ],
+            "Are you sure you want to delete the %s template?": [
+                "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
+            ],
+            "Are you sure you want to delete the %s template? (It will be restored on plugin update)": [
+                "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی خواهد شد)"
+            ],
+            "RatePress": [
+                "ریت‌پرس"
             ],
             "Five Stars": [
                 "پنج ستاره"

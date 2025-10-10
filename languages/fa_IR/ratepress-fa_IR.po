@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09T05:41:24+00:00\n"
+"POT-Creation-Date: 2025-10-10T05:51:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Persian <LL@li.org>\n"
@@ -14,220 +14,57 @@ msgstr ""
 "X-Domain: ratepress\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 
-#: core/includes/Admin/AdminPanel.php:54 core/includes/Admin/AdminPanel.php:55
-#: core/includes/Blocks/BlockRenderer.php:115
-msgid "RatePress"
-msgstr "ریت‌پرس"
-
-#: core/includes/Admin/AdminPanel.php:64
+#: TypeScript files
 msgid "Dashboard"
 msgstr "داشبورد"
-
-#: core/includes/Admin/AdminPanel.php:65
-msgid "Settings"
-msgstr "تنظیمات"
-
-#: core/includes/Admin/AdminPanel.php:66
-msgid "Display"
-msgstr "نمایش"
-
-#: core/includes/Admin/AdminPanel.php:67
-msgid "Templates"
-msgstr "قالب‌ها"
-
-#: core/includes/Admin/AdminPanel.php:68
-msgid "Analytics"
-msgstr "آمار و تحلیل"
-
-#: core/includes/Admin/AdminPanel.php:69
-msgid "Data"
-msgstr "داده‌ها"
-
-#: core/includes/Admin/AdminPanel.php:70
-msgid "Support"
-msgstr "پشتیبانی"
-
-#: core/includes/Admin/AdminPanel.php:215
-msgid "Binary (Like Only)"
-msgstr "دوتایی (فقط لایک)"
-
-#: core/includes/Admin/AdminPanel.php:216
-msgid "Bipolar (Like & Dislike)"
-msgstr "دوقطبی (لایک و دیسلایک)"
-
-#: core/includes/Admin/AdminPanel.php:217
-msgid "Scale (Stars, 1-10)"
-msgstr "مقیاس (ستاره، ۱-۱۰)"
-
-#: core/includes/DB/RatingModel.php:315
-msgid "You must be logged in to rate this content."
-msgstr "برای امتیازدهی به این محتوا باید وارد شوید."
-
-#: core/includes/DB/RatingQuery.php:588
-msgid "Unknown"
-msgstr "نامشخص"
-
-#: core/includes/REST/Endpoints/DataAPI.php:82
-msgid "No data provided"
-msgstr "داده‌ای ارائه نشده است"
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:67
-msgid "No settings provided"
-msgstr "تنظیماتی ارائه نشده است"
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:80
-msgid "Settings saved successfully"
-msgstr "تنظیمات با موفقیت ذخیره شد"
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:95
-msgid "Settings reset to defaults"
-msgstr "تنظیمات به حالت پیش‌فرض بازگشت"
-
-#: core/includes/REST/Endpoints/SettingsAPI.php:107
-msgid "Invalid cooldown value"
-msgstr "مقدار زمان انتظار نامعتبر است"
-
-#: core/includes/Utils/LanguageLoader.php:270
-msgid "RatePress Translation Available"
-msgstr "ترجمه برای ریت‌پرس در دسترس است"
-
-#: core/includes/Utils/LanguageLoader.php:272
-#, php-format
-msgid "RatePress is available in %s! Click here to download the translation."
-msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
-
-#: core/includes/Utils/LanguageLoader.php:278
-#: core/includes/Utils/LanguageLoader.php:301
-#, fuzzy
-msgid "Download Translation"
-msgstr "دانلود به صورت CSV"
-
-#: core/includes/Utils/LanguageLoader.php:286
-#, fuzzy
-msgid "Downloading..."
-msgstr "در حال حذف..."
-
-#: core/includes/Utils/LanguageLoader.php:296
-msgid "Translation downloaded! Refreshing page..."
-msgstr "ترجمه دانلود شد! ریفرش صفحه ..."
-
-#: core/includes/Utils/LanguageLoader.php:299
-#, fuzzy
-msgid "Failed to download translation"
-msgstr "بارگذاری قالب‌ها ناموفق بود"
-
-#: core/templates/simple/five-stars/render.php:45
-msgid "Star rating widget"
-msgstr "ابزارک امتیازدهی ستاره‌ای"
-
-#: core/templates/simple/five-stars/render.php:51
-msgid "Rate from 1 to 5 stars"
-msgstr "امتیاز از ۱ تا ۵ ستاره"
-
-#: core/templates/simple/five-stars/render.php:63
-#, php-format
-msgid "Rate %d out of 5 stars"
-msgstr "امتیاز %d از ۵ ستاره"
-
-#: core/templates/simple/five-stars/render.php:64
-#, php-format
-msgid "%d star%s"
-msgstr "%d ستاره%s"
-
-#: core/templates/simple/five-stars/render.php:88
-#, php-format
-msgid "Average rating: %s out of 5 stars"
-msgstr "میانگین امتیاز: %s از ۵ ستاره"
-
-#: core/templates/simple/five-stars/render.php:93
-#, php-format
-msgid "%d rating"
-msgid_plural "%d ratings"
-msgstr[0] "%d امتیاز"
-msgstr[1] "%d امتیاز"
-
-#: core/templates/simple/heart/render.php:40
-msgid "Heart rating widget"
-msgstr "ابزارک امتیازدهی قلبی"
-
-#: core/templates/simple/heart/render.php:46
-#: core/templates/simple/heart/render.php:48
-msgid "Remove love"
-msgstr "حذف علاقه"
-
-#: core/templates/simple/heart/render.php:46
-#: core/templates/simple/heart/render.php:48
-msgid "Love this"
-msgstr "دوست دارم"
-
-#: core/templates/simple/heart/render.php:69
-#, php-format
-msgid "%d person loves this"
-msgid_plural "%d people love this"
-msgstr[0] "%d نفر این را دوست دارد"
-msgstr[1] "%d نفر این را دوست دارند"
-
-#: core/templates/simple/like-dislike/render.php:58
-msgid "Like or dislike rating widget"
-msgstr "ابزارک امتیازدهی لایک/دیسلایک"
-
-#: core/templates/simple/like-dislike/render.php:66
-#: core/templates/simple/like-dislike/render.php:68
-msgid "Remove like"
-msgstr "حذف لایک"
-
-#: core/templates/simple/like-dislike/render.php:66
-#: core/templates/simple/like-dislike/render.php:68
-msgid "Like this"
-msgstr "لایک کردن"
-
-#: core/templates/simple/like-dislike/render.php:90
-#, php-format
-msgid "%d like"
-msgid_plural "%d likes"
-msgstr[0] "%d لایک"
-msgstr[1] "%d لایک"
-
-#: core/templates/simple/like-dislike/render.php:101
-#: core/templates/simple/like-dislike/render.php:103
-msgid "Remove dislike"
-msgstr "حذف دیسلایک"
-
-#: core/templates/simple/like-dislike/render.php:101
-#: core/templates/simple/like-dislike/render.php:103
-msgid "Dislike this"
-msgstr "دیسلایک کردن"
-
-#: core/templates/simple/like-dislike/render.php:125
-#, php-format
-msgid "%d dislike"
-msgid_plural "%d dislikes"
-msgstr[0] "%d دیسلایک"
-msgstr[1] "%d دیسلایک"
 
 #: TypeScript files
 msgid "Monitor your rating system performance and user engagement"
 msgstr "عملکرد سیستم امتیازدهی و تعامل کاربران را رصد کنید"
 
 #: TypeScript files
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: TypeScript files
 msgid "Configure general settings and anti-spam options"
 msgstr "تنظیمات کلی و گزینه‌های ضد اسپم را پیکربندی کنید"
+
+#: TypeScript files
+msgid "Display"
+msgstr "نمایش"
 
 #: TypeScript files
 msgid "Configure how ratings appear on posts and comments"
 msgstr "نحوه نمایش امتیازها در نوشته‌ها و دیدگاه‌ها را تنظیم کنید"
 
 #: TypeScript files
+msgid "Templates"
+msgstr "قالب‌ها"
+
+#: TypeScript files
 msgid "Browse, install, and manage rating templates"
 msgstr "قالب‌های امتیازدهی را مرور، نصب و مدیریت کنید"
+
+#: TypeScript files
+msgid "Analytics"
+msgstr "آمار و تحلیل"
 
 #: TypeScript files
 msgid "Track your rating performance and user engagement"
 msgstr "عملکرد امتیازدهی و تعامل کاربران را پیگیری کنید"
 
 #: TypeScript files
+msgid "Data"
+msgstr "داده‌ها"
+
+#: TypeScript files
 msgid "Import, export, and manage your rating data"
 msgstr "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+
+#: TypeScript files
+msgid "Support"
+msgstr "پشتیبانی"
 
 #: TypeScript files
 msgid "Get help and support"
@@ -389,8 +226,9 @@ msgstr "امکانات حرفه‌ای"
 
 #: TypeScript files
 msgid "Upgrade to Pro to access detailed analytics and reporting features."
-msgstr "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
-"برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
+msgstr ""
+"برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید.برای "
+"دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
 
 #: TypeScript files
 msgid "Loading analytics data..."
@@ -511,7 +349,9 @@ msgstr "پربازدیدترین پست‌های بازه انتخاب شده"
 msgid ""
 "No rated posts found for the selected period. Try adjusting your filters or "
 "add some ratings!"
-msgstr "هیچ نوشته‌ای در بازه انتخاب شده پیدا نشد. فیلترهای خود را تغییر دهید و دوباره انتخاب کنید"
+msgstr ""
+"هیچ نوشته‌ای در بازه انتخاب شده پیدا نشد. فیلترهای خود را تغییر دهید و دوباره "
+"انتخاب کنید"
 
 #: TypeScript files
 msgid "No rated content found. Start by adding ratings to your posts!"
@@ -520,7 +360,8 @@ msgstr "هیچ محتوای امتیازداده شده‌ای پیدا نشد."
 #: TypeScript files
 msgid ""
 "No users found. Users will appear here once they start rating your content!"
-msgstr "کاربری پیدا نشد. کاربران زمانی نمایش داده خواهند شد که به این پست امتیاز دهند"
+msgstr ""
+"کاربری پیدا نشد. کاربران زمانی نمایش داده خواهند شد که به این پست امتیاز دهند"
 
 #: TypeScript files
 msgid "Analytics Dashboard"
@@ -583,6 +424,10 @@ msgstr "کپی شد!"
 #: TypeScript files
 msgid "Copy to clipboard"
 msgstr "کپی در کلیپ‌بورد"
+
+#: TypeScript files
+msgid "Confirm"
+msgstr "تایید"
 
 #: TypeScript files
 msgid "Select date"
@@ -722,9 +567,10 @@ msgstr "فعال‌سازی آمار"
 
 #: TypeScript files
 msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
-msgstr "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید)."
+msgstr ""
 "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال "
-"کنید)."
+"کنید).جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را "
+"فعال کنید)."
 
 #: TypeScript files
 msgid "Cleanup Analytics (Months)"
@@ -752,9 +598,10 @@ msgstr "ورود اجباری برای امتیازدهی"
 
 #: TypeScript files
 msgid "Only logged-in users can rate. Disables anonymous options below."
-msgstr "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال می‌کند."
+msgstr ""
 "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال "
-"می‌کند."
+"می‌کند.فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را "
+"غیرفعال می‌کند."
 
 #: TypeScript files
 msgid "Enable IP-Based Anti-Spam"
@@ -852,11 +699,6 @@ msgstr ""
 #: TypeScript files
 msgid "This Month"
 msgstr "این ماه"
-
-#: TypeScript files
-#, fuzzy
-msgid "Top Rated Posts"
-msgstr "۱۰ نوشته برتر با بیشترین امتیاز"
 
 #: TypeScript files
 msgid "Export completed successfully!"
@@ -1046,6 +888,10 @@ msgid "Binary (Like)"
 msgstr "دوتایی (لایک)"
 
 #: TypeScript files
+msgid "Bipolar (Like & Dislike)"
+msgstr "دوقطبی (لایک و دیسلایک)"
+
+#: TypeScript files
 msgid "Scale (Stars)"
 msgstr "مقیاس (ستاره)"
 
@@ -1131,9 +977,10 @@ msgstr "تنظیمات عمومی"
 
 #: TypeScript files
 msgid "Only logged-in users can rate. Enables user-based rate limiting below."
-msgstr "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت امتیازدهی مبتنی بر کاربر را در زیر فعال می‌کند."
-"فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت مبتنی بر کاربر را در زیر "
-"فعال می‌کند."
+msgstr ""
+"فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت امتیازدهی مبتنی بر کاربر "
+"را در زیر فعال می‌کند.فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت "
+"مبتنی بر کاربر را در زیر فعال می‌کند."
 
 #: TypeScript files
 msgid "Enable JavaScript Mode (Cache-Friendly)"
@@ -1164,6 +1011,39 @@ msgstr ""
 "جستجو را بهبود بخشد و اسنیپت‌های غنی را فعال کند."
 
 #: TypeScript files
+msgid "Enhance Existing Schema"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"If other SEO plugins have added schema, skip adding duplicate schema to "
+"avoid conflicts. Currently prevents duplicates; future versions may merge "
+"rating data."
+msgstr ""
+
+#: TypeScript files
+#, fuzzy
+msgid "Include Ratings in Open Graph"
+msgstr "درج امتیازها در توضیحات متا"
+
+#: TypeScript files
+msgid ""
+"Adds rating information to Open Graph meta tags for better social media "
+"sharing."
+msgstr ""
+
+#: TypeScript files
+#, fuzzy
+msgid "Include Ratings in Twitter Cards"
+msgstr "درج امتیازها در توضیحات متا"
+
+#: TypeScript files
+msgid ""
+"Adds rating information to Twitter Card meta tags for enhanced tweet "
+"previews."
+msgstr ""
+
+#: TypeScript files
 msgid "Include Ratings in Meta Description"
 msgstr "درج امتیازها در توضیحات متا"
 
@@ -1174,16 +1054,6 @@ msgid ""
 msgstr ""
 "به طور خودکار اطلاعات امتیازدهی را در توضیحات متای صفحه برای سئو بهتر درج "
 "می‌کند."
-
-#: TypeScript files
-msgid "Enable Rich Snippets Support"
-msgstr "فعال‌سازی پشتیبانی از اسنیپت‌های غنی"
-
-#: TypeScript files
-msgid ""
-"Optimizes markup for Google rich snippets including stars in search results."
-msgstr ""
-"مارک‌آپ را برای اسنیپت‌های غنی گوگل شامل ستاره‌ها در نتایج جستجو بهینه می‌کند."
 
 #: TypeScript files
 msgid "Anti-Spam & Rate Limiting"
@@ -1243,18 +1113,6 @@ msgid "Failed to update template"
 msgstr "بروزرسانی قالب ناموفق بود"
 
 #: TypeScript files
-msgid "Are you sure you want to delete the %s template?"
-msgstr "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
-
-#: TypeScript files
-msgid ""
-"Are you sure you want to delete the %s template? (It will be restored on "
-"plugin update)"
-msgstr ""
-"آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی "
-"خواهد شد)"
-
-#: TypeScript files
 msgid "Template deleted successfully!"
 msgstr "قالب با موفقیت حذف شد!"
 
@@ -1271,12 +1129,14 @@ msgid "Failed to upload template"
 msgstr "آپلود قالب ناموفق بود"
 
 #: TypeScript files
-msgid "Binary (Like/Dislike)"
-msgstr "دوتایی (لایک/دیسلایک)"
+#, fuzzy
+msgid "Binary (Like only)"
+msgstr "دوتایی (فقط لایک)"
 
 #: TypeScript files
-msgid "Bipolar (Hearts, Favorites)"
-msgstr "دوقطبی (قلب، علاقه‌مندی)"
+#, fuzzy
+msgid "Bipolar (Like + Dislike)"
+msgstr "دوقطبی (لایک و دیسلایک)"
 
 #: TypeScript files
 msgid "Scale (Star Ratings)"
@@ -1295,8 +1155,19 @@ msgid "Refresh"
 msgstr "بروزرسانی"
 
 #: TypeScript files
-msgid "Browse Templates"
-msgstr "مرور قالب‌ها"
+#, fuzzy
+msgid "All Templates"
+msgstr "قالب‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "New Templates"
+msgstr "قالب‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Needs Update"
+msgstr "بروزرسانی"
 
 #: TypeScript files
 msgid "Search templates..."
@@ -1313,6 +1184,27 @@ msgstr "قالبی یافت نشد"
 #: TypeScript files
 msgid "Try adjusting your search or filter criteria"
 msgstr "جستجو یا فیلترهای خود را تغییر دهید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Delete Template"
+msgstr "حذف قالب"
+
+#: TypeScript files
+msgid "Are you sure you want to delete the %s template?"
+msgstr "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
+
+#: TypeScript files
+msgid ""
+"Are you sure you want to delete the %s template? (It will be restored on "
+"plugin update)"
+msgstr ""
+"آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی "
+"خواهد شد)"
+
+#: TypeScript files
+msgid "RatePress"
+msgstr "ریت‌پرس"
 
 #: TypeScript files
 msgid "Five Stars"
@@ -1390,6 +1282,141 @@ msgstr "ابزارک امتیازدهی"
 #: TypeScript files
 msgid "Add a rating widget"
 msgstr "افزودن ابزارک امتیازدهی"
+
+#~ msgid "Scale (Stars, 1-10)"
+#~ msgstr "مقیاس (ستاره، ۱-۱۰)"
+
+#~ msgid "You must be logged in to rate this content."
+#~ msgstr "برای امتیازدهی به این محتوا باید وارد شوید."
+
+#~ msgid "Unknown"
+#~ msgstr "نامشخص"
+
+#~ msgid "No data provided"
+#~ msgstr "داده‌ای ارائه نشده است"
+
+#~ msgid "No settings provided"
+#~ msgstr "تنظیماتی ارائه نشده است"
+
+#~ msgid "Settings saved successfully"
+#~ msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#~ msgid "Settings reset to defaults"
+#~ msgstr "تنظیمات به حالت پیش‌فرض بازگشت"
+
+#~ msgid "Invalid cooldown value"
+#~ msgstr "مقدار زمان انتظار نامعتبر است"
+
+#~ msgid "RatePress Translation Available"
+#~ msgstr "ترجمه برای ریت‌پرس در دسترس است"
+
+#, php-format
+#~ msgid ""
+#~ "RatePress is available in %s! Click here to download the translation."
+#~ msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
+
+#, fuzzy
+#~ msgid "Download Translation"
+#~ msgstr "دانلود به صورت CSV"
+
+#, fuzzy
+#~ msgid "Downloading..."
+#~ msgstr "در حال حذف..."
+
+#~ msgid "Translation downloaded! Refreshing page..."
+#~ msgstr "ترجمه دانلود شد! ریفرش صفحه ..."
+
+#, fuzzy
+#~ msgid "Failed to download translation"
+#~ msgstr "بارگذاری قالب‌ها ناموفق بود"
+
+#~ msgid "Star rating widget"
+#~ msgstr "ابزارک امتیازدهی ستاره‌ای"
+
+#~ msgid "Rate from 1 to 5 stars"
+#~ msgstr "امتیاز از ۱ تا ۵ ستاره"
+
+#, php-format
+#~ msgid "Rate %d out of 5 stars"
+#~ msgstr "امتیاز %d از ۵ ستاره"
+
+#, php-format
+#~ msgid "%d star%s"
+#~ msgstr "%d ستاره%s"
+
+#, php-format
+#~ msgid "Average rating: %s out of 5 stars"
+#~ msgstr "میانگین امتیاز: %s از ۵ ستاره"
+
+#, php-format
+#~ msgid "%d rating"
+#~ msgid_plural "%d ratings"
+#~ msgstr[0] "%d امتیاز"
+#~ msgstr[1] "%d امتیاز"
+
+#~ msgid "Heart rating widget"
+#~ msgstr "ابزارک امتیازدهی قلبی"
+
+#~ msgid "Remove love"
+#~ msgstr "حذف علاقه"
+
+#~ msgid "Love this"
+#~ msgstr "دوست دارم"
+
+#, php-format
+#~ msgid "%d person loves this"
+#~ msgid_plural "%d people love this"
+#~ msgstr[0] "%d نفر این را دوست دارد"
+#~ msgstr[1] "%d نفر این را دوست دارند"
+
+#~ msgid "Like or dislike rating widget"
+#~ msgstr "ابزارک امتیازدهی لایک/دیسلایک"
+
+#~ msgid "Remove like"
+#~ msgstr "حذف لایک"
+
+#~ msgid "Like this"
+#~ msgstr "لایک کردن"
+
+#, php-format
+#~ msgid "%d like"
+#~ msgid_plural "%d likes"
+#~ msgstr[0] "%d لایک"
+#~ msgstr[1] "%d لایک"
+
+#~ msgid "Remove dislike"
+#~ msgstr "حذف دیسلایک"
+
+#~ msgid "Dislike this"
+#~ msgstr "دیسلایک کردن"
+
+#, php-format
+#~ msgid "%d dislike"
+#~ msgid_plural "%d dislikes"
+#~ msgstr[0] "%d دیسلایک"
+#~ msgstr[1] "%d دیسلایک"
+
+#, fuzzy
+#~ msgid "Top Rated Posts"
+#~ msgstr "۱۰ نوشته برتر با بیشترین امتیاز"
+
+#~ msgid "Enable Rich Snippets Support"
+#~ msgstr "فعال‌سازی پشتیبانی از اسنیپت‌های غنی"
+
+#~ msgid ""
+#~ "Optimizes markup for Google rich snippets including stars in search "
+#~ "results."
+#~ msgstr ""
+#~ "مارک‌آپ را برای اسنیپت‌های غنی گوگل شامل ستاره‌ها در نتایج جستجو بهینه می‌کند."
+
+#~ msgid "Binary (Like/Dislike)"
+#~ msgstr "دوتایی (لایک/دیسلایک)"
+
+#~ msgid "Bipolar (Hearts, Favorites)"
+#~ msgstr "دوقطبی (قلب، علاقه‌مندی)"
+
+#~ msgid "Browse Templates"
+#~ msgstr "مرور قالب‌ها"
 
 #~ msgid "Binary Count"
 #~ msgstr "تعداد دوتایی"
