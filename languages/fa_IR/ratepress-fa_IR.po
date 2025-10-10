@@ -89,12 +89,12 @@ msgstr "مقدار زمان انتظار نامعتبر است"
 
 #: core/includes/Utils/LanguageLoader.php:270
 msgid "RatePress Translation Available"
-msgstr ""
+msgstr "ترجمه برای ریت‌پرس در دسترس است"
 
 #: core/includes/Utils/LanguageLoader.php:272
 #, php-format
 msgid "RatePress is available in %s! Click here to download the translation."
-msgstr ""
+msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
 
 #: core/includes/Utils/LanguageLoader.php:278
 #: core/includes/Utils/LanguageLoader.php:301
@@ -109,7 +109,7 @@ msgstr "در حال حذف..."
 
 #: core/includes/Utils/LanguageLoader.php:296
 msgid "Translation downloaded! Refreshing page..."
-msgstr ""
+msgstr "ترجمه دانلود شد! ریفرش صفحه ..."
 
 #: core/includes/Utils/LanguageLoader.php:299
 #, fuzzy
@@ -281,7 +281,7 @@ msgstr "بارگذاری قالب‌ها ناموفق بود"
 
 #: TypeScript files
 msgid "Go Back"
-msgstr ""
+msgstr "بازگشت"
 
 #: TypeScript files
 msgid "Content"
@@ -313,7 +313,7 @@ msgstr "مقیاس"
 
 #: TypeScript files
 msgid "Back"
-msgstr ""
+msgstr "بازگشت"
 
 #: TypeScript files
 #, fuzzy
@@ -327,7 +327,7 @@ msgstr "آمار و تحلیل"
 
 #: TypeScript files
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
 #: TypeScript files
 msgid "Total Ratings"
@@ -359,7 +359,7 @@ msgstr "آمار و تحلیل"
 
 #: TypeScript files
 msgid "View"
-msgstr ""
+msgstr "مشاهده"
 
 #: TypeScript files
 #, fuzzy
@@ -389,7 +389,7 @@ msgstr "امکانات حرفه‌ای"
 
 #: TypeScript files
 msgid "Upgrade to Pro to access detailed analytics and reporting features."
-msgstr ""
+msgstr "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
 "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
 
 #: TypeScript files
@@ -436,7 +436,7 @@ msgstr "نوشته"
 
 #: TypeScript files
 msgid "Pages"
-msgstr ""
+msgstr "صفحات"
 
 #: TypeScript files
 msgid "Overview"
@@ -452,15 +452,15 @@ msgstr "کاربران"
 
 #: TypeScript files
 msgid "Total"
-msgstr ""
+msgstr "همه"
 
 #: TypeScript files
 msgid "Actions"
-msgstr ""
+msgstr "عملیات"
 
 #: TypeScript files
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 #: TypeScript files
 msgid "Category"
@@ -505,22 +505,22 @@ msgstr "روندهای تفصیلی بر اساس نوع امتیاز"
 
 #: TypeScript files
 msgid "Top Posts in Selected Period"
-msgstr ""
+msgstr "پربازدیدترین پست‌های بازه انتخاب شده"
 
 #: TypeScript files
 msgid ""
 "No rated posts found for the selected period. Try adjusting your filters or "
 "add some ratings!"
-msgstr ""
+msgstr "هیچ نوشته‌ای در بازه انتخاب شده پیدا نشد. فیلترهای خود را تغییر دهید و دوباره انتخاب کنید"
 
 #: TypeScript files
 msgid "No rated content found. Start by adding ratings to your posts!"
-msgstr ""
+msgstr "هیچ محتوای امتیازداده شده‌ای پیدا نشد."
 
 #: TypeScript files
 msgid ""
 "No users found. Users will appear here once they start rating your content!"
-msgstr ""
+msgstr "کاربری پیدا نشد. کاربران زمانی نمایش داده خواهند شد که به این پست امتیاز دهند"
 
 #: TypeScript files
 msgid "Analytics Dashboard"
@@ -561,11 +561,11 @@ msgstr "تاریخ پایان را انتخاب کنید"
 
 #: TypeScript files
 msgid "Time Period"
-msgstr ""
+msgstr "بازه زمانی"
 
 #: TypeScript files
 msgid "Reset Filters"
-msgstr ""
+msgstr "بازنشانی فیلتر‌ها"
 
 #: TypeScript files
 msgid "Category Distribution"
@@ -614,27 +614,27 @@ msgstr "دانلود CSV"
 
 #: TypeScript files
 msgid "Showing"
-msgstr ""
+msgstr "درحال نمایش"
 
 #: TypeScript files
 msgid "of"
-msgstr ""
+msgstr "از"
 
 #: TypeScript files
 msgid "entries"
-msgstr ""
+msgstr "ورودی"
 
 #: TypeScript files
 msgid "Previous"
-msgstr ""
+msgstr "قبلی"
 
 #: TypeScript files
 msgid "Page"
-msgstr ""
+msgstr "صفحه"
 
 #: TypeScript files
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 #: TypeScript files
 msgid "Rating Trends"
@@ -722,7 +722,7 @@ msgstr "فعال‌سازی آمار"
 
 #: TypeScript files
 msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
-msgstr ""
+msgstr "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید)."
 "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال "
 "کنید)."
 
@@ -752,7 +752,7 @@ msgstr "ورود اجباری برای امتیازدهی"
 
 #: TypeScript files
 msgid "Only logged-in users can rate. Disables anonymous options below."
-msgstr ""
+msgstr "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال می‌کند."
 "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. گزینه‌های ناشناس زیر را غیرفعال "
 "می‌کند."
 
@@ -1131,7 +1131,7 @@ msgstr "تنظیمات عمومی"
 
 #: TypeScript files
 msgid "Only logged-in users can rate. Enables user-based rate limiting below."
-msgstr ""
+msgstr "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت امتیازدهی مبتنی بر کاربر را در زیر فعال می‌کند."
 "فقط کاربران وارد‌شده می‌توانند امتیاز بدهند. محدودیت مبتنی بر کاربر را در زیر "
 "فعال می‌کند."
 
