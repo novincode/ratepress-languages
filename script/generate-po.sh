@@ -54,6 +54,29 @@ else
   fi
 fi
 
+# Reorder: move untranslated strings to the end for easier editing
+if command -v msgattrib &> /dev/null; then
+  echo "Reordering PO file: moving untranslated strings to the end..."
+  
+  TEMP_TRANSLATED="/tmp/translated_$$.po"
+  TEMP_UNTRANSLATED="/tmp/untranslated_$$.po"
+  TEMP_COMBINED="/tmp/combined_$$.po"
+  
+  # Extract translated and untranslated strings (both include headers)
+  msgattrib --translated --no-fuzzy "$PO_FILE" > "$TEMP_TRANSLATED"
+  msgattrib --untranslated --no-fuzzy "$PO_FILE" > "$TEMP_UNTRANSLATED"
+  
+  # Combine them - msgcat will merge properly and avoid duplicate headers
+  msgcat --use-first "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" -o "$TEMP_COMBINED"
+  
+  # Use msguniq to ensure no duplicates and proper formatting
+  msguniq "$TEMP_COMBINED" --output="$PO_FILE"
+  
+  rm "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" "$TEMP_COMBINED"
+  
+  echo "✅ Reordered $PO_FILE: untranslated strings moved to end"
+fi
+
 # Add a comment section for untranslated strings at the bottom
 if command -v msgattrib &> /dev/null; then
   UNTRANSLATED_COUNT=$(msgattrib --untranslated "$PO_FILE" | grep -c "^msgid " || echo "0")

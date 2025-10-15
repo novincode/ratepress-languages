@@ -7,10 +7,69 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-10T05:52:48+00:00\n"
+"POT-Creation-Date: 2025-10-15T15:53:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ratepress\n"
+
+#: core/includes/Shortcodes/Shortcodes.php:68
+#: core/includes/Utils/GlobalHelpers.php:235
+msgid "No favorites yet."
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:176
+#: core/includes/Shortcodes/Shortcodes.php:434
+#: core/includes/Utils/GlobalHelpers.php:276
+msgid "No ratings yet."
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:278
+msgid "No rating statistics available."
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:289
+msgid "Total Ratings"
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:294
+msgid "Posts Rated"
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:300
+msgid "Comments Rated"
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:307
+msgid "Rating Breakdown"
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:334
+#, php-format
+msgid "Last activity: %s"
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:369
+msgid "No one has liked this yet."
+msgstr ""
+
+#: core/includes/Shortcodes/Shortcodes.php:398
+#, php-format
+msgid "%d person liked this"
+msgid_plural "%d people liked this"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/Shortcodes/Shortcodes.php:464
+#, php-format
+msgid "%d rating"
+msgid_plural "%d ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/Utils/GlobalHelpers.php:329
+#, php-format
+msgid "%d people liked this"
+msgstr ""
 
 #: TypeScript files
 msgid "Dashboard"
@@ -34,6 +93,14 @@ msgstr ""
 
 #: TypeScript files
 msgid "Configure how ratings appear on posts and comments"
+msgstr ""
+
+#: TypeScript files
+msgid "Notifications"
+msgstr ""
+
+#: TypeScript files
+msgid "Configure notification messages and appearance"
 msgstr ""
 
 #: TypeScript files
@@ -66,10 +133,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Get help and support"
-msgstr ""
-
-#: TypeScript files
-msgid "Loading chunk..."
 msgstr ""
 
 #: TypeScript files
@@ -158,10 +221,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Edit"
-msgstr ""
-
-#: TypeScript files
-msgid "Total Ratings"
 msgstr ""
 
 #: TypeScript files
@@ -460,6 +519,210 @@ msgid "Next"
 msgstr ""
 
 #: TypeScript files
+msgid "Canvas-confetti library not loaded. Save settings to load it."
+msgstr ""
+
+#: TypeScript files
+msgid "Configuration copied to clipboard!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to copy to clipboard"
+msgstr ""
+
+#: TypeScript files
+msgid "Configuration imported successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Invalid JSON format. Please check your configuration."
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Particle Effects"
+msgstr ""
+
+#: TypeScript files
+msgid "Show confetti explosion when rating buttons are clicked"
+msgstr ""
+
+#: TypeScript files
+msgid "Advanced Confetti Playground"
+msgstr ""
+
+#: TypeScript files
+msgid "Create & customize amazing effects with our visual editor"
+msgstr ""
+
+#: TypeScript files
+msgid "Open Playground"
+msgstr ""
+
+#: TypeScript files
+msgid "Import/Export"
+msgstr ""
+
+#: TypeScript files
+msgid "Export Current Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Download JSON"
+msgstr ""
+
+#: TypeScript files
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: TypeScript files
+msgid "Import from Playground"
+msgstr ""
+
+#: TypeScript files
+msgid "Upload JSON File"
+msgstr ""
+
+#: TypeScript files
+msgid "Or paste JSON configuration here..."
+msgstr ""
+
+#: TypeScript files
+msgid "Import Configuration"
+msgstr ""
+
+#: TypeScript files
+msgid "Preset"
+msgstr ""
+
+#: TypeScript files
+msgid "Basic Cannon"
+msgstr ""
+
+#: TypeScript files
+msgid "Random Direction"
+msgstr ""
+
+#: TypeScript files
+msgid "Realistic Look"
+msgstr ""
+
+#: TypeScript files
+msgid "Fireworks"
+msgstr ""
+
+#: TypeScript files
+msgid "Stars"
+msgstr ""
+
+#: TypeScript files
+msgid "Snow"
+msgstr ""
+
+#: TypeScript files
+msgid "Emoji"
+msgstr ""
+
+#: TypeScript files
+msgid "Custom"
+msgstr ""
+
+#: TypeScript files
+msgid "Choose a pre-configured effect or customize your own"
+msgstr ""
+
+#: TypeScript files
+msgid "Explosion Origin"
+msgstr ""
+
+#: TypeScript files
+msgid "Button Center"
+msgstr ""
+
+#: TypeScript files
+msgid "Cursor Position"
+msgstr ""
+
+#: TypeScript files
+msgid "Screen Center"
+msgstr ""
+
+#: TypeScript files
+msgid "Where particles should explode from"
+msgstr ""
+
+#: TypeScript files
+msgid "Enter any emoji to use as confetti"
+msgstr ""
+
+#: TypeScript files
+msgid "🎉 Test Particles"
+msgstr ""
+
+#: TypeScript files
+msgid "Advanced Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Particle Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Particle Count"
+msgstr ""
+
+#: TypeScript files
+msgid "Spread (degrees)"
+msgstr ""
+
+#: TypeScript files
+msgid "Start Velocity"
+msgstr ""
+
+#: TypeScript files
+msgid "Angle (degrees)"
+msgstr ""
+
+#: TypeScript files
+msgid "Scalar (size)"
+msgstr ""
+
+#: TypeScript files
+msgid "Physics"
+msgstr ""
+
+#: TypeScript files
+msgid "Gravity"
+msgstr ""
+
+#: TypeScript files
+msgid "Decay"
+msgstr ""
+
+#: TypeScript files
+msgid "Drift"
+msgstr ""
+
+#: TypeScript files
+msgid "Duration (ticks)"
+msgstr ""
+
+#: TypeScript files
+msgid "Colors & Shapes"
+msgstr ""
+
+#: TypeScript files
+msgid "Colors (comma-separated hex)"
+msgstr ""
+
+#: TypeScript files
+msgid "Respect Reduced Motion Preference"
+msgstr ""
+
+#: TypeScript files
+msgid "Disable particles for users who prefer reduced motion"
+msgstr ""
+
+#: TypeScript files
 msgid "Rating Trends"
 msgstr ""
 
@@ -710,82 +973,85 @@ msgid "Import failed. Please try again."
 msgstr ""
 
 #: TypeScript files
+msgid "Settings reset successfully! Reloading..."
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to reset settings."
+msgstr ""
+
+#: TypeScript files
+msgid "Settings exported successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to export settings."
+msgstr ""
+
+#: TypeScript files
+msgid "Settings copied to clipboard!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to copy settings to clipboard."
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to import settings. Invalid JSON file."
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Failed to import settings from clipboard. Make sure you have valid JSON "
+"copied."
+msgstr ""
+
+#: TypeScript files
+msgid "Settings imported successfully! Reloading..."
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to save imported settings."
+msgstr ""
+
+#: TypeScript files
 msgid "Data Management"
 msgstr ""
 
 #: TypeScript files
-msgid "Export, import, and clean your RatePress data"
+msgid "Export, import, and manage your RatePress data and settings"
 msgstr ""
 
 #: TypeScript files
-msgid "📤 Export Data"
+msgid "Panel Settings"
 msgstr ""
 
 #: TypeScript files
-msgid ""
-"Export your RatePress data as SQL files for backup or migration purposes."
+msgid "Export or import your RatePress panel configuration as JSON files."
 msgstr ""
 
 #: TypeScript files
-msgid "Export All Data"
+msgid "Export Settings"
 msgstr ""
 
 #: TypeScript files
-msgid "Export all ratings, analytics, and settings data."
+msgid "Download Settings"
 msgstr ""
 
 #: TypeScript files
-msgid "Export Ratings Only"
+msgid "Import Settings"
 msgstr ""
 
 #: TypeScript files
-msgid "Export only the ratings data."
+msgid "Upload Settings"
 msgstr ""
 
 #: TypeScript files
-msgid "Export Analytics Only"
+msgid "Paste from Clipboard"
 msgstr ""
 
 #: TypeScript files
-msgid "Export only the analytics data."
-msgstr ""
-
-#: TypeScript files
-msgid "🗑️ Clean Data"
-msgstr ""
-
-#: TypeScript files
-msgid "⚠️ Warning:"
-msgstr ""
-
-#: TypeScript files
-msgid ""
-"These actions cannot be undone. Please export your data first before "
-"cleaning!"
-msgstr ""
-
-#: TypeScript files
-msgid "Clean All Data"
-msgstr ""
-
-#: TypeScript files
-msgid "Remove all ratings, analytics, and reset settings to defaults."
-msgstr ""
-
-#: TypeScript files
-msgid "Clean Ratings Only"
-msgstr ""
-
-#: TypeScript files
-msgid "Remove all rating data but keep analytics and settings."
-msgstr ""
-
-#: TypeScript files
-msgid "Clean Analytics Only"
-msgstr ""
-
-#: TypeScript files
-msgid "Remove all analytics data but keep ratings and settings."
+msgid "Reset Settings"
 msgstr ""
 
 #: TypeScript files
@@ -795,11 +1061,49 @@ msgid ""
 msgstr ""
 
 #: TypeScript files
-msgid "Reset all RatePress settings to their default values."
+msgid "Reset All Settings to Defaults"
 msgstr ""
 
 #: TypeScript files
-msgid "📥 Import Data (Pro)"
+msgid ""
+"Export your settings to backup your configuration or transfer it to another "
+"site. Import settings to restore or apply a configuration. Reset will "
+"restore all settings to their default values."
+msgstr ""
+
+#: TypeScript files
+msgid "Export Database Data"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Export your RatePress database data as SQL files for backup or migration."
+msgstr ""
+
+#: TypeScript files
+msgid "Exporting..."
+msgstr ""
+
+#: TypeScript files
+msgid "Export All Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Export Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Export Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Download SQL files containing your ratings and analytics data. Use these "
+"files for backups or to migrate data between sites."
+msgstr ""
+
+#: TypeScript files
+msgid "Import Database Data"
 msgstr ""
 
 #: TypeScript files
@@ -807,7 +1111,11 @@ msgid "Import RatePress data from SQL export files."
 msgstr ""
 
 #: TypeScript files
-msgid "Import Data"
+msgid "Importing..."
+msgstr ""
+
+#: TypeScript files
+msgid "Import SQL Data"
 msgstr ""
 
 #: TypeScript files
@@ -821,11 +1129,53 @@ msgid "Clean Data"
 msgstr ""
 
 #: TypeScript files
+msgid "Warning:"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"These actions cannot be undone. Please export your data first before "
+"cleaning!"
+msgstr ""
+
+#: TypeScript files
+msgid "Cleaning..."
+msgstr ""
+
+#: TypeScript files
+msgid "Clean All Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean All Data: Removes all ratings and analytics data"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Ratings: Removes only rating data, keeps analytics"
+msgstr ""
+
+#: TypeScript files
+msgid "Clean Analytics: Removes only analytics data, keeps ratings"
+msgstr ""
+
+#: TypeScript files
 msgid "Are you sure you want to clean this data?"
 msgstr ""
 
 #: TypeScript files
 msgid "This action cannot be undone. Make sure to export your data first!"
+msgstr ""
+
+#: TypeScript files
+msgid "Import Data"
 msgstr ""
 
 #: TypeScript files
@@ -905,6 +1255,10 @@ msgid "Archive pages"
 msgstr ""
 
 #: TypeScript files
+msgid "Explosion Effects"
+msgstr ""
+
+#: TypeScript files
 msgid "Comment Ratings"
 msgstr ""
 
@@ -926,6 +1280,194 @@ msgstr ""
 
 #: TypeScript files
 msgid "HTML Attributes"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Left"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Center"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Right"
+msgstr ""
+
+#: TypeScript files
+msgid "Bottom Left"
+msgstr ""
+
+#: TypeScript files
+msgid "Bottom Center"
+msgstr ""
+
+#: TypeScript files
+msgid "Bottom Right"
+msgstr ""
+
+#: TypeScript files
+msgid "Current Position:"
+msgstr ""
+
+#: TypeScript files
+msgid "Notification system not loaded. Save settings and refresh the page."
+msgstr ""
+
+#: TypeScript files
+msgid "Preview"
+msgstr ""
+
+#: TypeScript files
+msgid "Success"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown when a rating is successfully submitted"
+msgstr ""
+
+#: TypeScript files
+msgid "Already Rated"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown when user has already rated this item"
+msgstr ""
+
+#: TypeScript files
+msgid "Not Logged In"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown when login is required to rate"
+msgstr ""
+
+#: TypeScript files
+msgid "Rate Limit"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown when user has exceeded rate limits"
+msgstr ""
+
+#: TypeScript files
+msgid "Generic Error"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown for unexpected errors"
+msgstr ""
+
+#: TypeScript files
+msgid "Invalid Rating"
+msgstr ""
+
+#: TypeScript files
+msgid "Shown when rating data is invalid"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable Notifications"
+msgstr ""
+
+#: TypeScript files
+msgid "Show notification toasts for rating actions"
+msgstr ""
+
+#: TypeScript files
+msgid "Messages"
+msgstr ""
+
+#: TypeScript files
+msgid "Appearance"
+msgstr ""
+
+#: TypeScript files
+msgid "Enable this message"
+msgstr ""
+
+#: TypeScript files
+msgid "Message Text"
+msgstr ""
+
+#: TypeScript files
+msgid "Enter custom message..."
+msgstr ""
+
+#: TypeScript files
+msgid "Display Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Toast Position"
+msgstr ""
+
+#: TypeScript files
+msgid "Display Duration (ms)"
+msgstr ""
+
+#: TypeScript files
+msgid "How long toasts remain visible (0 = forever)"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Close Button"
+msgstr ""
+
+#: TypeScript files
+msgid "Allow users to manually close notifications"
+msgstr ""
+
+#: TypeScript files
+msgid "HTML Template"
+msgstr ""
+
+#: TypeScript files
+msgid "Toast HTML Template"
+msgstr ""
+
+#: TypeScript files
+msgid "Available placeholders: {type}, {message}, {icon}, {close_button}"
+msgstr ""
+
+#: TypeScript files
+msgid "Template Guide:"
+msgstr ""
+
+#: TypeScript files
+msgid "Custom CSS"
+msgstr ""
+
+#: TypeScript files
+msgid "Toast Styles"
+msgstr ""
+
+#: TypeScript files
+msgid "Customize the appearance of notifications"
+msgstr ""
+
+#: TypeScript files
+msgid "CSS Classes:"
+msgstr ""
+
+#: TypeScript files
+msgid "Icon SVGs"
+msgstr ""
+
+#: TypeScript files
+msgid "Success Icon"
+msgstr ""
+
+#: TypeScript files
+msgid "Error Icon"
+msgstr ""
+
+#: TypeScript files
+msgid "Info Icon"
+msgstr ""
+
+#: TypeScript files
+msgid "Warning Icon"
 msgstr ""
 
 #: TypeScript files
@@ -1063,7 +1605,23 @@ msgid "Template deleted successfully!"
 msgstr ""
 
 #: TypeScript files
-msgid "Failed to delete template"
+msgid "Templates deleted successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to delete templates"
+msgstr ""
+
+#: TypeScript files
+msgid "Selected templates updated successfully!"
+msgstr ""
+
+#: TypeScript files
+msgid "Failed to update some templates"
+msgstr ""
+
+#: TypeScript files
+msgid "All templates updated successfully!"
 msgstr ""
 
 #: TypeScript files
@@ -1095,6 +1653,10 @@ msgid "Upload"
 msgstr ""
 
 #: TypeScript files
+msgid "Update All"
+msgstr ""
+
+#: TypeScript files
 msgid "Refresh"
 msgstr ""
 
@@ -1112,6 +1674,22 @@ msgstr ""
 
 #: TypeScript files
 msgid "Search templates..."
+msgstr ""
+
+#: TypeScript files
+msgid "Select All"
+msgstr ""
+
+#: TypeScript files
+msgid "%d selected"
+msgstr ""
+
+#: TypeScript files
+msgid "Update Selected"
+msgstr ""
+
+#: TypeScript files
+msgid "Delete Selected"
 msgstr ""
 
 #: TypeScript files
@@ -1138,6 +1716,10 @@ msgstr ""
 msgid ""
 "Are you sure you want to delete the %s template? (It will be restored on "
 "plugin update)"
+msgstr ""
+
+#: TypeScript files
+msgid "Are you sure you want to delete %d templates?"
 msgstr ""
 
 #: TypeScript files
@@ -1218,4 +1800,314 @@ msgstr ""
 
 #: TypeScript files
 msgid "Add a rating widget"
+msgstr ""
+
+#: TypeScript files
+msgid "Top Rated Content"
+msgstr ""
+
+#: TypeScript files
+msgid "Display top-rated posts or comments based on various metrics"
+msgstr ""
+
+#: TypeScript files
+msgid "top"
+msgstr ""
+
+#: TypeScript files
+msgid "best"
+msgstr ""
+
+#: TypeScript files
+msgid "popular"
+msgstr ""
+
+#: TypeScript files
+msgid "trending"
+msgstr ""
+
+#: TypeScript files
+msgid "Any Post Type"
+msgstr ""
+
+#: TypeScript files
+msgid "Query Settings"
+msgstr ""
+
+#: TypeScript files
+msgid "Comments"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Category"
+msgstr ""
+
+#: TypeScript files
+msgid "Any Category"
+msgstr ""
+
+#: TypeScript files
+msgid "Bipolar (Like/Dislike)"
+msgstr ""
+
+#: TypeScript files
+msgid "Metric"
+msgstr ""
+
+#: TypeScript files
+msgid "How to rank the items"
+msgstr ""
+
+#: TypeScript files
+msgid "Positive Count"
+msgstr ""
+
+#: TypeScript files
+msgid "Negative Count"
+msgstr ""
+
+#: TypeScript files
+msgid "Net Score (Positive - Negative)"
+msgstr ""
+
+#: TypeScript files
+msgid "Minimum Ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Minimum number of ratings required"
+msgstr ""
+
+#: TypeScript files
+msgid "Time Range"
+msgstr ""
+
+#: TypeScript files
+msgid "This Week"
+msgstr ""
+
+#: TypeScript files
+msgid "This Year"
+msgstr ""
+
+#: TypeScript files
+msgid "Number of Items"
+msgstr ""
+
+#: TypeScript files
+msgid "Exclude IDs"
+msgstr ""
+
+#: TypeScript files
+msgid "Comma-separated list of IDs to exclude"
+msgstr ""
+
+#: TypeScript files
+msgid "Layout"
+msgstr ""
+
+#: TypeScript files
+msgid "List"
+msgstr ""
+
+#: TypeScript files
+msgid "Grid"
+msgstr ""
+
+#: TypeScript files
+msgid "Custom (use template)"
+msgstr ""
+
+#: TypeScript files
+msgid "Columns"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Thumbnail"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Excerpt"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Rating"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Rating Count"
+msgstr ""
+
+#: TypeScript files
+msgid "Type:"
+msgstr ""
+
+#: TypeScript files
+msgid "Metric:"
+msgstr ""
+
+#: TypeScript files
+msgid "Net Score"
+msgstr ""
+
+#: TypeScript files
+msgid "Time Range:"
+msgstr ""
+
+#: TypeScript files
+msgid "Min Ratings:"
+msgstr ""
+
+#: TypeScript files
+msgid "Limit:"
+msgstr ""
+
+#: TypeScript files
+msgid "items"
+msgstr ""
+
+#: TypeScript files
+msgid "Layout:"
+msgstr ""
+
+#: TypeScript files
+msgid "columns"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"This block will display the top-rated content on the frontend. Configure "
+"settings in the sidebar."
+msgstr ""
+
+#: TypeScript files
+msgid "User Ratings List"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Display posts or comments that a user has rated (favorites, liked posts, "
+"etc.)"
+msgstr ""
+
+#: TypeScript files
+msgid "ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "favorites"
+msgstr ""
+
+#: TypeScript files
+msgid "liked"
+msgstr ""
+
+#: TypeScript files
+msgid "user"
+msgstr ""
+
+#: TypeScript files
+msgid "User ID"
+msgstr ""
+
+#: TypeScript files
+msgid "Both"
+msgstr ""
+
+#: TypeScript files
+msgid "Value Filter"
+msgstr ""
+
+#: TypeScript files
+msgid "Any Value"
+msgstr ""
+
+#: TypeScript files
+msgid "Positive Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Negative Only"
+msgstr ""
+
+#: TypeScript files
+msgid "Minimum Value"
+msgstr ""
+
+#: TypeScript files
+msgid "Minimum Rating Value"
+msgstr ""
+
+#: TypeScript files
+msgid "Order By"
+msgstr ""
+
+#: TypeScript files
+msgid "Date Rated"
+msgstr ""
+
+#: TypeScript files
+msgid "Rating Value"
+msgstr ""
+
+#: TypeScript files
+msgid "Random"
+msgstr ""
+
+#: TypeScript files
+msgid "Order"
+msgstr ""
+
+#: TypeScript files
+msgid "Descending"
+msgstr ""
+
+#: TypeScript files
+msgid "Ascending"
+msgstr ""
+
+#: TypeScript files
+msgid "Show when empty"
+msgstr ""
+
+#: TypeScript files
+msgid "Display message when no ratings found"
+msgstr ""
+
+#: TypeScript files
+msgid "Show Date"
+msgstr ""
+
+#: TypeScript files
+msgid "User:"
+msgstr ""
+
+#: TypeScript files
+msgid "Current User"
+msgstr ""
+
+#: TypeScript files
+msgid "Filter:"
+msgstr ""
+
+#: TypeScript files
+msgid "Positive ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Negative ratings"
+msgstr ""
+
+#: TypeScript files
+msgid "Min value:"
+msgstr ""
+
+#: TypeScript files
+msgid "All ratings"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"This block will display the rated items on the frontend. Configure settings "
+"in the sidebar."
 msgstr ""
