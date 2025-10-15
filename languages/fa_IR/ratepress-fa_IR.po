@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15T15:53:25+00:00\n"
+"POT-Creation-Date: 2025-10-15T21:37:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Persian <LL@li.org>\n"
@@ -1679,6 +1679,620 @@ msgid ""
 msgstr ""
 "این بلوک موارد امتیازدهی‌شده را در بخش کاربری نمایش می‌دهد. تنظیمات را در نوار "
 "کناری پیکربندی کنید."
+
+#: core/includes/Shortcodes/Shortcodes.php:176
+#: core/includes/Shortcodes/Shortcodes.php:434
+#: core/includes/Utils/GlobalHelpers.php:276
+#, fuzzy
+msgid "No ratings yet."
+msgstr "هنوز علاقه‌مندی‌ای وجود ندارد."
+
+#: core/includes/Shortcodes/Shortcodes.php:278
+#, fuzzy
+msgid "No rating statistics available."
+msgstr "داده‌ای در دسترس نیست"
+
+#: core/includes/Shortcodes/Shortcodes.php:294
+#, fuzzy
+msgid "Posts Rated"
+msgstr "عنوان نوشته"
+
+#: core/includes/Shortcodes/Shortcodes.php:300
+#, fuzzy
+msgid "Comments Rated"
+msgstr "امتیازدهی دیدگاه‌ها"
+
+#: core/includes/Shortcodes/Shortcodes.php:307
+#, fuzzy
+msgid "Rating Breakdown"
+msgstr "روند امتیازدهی"
+
+#: core/includes/Shortcodes/Shortcodes.php:398
+#, fuzzy, php-format
+msgid "%d person liked this"
+msgid_plural "%d people liked this"
+msgstr[0] "%d نفر این را لایک کرده‌اند"
+msgstr[1] "%d نفر این را لایک کرده‌اند"
+
+#: TypeScript files
+#, fuzzy
+msgid "Notifications"
+msgstr "عملیات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Configure notification messages and appearance"
+msgstr "اقدامات ضد اسپم و محدودیت امتیازدهی را پیکربندی کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Loading details..."
+msgstr "در حال بارگذاری داده‌ها..."
+
+#: TypeScript files
+#, fuzzy
+msgid "Failed to load details"
+msgstr "بارگذاری قالب‌ها ناموفق بود"
+
+#: TypeScript files
+#, fuzzy
+msgid "User Analytics"
+msgstr "آمار و تحلیل"
+
+#: TypeScript files
+#, fuzzy
+msgid "Go back to Analytics"
+msgstr "آمار و تحلیل"
+
+#: TypeScript files
+#, fuzzy
+msgid "Rating History"
+msgstr "ابزارک امتیازدهی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Download All as CSV"
+msgstr "دانلود به صورت CSV"
+
+#: TypeScript files
+#, fuzzy
+msgid "No ratings found"
+msgstr "نوشته امتیازدهی‌شده‌ای یافت نشد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Post Analytics"
+msgstr "آمار و تحلیل"
+
+#: TypeScript files
+#, fuzzy
+msgid "Post Type:"
+msgstr "نوع نوشته"
+
+#: TypeScript files
+#, fuzzy
+msgid "All Ratings"
+msgstr "کل امتیازها"
+
+#: TypeScript files
+#, fuzzy
+msgid "All Post Types"
+msgstr "نوع نوشته"
+
+#: TypeScript files
+#, fuzzy
+msgid "Posts"
+msgstr "نوشته"
+
+#: TypeScript files
+#, fuzzy
+msgid "First Rating"
+msgstr "امتیاز"
+
+#: TypeScript files
+#, fuzzy
+msgid "Select post type"
+msgstr "تاریخ شروع را انتخاب کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Loading chart..."
+msgstr "در حال بارگذاری داده‌ها..."
+
+#: TypeScript files
+#, fuzzy
+msgid "Configuration copied to clipboard!"
+msgstr "کپی در کلیپ‌بورد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Failed to copy to clipboard"
+msgstr "کپی تنظیمات در کلیپ‌بورد ناموفق بود."
+
+#: TypeScript files
+#, fuzzy
+msgid "Configuration imported successfully!"
+msgstr "داده‌ها با موفقیت وارد شدند!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Enable Particle Effects"
+msgstr "فعال‌سازی آمار"
+
+#: TypeScript files
+#, fuzzy
+msgid "Download JSON"
+msgstr "دانلود CSV"
+
+#: TypeScript files
+#, fuzzy
+msgid "Copy to Clipboard"
+msgstr "کپی در کلیپ‌بورد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Preset"
+msgstr "بازنشانی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Stars"
+msgstr "پنج ستاره"
+
+#: TypeScript files
+#, fuzzy
+msgid "Custom"
+msgstr "بازه دلخواه"
+
+#: TypeScript files
+#, fuzzy
+msgid "Cursor Position"
+msgstr "موقعیت"
+
+#: TypeScript files
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "ذخیره تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Particle Settings"
+msgstr "تنظیمات امتیازدهی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Particle Count"
+msgstr "تعداد منفی‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Scalar (size)"
+msgstr "مقیاس (ستاره)"
+
+#: TypeScript files
+#, fuzzy
+msgid "Settings reset successfully! Reloading..."
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Settings exported successfully!"
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Failed to export settings."
+msgstr "بازنشانی تنظیمات ناموفق بود."
+
+#: TypeScript files
+#, fuzzy
+msgid "Settings copied to clipboard!"
+msgstr "کپی در کلیپ‌بورد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Settings imported successfully! Reloading..."
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Export, import, and manage your RatePress data and settings"
+msgstr "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Panel Settings"
+msgstr "ذخیره تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Export Settings"
+msgstr "صادر کردن تنظیمات فعلی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Download Settings"
+msgstr "دانلود CSV"
+
+#: TypeScript files
+#, fuzzy
+msgid "Import Settings"
+msgstr "تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Upload Settings"
+msgstr "ذخیره تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Reset Settings"
+msgstr "بازنشانی همه تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Reset All Settings to Defaults"
+msgstr "بازنشانی همه تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Export Database Data"
+msgstr "صادرات همه داده‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Exporting..."
+msgstr "در حال بروزرسانی..."
+
+#: TypeScript files
+#, fuzzy
+msgid "Export Ratings"
+msgstr "کل امتیازها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Export Analytics"
+msgstr "آمار و تحلیل"
+
+#: TypeScript files
+#, fuzzy
+msgid "Import Database Data"
+msgstr "وارد کردن داده‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Importing..."
+msgstr "در حال بروزرسانی..."
+
+#: TypeScript files
+#, fuzzy
+msgid "Import SQL Data"
+msgstr "وارد کردن داده‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Cleaning..."
+msgstr "در حال حذف..."
+
+#: TypeScript files
+#, fuzzy
+msgid "Clean Ratings"
+msgstr "امتیازدهی دیدگاه‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Clean Analytics"
+msgstr "فعال‌سازی آمار"
+
+#: TypeScript files
+#, fuzzy
+msgid "Current Position:"
+msgstr "موقعیت"
+
+#: TypeScript files
+#, fuzzy
+msgid "Preview"
+msgstr "پیش‌نمایشی وجود ندارد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Invalid Rating"
+msgstr "کل امتیازها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Enable Notifications"
+msgstr "فعال‌سازی امتیازدهی دیدگاه‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Messages"
+msgstr "متن پیام"
+
+#: TypeScript files
+#, fuzzy
+msgid "Display Settings"
+msgstr "ذخیره تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Toast Position"
+msgstr "موقعیت"
+
+#: TypeScript files
+#, fuzzy
+msgid "Show Close Button"
+msgstr "نمایش تعداد"
+
+#: TypeScript files
+#, fuzzy
+msgid "HTML Template"
+msgstr "قالب"
+
+#: TypeScript files
+#, fuzzy
+msgid "Toast HTML Template"
+msgstr "یک قالب انتخاب کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Template Guide:"
+msgstr "قالب"
+
+#: TypeScript files
+#, fuzzy
+msgid "Custom CSS"
+msgstr "بازه دلخواه"
+
+#: TypeScript files
+#, fuzzy
+msgid "Include Ratings in Open Graph"
+msgstr "درج امتیازها در توضیحات متا"
+
+#: TypeScript files
+#, fuzzy
+msgid "Include Ratings in Twitter Cards"
+msgstr "درج امتیازها در توضیحات متا"
+
+#: TypeScript files
+#, fuzzy
+msgid "Templates deleted successfully!"
+msgstr "قالب با موفقیت حذف شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Failed to delete templates"
+msgstr "بروزرسانی قالب ناموفق بود"
+
+#: TypeScript files
+#, fuzzy
+msgid "Selected templates updated successfully!"
+msgstr "قالب با موفقیت بروزرسانی شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Failed to update some templates"
+msgstr "بروزرسانی قالب ناموفق بود"
+
+#: TypeScript files
+#, fuzzy
+msgid "All templates updated successfully!"
+msgstr "قالب با موفقیت بروزرسانی شد!"
+
+#: TypeScript files
+#, fuzzy
+msgid "Binary (Like only)"
+msgstr "دوتایی (لایک)"
+
+#: TypeScript files
+#, fuzzy
+msgid "Bipolar (Like + Dislike)"
+msgstr "دوقطبی (لایک و دیسلایک)"
+
+#: TypeScript files
+#, fuzzy
+msgid "Update All"
+msgstr "بروزرسانی"
+
+#: TypeScript files
+#, fuzzy
+msgid "All Templates"
+msgstr "قالب‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "New Templates"
+msgstr "قالب‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Needs Update"
+msgstr "بروزرسانی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Select All"
+msgstr "تاریخ را انتخاب کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Delete Selected"
+msgstr "به‌روزرسانی موارد انتخاب‌شده"
+
+#: TypeScript files
+#, fuzzy
+msgid "Delete Template"
+msgstr "حذف قالب"
+
+#: TypeScript files
+#, fuzzy
+msgid "Are you sure you want to delete %d templates?"
+msgstr "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
+
+#: TypeScript files
+#, fuzzy
+msgid "with counts"
+msgstr "نمایش تعداد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Top Rated Content"
+msgstr "۱۰ نوشته برتر با بیشترین امتیاز"
+
+#: TypeScript files
+#, fuzzy
+msgid "Any Post Type"
+msgstr "نوع نوشته"
+
+#: TypeScript files
+#, fuzzy
+msgid "Query Settings"
+msgstr "ذخیره تنظیمات"
+
+#: TypeScript files
+#, fuzzy
+msgid "Comments"
+msgstr "دیدگاه"
+
+#: TypeScript files
+#, fuzzy
+msgid "Rating Category"
+msgstr "دسته‌بندی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Any Category"
+msgstr "دسته‌بندی"
+
+#: TypeScript files
+#, fuzzy
+msgid "Bipolar (Like/Dislike)"
+msgstr "دوقطبی (لایک و دیسلایک)"
+
+#: TypeScript files
+#, fuzzy
+msgid "Positive Count"
+msgstr "موقعیت"
+
+#: TypeScript files
+#, fuzzy
+msgid "Minimum Ratings"
+msgstr "حداقل مقدار امتیاز"
+
+#: TypeScript files
+#, fuzzy
+msgid "Time Range"
+msgstr "بازه دلخواه"
+
+#: TypeScript files
+#, fuzzy
+msgid "Custom (use template)"
+msgstr "یک قالب انتخاب کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Show Excerpt"
+msgstr "نمایش تعداد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Show Rating"
+msgstr "درحال نمایش"
+
+#: TypeScript files
+#, fuzzy
+msgid "Show Rating Count"
+msgstr "نمایش تعداد"
+
+#: TypeScript files
+#, fuzzy
+msgid "Type:"
+msgstr "نوع"
+
+#: TypeScript files
+#, fuzzy
+msgid "Time Range:"
+msgstr "بازه دلخواه"
+
+#: TypeScript files
+#, fuzzy
+msgid "Min Ratings:"
+msgstr "امتیازدهی دیدگاه‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "User Ratings List"
+msgstr "ابزارک امتیازدهی"
+
+#: TypeScript files
+#, fuzzy
+msgid "ratings"
+msgstr "امتیاز"
+
+#: TypeScript files
+#, fuzzy
+msgid "User ID"
+msgstr "کاربر"
+
+#: TypeScript files
+#, fuzzy
+msgid "Value Filter"
+msgstr "بازنشانی فیلتر‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Positive Only"
+msgstr "موقعیت"
+
+#: TypeScript files
+#, fuzzy
+msgid "Negative Only"
+msgstr "تعداد منفی‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Date Rated"
+msgstr "قبلاً امتیاز داده‌اید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Rating Value"
+msgstr "حداقل مقدار امتیاز"
+
+#: TypeScript files
+#, fuzzy
+msgid "Show Date"
+msgstr "تاریخ شروع"
+
+#: TypeScript files
+#, fuzzy
+msgid "User:"
+msgstr "کاربر"
+
+#: TypeScript files
+#, fuzzy
+msgid "Current User"
+msgstr "شناسه شیء فعلی:"
+
+#: TypeScript files
+#, fuzzy
+msgid "Filter:"
+msgstr "بازنشانی فیلتر‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Positive ratings"
+msgstr "کل امتیازها"
+
+#: TypeScript files
+#, fuzzy
+msgid "Negative ratings"
+msgstr "تعداد منفی‌ها"
+
+#: TypeScript files
+#, fuzzy
+msgid "All ratings"
+msgstr "%d امتیاز"
 
 #~ msgid "Loading chunk..."
 #~ msgstr "در حال بارگذاری..."

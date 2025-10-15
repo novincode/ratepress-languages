@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2025-10-15T15:53:25.713Z",
+    "translation-revision-date": "2025-10-15T21:37:41.032Z",
     "generator": "RatePress JSON Generator",
     "source": "languages/fa_IR/ratepress-fa_IR.po",
     "domain": "ratepress",
@@ -1173,6 +1173,369 @@
             ],
             "This block will display the rated items on the frontend. Configure settings in the sidebar.": [
                 "این بلوک موارد امتیازدهی‌شده را در بخش کاربری نمایش می‌دهد. تنظیمات را در نوار کناری پیکربندی کنید."
+            ],
+            "No ratings yet.": [
+                "هنوز علاقه‌مندی‌ای وجود ندارد."
+            ],
+            "No rating statistics available.": [
+                "داده‌ای در دسترس نیست"
+            ],
+            "Posts Rated": [
+                "عنوان نوشته"
+            ],
+            "Comments Rated": [
+                "امتیازدهی دیدگاه‌ها"
+            ],
+            "Rating Breakdown": [
+                "روند امتیازدهی"
+            ],
+            "Notifications": [
+                "عملیات"
+            ],
+            "Configure notification messages and appearance": [
+                "اقدامات ضد اسپم و محدودیت امتیازدهی را پیکربندی کنید"
+            ],
+            "Loading details...": [
+                "در حال بارگذاری داده‌ها..."
+            ],
+            "Failed to load details": [
+                "بارگذاری قالب‌ها ناموفق بود"
+            ],
+            "User Analytics": [
+                "آمار و تحلیل"
+            ],
+            "Go back to Analytics": [
+                "آمار و تحلیل"
+            ],
+            "Rating History": [
+                "ابزارک امتیازدهی"
+            ],
+            "Download All as CSV": [
+                "دانلود به صورت CSV"
+            ],
+            "No ratings found": [
+                "نوشته امتیازدهی‌شده‌ای یافت نشد"
+            ],
+            "Post Analytics": [
+                "آمار و تحلیل"
+            ],
+            "Post Type:": [
+                "نوع نوشته"
+            ],
+            "All Ratings": [
+                "کل امتیازها"
+            ],
+            "All Post Types": [
+                "نوع نوشته"
+            ],
+            "Posts": [
+                "نوشته"
+            ],
+            "First Rating": [
+                "امتیاز"
+            ],
+            "Select post type": [
+                "تاریخ شروع را انتخاب کنید"
+            ],
+            "Loading chart...": [
+                "در حال بارگذاری داده‌ها..."
+            ],
+            "Configuration copied to clipboard!": [
+                "کپی در کلیپ‌بورد"
+            ],
+            "Failed to copy to clipboard": [
+                "کپی تنظیمات در کلیپ‌بورد ناموفق بود."
+            ],
+            "Configuration imported successfully!": [
+                "داده‌ها با موفقیت وارد شدند!"
+            ],
+            "Enable Particle Effects": [
+                "فعال‌سازی آمار"
+            ],
+            "Download JSON": [
+                "دانلود CSV"
+            ],
+            "Copy to Clipboard": [
+                "کپی در کلیپ‌بورد"
+            ],
+            "Preset": [
+                "بازنشانی"
+            ],
+            "Stars": [
+                "پنج ستاره"
+            ],
+            "Custom": [
+                "بازه دلخواه"
+            ],
+            "Cursor Position": [
+                "موقعیت"
+            ],
+            "Advanced Settings": [
+                "ذخیره تنظیمات"
+            ],
+            "Particle Settings": [
+                "تنظیمات امتیازدهی"
+            ],
+            "Particle Count": [
+                "تعداد منفی‌ها"
+            ],
+            "Scalar (size)": [
+                "مقیاس (ستاره)"
+            ],
+            "Settings reset successfully! Reloading...": [
+                "تنظیمات با موفقیت ذخیره شد!"
+            ],
+            "Settings exported successfully!": [
+                "تنظیمات با موفقیت ذخیره شد!"
+            ],
+            "Failed to export settings.": [
+                "بازنشانی تنظیمات ناموفق بود."
+            ],
+            "Settings copied to clipboard!": [
+                "کپی در کلیپ‌بورد"
+            ],
+            "Settings imported successfully! Reloading...": [
+                "تنظیمات با موفقیت ذخیره شد!"
+            ],
+            "Export, import, and manage your RatePress data and settings": [
+                "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+            ],
+            "Panel Settings": [
+                "ذخیره تنظیمات"
+            ],
+            "Export Settings": [
+                "صادر کردن تنظیمات فعلی"
+            ],
+            "Download Settings": [
+                "دانلود CSV"
+            ],
+            "Import Settings": [
+                "تنظیمات"
+            ],
+            "Upload Settings": [
+                "ذخیره تنظیمات"
+            ],
+            "Reset Settings": [
+                "بازنشانی همه تنظیمات"
+            ],
+            "Reset All Settings to Defaults": [
+                "بازنشانی همه تنظیمات"
+            ],
+            "Export Database Data": [
+                "صادرات همه داده‌ها"
+            ],
+            "Exporting...": [
+                "در حال بروزرسانی..."
+            ],
+            "Export Ratings": [
+                "کل امتیازها"
+            ],
+            "Export Analytics": [
+                "آمار و تحلیل"
+            ],
+            "Import Database Data": [
+                "وارد کردن داده‌ها"
+            ],
+            "Importing...": [
+                "در حال بروزرسانی..."
+            ],
+            "Import SQL Data": [
+                "وارد کردن داده‌ها"
+            ],
+            "Cleaning...": [
+                "در حال حذف..."
+            ],
+            "Clean Ratings": [
+                "امتیازدهی دیدگاه‌ها"
+            ],
+            "Clean Analytics": [
+                "فعال‌سازی آمار"
+            ],
+            "Current Position:": [
+                "موقعیت"
+            ],
+            "Preview": [
+                "پیش‌نمایشی وجود ندارد"
+            ],
+            "Invalid Rating": [
+                "کل امتیازها"
+            ],
+            "Enable Notifications": [
+                "فعال‌سازی امتیازدهی دیدگاه‌ها"
+            ],
+            "Messages": [
+                "متن پیام"
+            ],
+            "Display Settings": [
+                "ذخیره تنظیمات"
+            ],
+            "Toast Position": [
+                "موقعیت"
+            ],
+            "Show Close Button": [
+                "نمایش تعداد"
+            ],
+            "HTML Template": [
+                "قالب"
+            ],
+            "Toast HTML Template": [
+                "یک قالب انتخاب کنید"
+            ],
+            "Template Guide:": [
+                "قالب"
+            ],
+            "Custom CSS": [
+                "بازه دلخواه"
+            ],
+            "Include Ratings in Open Graph": [
+                "درج امتیازها در توضیحات متا"
+            ],
+            "Include Ratings in Twitter Cards": [
+                "درج امتیازها در توضیحات متا"
+            ],
+            "Templates deleted successfully!": [
+                "قالب با موفقیت حذف شد!"
+            ],
+            "Failed to delete templates": [
+                "بروزرسانی قالب ناموفق بود"
+            ],
+            "Selected templates updated successfully!": [
+                "قالب با موفقیت بروزرسانی شد!"
+            ],
+            "Failed to update some templates": [
+                "بروزرسانی قالب ناموفق بود"
+            ],
+            "All templates updated successfully!": [
+                "قالب با موفقیت بروزرسانی شد!"
+            ],
+            "Binary (Like only)": [
+                "دوتایی (لایک)"
+            ],
+            "Bipolar (Like + Dislike)": [
+                "دوقطبی (لایک و دیسلایک)"
+            ],
+            "Update All": [
+                "بروزرسانی"
+            ],
+            "All Templates": [
+                "قالب‌ها"
+            ],
+            "New Templates": [
+                "قالب‌ها"
+            ],
+            "Needs Update": [
+                "بروزرسانی"
+            ],
+            "Select All": [
+                "تاریخ را انتخاب کنید"
+            ],
+            "Delete Selected": [
+                "به‌روزرسانی موارد انتخاب‌شده"
+            ],
+            "Delete Template": [
+                "حذف قالب"
+            ],
+            "Are you sure you want to delete %d templates?": [
+                "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟"
+            ],
+            "with counts": [
+                "نمایش تعداد"
+            ],
+            "Top Rated Content": [
+                "۱۰ نوشته برتر با بیشترین امتیاز"
+            ],
+            "Any Post Type": [
+                "نوع نوشته"
+            ],
+            "Query Settings": [
+                "ذخیره تنظیمات"
+            ],
+            "Comments": [
+                "دیدگاه"
+            ],
+            "Rating Category": [
+                "دسته‌بندی"
+            ],
+            "Any Category": [
+                "دسته‌بندی"
+            ],
+            "Bipolar (Like/Dislike)": [
+                "دوقطبی (لایک و دیسلایک)"
+            ],
+            "Positive Count": [
+                "موقعیت"
+            ],
+            "Minimum Ratings": [
+                "حداقل مقدار امتیاز"
+            ],
+            "Time Range": [
+                "بازه دلخواه"
+            ],
+            "Custom (use template)": [
+                "یک قالب انتخاب کنید"
+            ],
+            "Show Excerpt": [
+                "نمایش تعداد"
+            ],
+            "Show Rating": [
+                "درحال نمایش"
+            ],
+            "Show Rating Count": [
+                "نمایش تعداد"
+            ],
+            "Type:": [
+                "نوع"
+            ],
+            "Time Range:": [
+                "بازه دلخواه"
+            ],
+            "Min Ratings:": [
+                "امتیازدهی دیدگاه‌ها"
+            ],
+            "User Ratings List": [
+                "ابزارک امتیازدهی"
+            ],
+            "ratings": [
+                "امتیاز"
+            ],
+            "User ID": [
+                "کاربر"
+            ],
+            "Value Filter": [
+                "بازنشانی فیلتر‌ها"
+            ],
+            "Positive Only": [
+                "موقعیت"
+            ],
+            "Negative Only": [
+                "تعداد منفی‌ها"
+            ],
+            "Date Rated": [
+                "قبلاً امتیاز داده‌اید"
+            ],
+            "Rating Value": [
+                "حداقل مقدار امتیاز"
+            ],
+            "Show Date": [
+                "تاریخ شروع"
+            ],
+            "User:": [
+                "کاربر"
+            ],
+            "Current User": [
+                "شناسه شیء فعلی:"
+            ],
+            "Filter:": [
+                "بازنشانی فیلتر‌ها"
+            ],
+            "Positive ratings": [
+                "کل امتیازها"
+            ],
+            "Negative ratings": [
+                "تعداد منفی‌ها"
+            ],
+            "All ratings": [
+                "%d امتیاز"
             ]
         }
     }

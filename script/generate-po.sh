@@ -60,27 +60,43 @@ if command -v msgattrib &> /dev/null; then
   
   TEMP_TRANSLATED="/tmp/translated_$$.po"
   TEMP_UNTRANSLATED="/tmp/untranslated_$$.po"
+  TEMP_FUZZY="/tmp/fuzzy_$$.po"
   TEMP_COMBINED="/tmp/combined_$$.po"
   
-  # Extract translated and untranslated strings (both include headers)
+  # Extract all three categories separately
+  # Translated entries (msgstr is not empty and not fuzzy)
   msgattrib --translated --no-fuzzy "$PO_FILE" > "$TEMP_TRANSLATED"
-  msgattrib --untranslated --no-fuzzy "$PO_FILE" > "$TEMP_UNTRANSLATED"
   
-  # Combine them - msgcat will merge properly and avoid duplicate headers
-  msgcat --use-first "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" -o "$TEMP_COMBINED"
+  # Fuzzy entries (marked with fuzzy flag)
+  msgattrib --only-fuzzy "$PO_FILE" > "$TEMP_FUZZY"
+  
+  # Untranslated entries (msgstr is empty)
+  msgattrib --untranslated "$PO_FILE" > "$TEMP_UNTRANSLATED"
+  
+  # Combine them in order: translated, fuzzy, untranslated
+  # msgcat will merge properly and avoid duplicate headers
+  if [ -s "$TEMP_FUZZY" ]; then
+    # If there are fuzzy entries, merge all three
+    msgcat --use-first "$TEMP_TRANSLATED" "$TEMP_FUZZY" "$TEMP_UNTRANSLATED" -o "$TEMP_COMBINED"
+  else
+    # No fuzzy entries, just merge translated and untranslated
+    msgcat --use-first "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" -o "$TEMP_COMBINED"
+  fi
   
   # Use msguniq to ensure no duplicates and proper formatting
   msguniq "$TEMP_COMBINED" --output="$PO_FILE"
   
-  rm "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" "$TEMP_COMBINED"
+  rm "$TEMP_TRANSLATED" "$TEMP_UNTRANSLATED" "$TEMP_FUZZY" "$TEMP_COMBINED"
   
   echo "✅ Reordered $PO_FILE: untranslated strings moved to end"
 fi
 
 # Add a comment section for untranslated strings at the bottom
 if command -v msgattrib &> /dev/null; then
-  UNTRANSLATED_COUNT=$(msgattrib --untranslated "$PO_FILE" | grep -c "^msgid " || echo "0")
-  if [ "$UNTRANSLATED_COUNT" -gt 1 ]; then  # More than just the header
+  UNTRANSLATED_COUNT=$(msgattrib --untranslated "$PO_FILE" 2>/dev/null | grep -c "^msgid " 2>/dev/null || echo "0")
+  # Remove any extra whitespace and ensure it's a valid integer
+  UNTRANSLATED_COUNT=$(echo "$UNTRANSLATED_COUNT" | tr -d ' \n\r')
+  if [ "$UNTRANSLATED_COUNT" -gt 1 ] 2>/dev/null; then  # More than just the header
     echo ""
     echo "📝 Found $((UNTRANSLATED_COUNT - 1)) untranslated strings"
     echo "   Use Poedit or search for empty msgstr \"\" to find them"
