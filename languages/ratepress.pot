@@ -7,19 +7,205 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-15T21:37:40+00:00\n"
+"POT-Creation-Date: 2025-10-26T18:08:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ratepress\n"
 
+#: core/includes/Admin/AdminPanel.php:51 core/includes/Admin/AdminPanel.php:52
+#: core/includes/Admin/AdminPanel.php:348
+#: core/includes/Blocks/BlockRenderer.php:161
+msgid "RatePress"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:61 core/includes/Admin/AdminPanel.php:356
+msgid "Dashboard"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:62 core/includes/Admin/AdminPanel.php:363
+msgid "Settings"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:63
+msgid "Display"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:64
+msgid "Templates"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:65 core/includes/Admin/AdminPanel.php:370
+msgid "Analytics"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:66
+msgid "Data"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:67
+msgid "Support"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:72
+msgid "License"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:168
+msgid "Rating submitted successfully!"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:172
+msgid "You have already rated this."
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:176
+msgid "Please log in to rate."
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:180
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:184
+msgid "You have reached the rate limit. Please try again later."
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:188
+msgid "Invalid rating value."
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:326
+msgid "Binary (Like Only)"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:327
+msgid "Bipolar (Like & Dislike)"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:328
+msgid "Scale (Stars, 1-10)"
+msgstr ""
+
+#. translators: %s: Post title
+#: core/includes/Admin/AdminPanel.php:391
+#, php-format
+msgid "Analytics for \"%s\""
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:398
+msgid "Clear Ratings"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:400
+msgid "Are you sure you want to clear all ratings for this post?"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:406
+msgid "Clear Analytics"
+msgstr ""
+
+#: core/includes/Admin/AdminPanel.php:408
+msgid "Are you sure you want to clear analytics for this post?"
+msgstr ""
+
+#. translators: %s: User name
+#: core/includes/Admin/AdminPanel.php:431
+#, php-format
+msgid "Analytics for %s"
+msgstr ""
+
+#: core/includes/Blocks/BlockRenderer.php:256
+msgid "Please log in to view your ratings."
+msgstr ""
+
+#: core/includes/Blocks/BlockRenderer.php:291
+msgid "No ratings found."
+msgstr ""
+
+#: core/includes/Blocks/BlockRenderer.php:371
+msgid "No rated content found."
+msgstr ""
+
+#: core/includes/Blocks/BlockRenderer.php:478
+msgid "View Comment"
+msgstr ""
+
+#: core/includes/DB/RatingModel.php:315
+msgid "You must be logged in to rate this content."
+msgstr ""
+
+#: core/includes/DB/RatingQuery.php:603
+msgid "Unknown"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:259
+msgid "Invalid license key"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:260
+msgid "License has expired"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:261
+msgid "License is inactive"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:262
+msgid "License is registered for a different domain"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:263
+msgid "License server is temporarily unavailable"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:264
+msgid "Unable to connect to license server"
+msgstr ""
+
+#: core/includes/Licensing/BaseLicenseProvider.php:267
+msgid "Unknown license error"
+msgstr ""
+
+#: core/includes/REST/Endpoints/DataAPI.php:65
+msgid "Data export is disabled in demo mode"
+msgstr ""
+
+#: core/includes/REST/Endpoints/DataAPI.php:87
+msgid "Data import is disabled in demo mode"
+msgstr ""
+
+#: core/includes/REST/Endpoints/DataAPI.php:93
+msgid "No data provided"
+msgstr ""
+
+#: core/includes/REST/Endpoints/DataAPI.php:110
+msgid "Data cleanup is disabled in demo mode"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:73
+msgid "No settings provided"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:86
+msgid "Settings saved successfully"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:101
+msgid "Settings reset to defaults"
+msgstr ""
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:113
+msgid "Invalid cooldown value"
+msgstr ""
+
 #: core/includes/Shortcodes/Shortcodes.php:68
-#: core/includes/Utils/GlobalHelpers.php:235
+#: core/includes/Utils/GlobalHelpers.php:251
 msgid "No favorites yet."
 msgstr ""
 
 #: core/includes/Shortcodes/Shortcodes.php:176
-#: core/includes/Shortcodes/Shortcodes.php:434
-#: core/includes/Utils/GlobalHelpers.php:276
+#: core/includes/Shortcodes/Shortcodes.php:437
+#: core/includes/Utils/GlobalHelpers.php:292
 msgid "No ratings yet."
 msgstr ""
 
@@ -43,36 +229,315 @@ msgstr ""
 msgid "Rating Breakdown"
 msgstr ""
 
-#: core/includes/Shortcodes/Shortcodes.php:334
+#. translators: %s: Time since last activity
+#: core/includes/Shortcodes/Shortcodes.php:336
 #, php-format
 msgid "Last activity: %s"
 msgstr ""
 
-#: core/includes/Shortcodes/Shortcodes.php:369
+#: core/includes/Shortcodes/Shortcodes.php:371
 msgid "No one has liked this yet."
 msgstr ""
 
-#: core/includes/Shortcodes/Shortcodes.php:398
+#. translators: %d: Number of people who liked
+#: core/includes/Shortcodes/Shortcodes.php:401
 #, php-format
 msgid "%d person liked this"
 msgid_plural "%d people liked this"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/includes/Shortcodes/Shortcodes.php:464
+#. translators: %d: Number of ratings
+#: core/includes/Shortcodes/Shortcodes.php:468
 #, php-format
 msgid "%d rating"
 msgid_plural "%d ratings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/includes/Utils/GlobalHelpers.php:329
+#. translators: %d: Number of people who liked
+#: core/includes/Utils/GlobalHelpers.php:346
 #, php-format
 msgid "%d people liked this"
 msgstr ""
 
-#: TypeScript files
-msgid "Dashboard"
+#: core/includes/Utils/LanguageLoader.php:317
+msgid "RatePress Translation Available"
+msgstr ""
+
+#. translators: %s: Language name
+#: core/includes/Utils/LanguageLoader.php:322
+#, php-format
+msgid "RatePress is available in %s! Click here to download the translation."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:329
+#: core/includes/Utils/LanguageLoader.php:352
+msgid "Download Translation"
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:337
+msgid "Downloading..."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:347
+msgid "Translation downloaded! Refreshing page..."
+msgstr ""
+
+#: core/includes/Utils/LanguageLoader.php:350
+msgid "Failed to download translation"
+msgstr ""
+
+#: core/includes/Utils/SEOHelpers.php:382
+msgid "Rating"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:40
+msgid "Security check failed. Please refresh and try again."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:47
+msgid "You do not have permission to activate licenses."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:57
+msgid "License key is required."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:66
+msgid "Licensing is not configured for this build."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:78
+#: pro/includes/Licensing/LicenseForm.php:442
+msgid "License activated successfully!"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseAjax.php:83
+msgid "Failed to activate license."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:64
+msgid "RatePress Pro - License Activation"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:68
+#, php-format
+msgid ""
+"Activate your RatePress Pro license from %s to unlock all premium features."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:81
+msgid "License Key"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:108
+msgid "Email Address"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:116
+msgid "you@example.com"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:120
+msgid "Email address associated with your license"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:134
+msgid "Activate License"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:143
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:145
+msgid "Where do I get my license key?"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:149
+#, php-format
+msgid ""
+"Your license key was sent to your email when you purchased RatePress Pro on "
+"%s. Check your email or log into your %s account."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:156
+msgid "What can I do with pro features?"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:158
+msgid ""
+"RatePress Pro includes advanced analytics, custom templates, team "
+"management, and more. Unlock all premium features by activating your license."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:161
+msgid "Is my license key secure?"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:163
+msgid ""
+"Yes. License keys are validated securely with the provider and stored "
+"encrypted in WordPress. We never share your information."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:166
+msgid "Need help?"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:171
+#, php-format
+msgid "Visit %s for support or check your license status."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:424
+msgid "Activating..."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:445
+msgid "Failed to activate license"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:448
+msgid "Error activating license"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:502
+#: pro/includes/Licensing/LicenseForm.php:510
+#, php-format
+msgid ""
+"Your license key was provided when you purchased from %s. Check your email "
+"or account dashboard."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:506
+#, php-format
+msgid ""
+"Your license key was provided when you purchased from %s. Check your email "
+"or purchase history."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:513
+msgid "Enter your license key provided by RatePress."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:516
+msgid "Enter your license key."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:529
+msgid ""
+"Envato marketplace for digital products including CodeCanyon and ThemeForest."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:533
+msgid ""
+"Gumroad platform for independent creators selling digital products and "
+"software."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:537
+msgid ""
+"Zhaket, the leading Iranian digital marketplace for digital products and "
+"services."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseForm.php:541
+msgid ""
+"Custom license server with full control over licensing and distribution."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:108
+#: pro/includes/Licensing/LicenseManager.php:139
+msgid "Licensing is not available in this build"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:252
+msgid "RatePress Pro - License Required"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:253
+msgid "To unlock all premium features, please enter your license key."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:255
+msgid "Enter License"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:270
+msgid "RatePress Pro - License Invalid"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseManager.php:274
+#, php-format
+msgid ""
+"Your license key is invalid or has expired. <a href=\"%s\">Check license "
+"status</a> or <a href=\"%s\">get support</a>."
+msgstr ""
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:115
+msgid "CodeCanyon, ThemeForest, and other Envato marketplaces"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:120
+msgid "Gumroad digital products and licenses"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:125
+msgid "Iranian digital marketplace"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:129
+msgid "Custom Server"
+msgstr ""
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:130
+msgid "Your own custom license validation server"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:94
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:106
+#: pro/includes/Licensing/Providers/GumroadProvider.php:100
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:98
+msgid "License verified (offline mode - grace period)"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:122
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:139
+#: pro/includes/Licensing/Providers/GumroadProvider.php:139
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:126
+msgid "License is valid and active"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:173
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:190
+#: pro/includes/Licensing/Providers/GumroadProvider.php:190
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:177
+msgid "License activated successfully"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:209
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:223
+#: pro/includes/Licensing/Providers/GumroadProvider.php:223
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:210
+msgid "License deactivated successfully"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:127
+msgid "This license is for a different product"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/GumroadProvider.php:120
+msgid "License key is invalid or has been revoked"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/GumroadProvider.php:131
+msgid "License has reached maximum activations"
+msgstr ""
+
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:118
+msgid "This license is invalid or for a different product"
 msgstr ""
 
 #: TypeScript files
@@ -80,15 +545,7 @@ msgid "Monitor your rating system performance and user engagement"
 msgstr ""
 
 #: TypeScript files
-msgid "Settings"
-msgstr ""
-
-#: TypeScript files
 msgid "Configure general settings and anti-spam options"
-msgstr ""
-
-#: TypeScript files
-msgid "Display"
 msgstr ""
 
 #: TypeScript files
@@ -104,15 +561,7 @@ msgid "Configure notification messages and appearance"
 msgstr ""
 
 #: TypeScript files
-msgid "Templates"
-msgstr ""
-
-#: TypeScript files
 msgid "Browse, install, and manage rating templates"
-msgstr ""
-
-#: TypeScript files
-msgid "Analytics"
 msgstr ""
 
 #: TypeScript files
@@ -120,15 +569,7 @@ msgid "Track your rating performance and user engagement"
 msgstr ""
 
 #: TypeScript files
-msgid "Data"
-msgstr ""
-
-#: TypeScript files
 msgid "Import, export, and manage your rating data"
-msgstr ""
-
-#: TypeScript files
-msgid "Support"
 msgstr ""
 
 #: TypeScript files
@@ -181,10 +622,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Content"
-msgstr ""
-
-#: TypeScript files
-msgid "Rating"
 msgstr ""
 
 #: TypeScript files
@@ -265,14 +702,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "All Ratings"
-msgstr ""
-
-#: TypeScript files
-msgid "Pro Feature"
-msgstr ""
-
-#: TypeScript files
-msgid "Upgrade to Pro to access detailed analytics and reporting features."
 msgstr ""
 
 #: TypeScript files
@@ -464,6 +893,14 @@ msgstr ""
 
 #: TypeScript files
 msgid "Confirm"
+msgstr ""
+
+#: TypeScript files
+msgid "Pro Feature"
+msgstr ""
+
+#: TypeScript files
+msgid "Upgrade to Pro"
 msgstr ""
 
 #: TypeScript files
@@ -803,23 +1240,55 @@ msgid "No templates available for this category"
 msgstr ""
 
 #: TypeScript files
-msgid "Enable Analytics"
+msgid "Better Analytics"
 msgstr ""
 
 #: TypeScript files
-msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
+msgid "Advanced insights and detailed reporting"
 msgstr ""
 
 #: TypeScript files
-msgid "Cleanup Analytics (Months)"
+msgid "Better SEO"
 msgstr ""
 
 #: TypeScript files
-msgid "0 = disabled. Deletes old analytics data to save space."
+msgid "Enhanced search engine optimization"
 msgstr ""
 
 #: TypeScript files
-msgid "Analytics dashboard coming soon."
+msgid "Powerful Effects"
+msgstr ""
+
+#: TypeScript files
+msgid "Confetti and animation features"
+msgstr ""
+
+#: TypeScript files
+msgid "Lifetime Access"
+msgstr ""
+
+#: TypeScript files
+msgid "No limits, no recurring fees"
+msgstr ""
+
+#: TypeScript files
+msgid "Close"
+msgstr ""
+
+#: TypeScript files
+msgid "Unlock More Power!"
+msgstr ""
+
+#: TypeScript files
+msgid "Get full access to all premium features"
+msgstr ""
+
+#: TypeScript files
+msgid "View Documentation"
+msgstr ""
+
+#: TypeScript files
+msgid "Upgrade today and get lifetime access to all premium features"
 msgstr ""
 
 #: TypeScript files
@@ -925,6 +1394,10 @@ msgid ""
 msgstr ""
 
 #: TypeScript files
+msgid "This Week"
+msgstr ""
+
+#: TypeScript files
 msgid "This Month"
 msgstr ""
 
@@ -1023,6 +1496,23 @@ msgid "Export, import, and manage your RatePress data and settings"
 msgstr ""
 
 #: TypeScript files
+msgid "Data Retention & Uninstall"
+msgstr ""
+
+#: TypeScript files
+msgid "Preserve data on uninstall"
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Your ratings, analytics, and settings will be safely kept when you uninstall."
+msgstr ""
+
+#: TypeScript files
+msgid "⚠️ All plugin data will be permanently deleted when you uninstall."
+msgstr ""
+
+#: TypeScript files
 msgid "Panel Settings"
 msgstr ""
 
@@ -1081,6 +1571,14 @@ msgid ""
 msgstr ""
 
 #: TypeScript files
+msgid "Demo Mode:"
+msgstr ""
+
+#: TypeScript files
+msgid "Data export is disabled in demo mode to protect the showcase."
+msgstr ""
+
+#: TypeScript files
 msgid "Exporting..."
 msgstr ""
 
@@ -1111,6 +1609,10 @@ msgid "Import RatePress data from SQL export files."
 msgstr ""
 
 #: TypeScript files
+msgid "Data import is disabled in demo mode to protect the showcase."
+msgstr ""
+
+#: TypeScript files
 msgid "Importing..."
 msgstr ""
 
@@ -1126,6 +1628,10 @@ msgstr ""
 
 #: TypeScript files
 msgid "Clean Data"
+msgstr ""
+
+#: TypeScript files
+msgid "Data cleanup is disabled in demo mode to protect the showcase."
 msgstr ""
 
 #: TypeScript files
@@ -1192,10 +1698,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Binary (Like)"
-msgstr ""
-
-#: TypeScript files
-msgid "Bipolar (Like & Dislike)"
 msgstr ""
 
 #: TypeScript files
@@ -1573,11 +2075,22 @@ msgid ""
 msgstr ""
 
 #: TypeScript files
-msgid "Documentation and support resources"
+msgid "Get Help & Support"
 msgstr ""
 
 #: TypeScript files
-msgid "Documentation and support resources coming soon."
+msgid ""
+"Need help with RatePress? Get support, report bugs, or request features."
+msgstr ""
+
+#: TypeScript files
+msgid ""
+"Visit our support center for documentation, tutorials, and direct assistance "
+"from our team."
+msgstr ""
+
+#: TypeScript files
+msgid "Go to Support Center"
 msgstr ""
 
 #: TypeScript files
@@ -1720,10 +2233,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Are you sure you want to delete %d templates?"
-msgstr ""
-
-#: TypeScript files
-msgid "RatePress"
 msgstr ""
 
 #: TypeScript files
@@ -1880,10 +2389,6 @@ msgstr ""
 
 #: TypeScript files
 msgid "Time Range"
-msgstr ""
-
-#: TypeScript files
-msgid "This Week"
 msgstr ""
 
 #: TypeScript files

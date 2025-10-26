@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15T21:37:40+00:00\n"
+"POT-Creation-Date: 2025-10-26T18:08:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Persian <LL@li.org>\n"
@@ -14,8 +14,78 @@ msgstr ""
 "X-Domain: ratepress\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 
+#: core/includes/Admin/AdminPanel.php:51 core/includes/Admin/AdminPanel.php:52
+#: core/includes/Admin/AdminPanel.php:348
+#: core/includes/Blocks/BlockRenderer.php:161
+msgid "RatePress"
+msgstr "ریت‌پرس"
+
+#: core/includes/Admin/AdminPanel.php:61 core/includes/Admin/AdminPanel.php:356
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: core/includes/Admin/AdminPanel.php:62 core/includes/Admin/AdminPanel.php:363
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: core/includes/Admin/AdminPanel.php:63
+msgid "Display"
+msgstr "نمایش"
+
+#: core/includes/Admin/AdminPanel.php:64
+msgid "Templates"
+msgstr "قالب‌ها"
+
+#: core/includes/Admin/AdminPanel.php:65 core/includes/Admin/AdminPanel.php:370
+msgid "Analytics"
+msgstr "آمار و تحلیل"
+
+#: core/includes/Admin/AdminPanel.php:66
+msgid "Data"
+msgstr "داده‌ها"
+
+#: core/includes/Admin/AdminPanel.php:67
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: core/includes/Admin/AdminPanel.php:327
+msgid "Bipolar (Like & Dislike)"
+msgstr "دوقطبی (لایک و دیسلایک)"
+
+#: core/includes/Admin/AdminPanel.php:328
+msgid "Scale (Stars, 1-10)"
+msgstr "مقیاس (ستاره، ۱-۱۰)"
+
+#: core/includes/DB/RatingModel.php:315
+msgid "You must be logged in to rate this content."
+msgstr "برای امتیازدهی به این محتوا باید وارد شوید."
+
+#: core/includes/DB/RatingQuery.php:603
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: core/includes/REST/Endpoints/DataAPI.php:93
+msgid "No data provided"
+msgstr "داده‌ای ارائه نشده است"
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:73
+msgid "No settings provided"
+msgstr "تنظیماتی ارائه نشده است"
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:86
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:101
+msgid "Settings reset to defaults"
+msgstr "تنظیمات به حالت پیش‌فرض بازگشت"
+
+#: core/includes/REST/Endpoints/SettingsAPI.php:113
+msgid "Invalid cooldown value"
+msgstr "مقدار زمان انتظار نامعتبر است"
+
 #: core/includes/Shortcodes/Shortcodes.php:68
-#: core/includes/Utils/GlobalHelpers.php:235
+#: core/includes/Utils/GlobalHelpers.php:251
 msgid "No favorites yet."
 msgstr "هنوز علاقه‌مندی‌ای وجود ندارد."
 
@@ -23,78 +93,71 @@ msgstr "هنوز علاقه‌مندی‌ای وجود ندارد."
 msgid "Total Ratings"
 msgstr "کل امتیازها"
 
-#: core/includes/Shortcodes/Shortcodes.php:334
+#. translators: %s: Time since last activity
+#: core/includes/Shortcodes/Shortcodes.php:336
 #, php-format
 msgid "Last activity: %s"
 msgstr "آخرین فعالیت: %s"
 
-#: core/includes/Shortcodes/Shortcodes.php:369
+#: core/includes/Shortcodes/Shortcodes.php:371
 msgid "No one has liked this yet."
 msgstr "هنوز کسی این را لایک نکرده است."
 
-#: core/includes/Shortcodes/Shortcodes.php:464
+#. translators: %d: Number of ratings
+#: core/includes/Shortcodes/Shortcodes.php:468
 #, php-format
 msgid "%d rating"
 msgid_plural "%d ratings"
 msgstr[0] "%d امتیاز"
 msgstr[1] "%d امتیاز"
 
-#: core/includes/Utils/GlobalHelpers.php:329
+#. translators: %d: Number of people who liked
+#: core/includes/Utils/GlobalHelpers.php:346
 #, php-format
 msgid "%d people liked this"
 msgstr "%d نفر این را لایک کرده‌اند"
 
-#: TypeScript files
-msgid "Dashboard"
-msgstr "داشبورد"
+#: core/includes/Utils/LanguageLoader.php:317
+msgid "RatePress Translation Available"
+msgstr "ترجمه برای ریت‌پرس در دسترس است"
+
+#. translators: %s: Language name
+#: core/includes/Utils/LanguageLoader.php:322
+#, php-format
+msgid "RatePress is available in %s! Click here to download the translation."
+msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
+
+#: core/includes/Utils/LanguageLoader.php:347
+msgid "Translation downloaded! Refreshing page..."
+msgstr "ترجمه دانلود شد! ریفرش صفحه ..."
+
+#: core/includes/Utils/SEOHelpers.php:382
+msgid "Rating"
+msgstr "امتیاز"
 
 #: TypeScript files
 msgid "Monitor your rating system performance and user engagement"
 msgstr "عملکرد سیستم امتیازدهی و تعامل کاربران را رصد کنید"
 
 #: TypeScript files
-msgid "Settings"
-msgstr "تنظیمات"
-
-#: TypeScript files
 msgid "Configure general settings and anti-spam options"
 msgstr "تنظیمات کلی و گزینه‌های ضد اسپم را پیکربندی کنید"
-
-#: TypeScript files
-msgid "Display"
-msgstr "نمایش"
 
 #: TypeScript files
 msgid "Configure how ratings appear on posts and comments"
 msgstr "نحوه نمایش امتیازها در نوشته‌ها و دیدگاه‌ها را تنظیم کنید"
 
 #: TypeScript files
-msgid "Templates"
-msgstr "قالب‌ها"
-
-#: TypeScript files
 msgid "Browse, install, and manage rating templates"
 msgstr "قالب‌های امتیازدهی را مرور، نصب و مدیریت کنید"
-
-#: TypeScript files
-msgid "Analytics"
-msgstr "آمار و تحلیل"
 
 #: TypeScript files
 msgid "Track your rating performance and user engagement"
 msgstr "عملکرد امتیازدهی و تعامل کاربران را پیگیری کنید"
 
 #: TypeScript files
-msgid "Data"
-msgstr "داده‌ها"
-
-#: TypeScript files
 msgid "Import, export, and manage your rating data"
 msgstr "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
-
-#: TypeScript files
-msgid "Support"
-msgstr "پشتیبانی"
 
 #: TypeScript files
 msgid "Get help and support"
@@ -139,10 +202,6 @@ msgstr "بازگشت"
 #: TypeScript files
 msgid "Content"
 msgstr "محتوا"
-
-#: TypeScript files
-msgid "Rating"
-msgstr "امتیاز"
 
 #: TypeScript files
 msgid "Type"
@@ -191,16 +250,6 @@ msgstr "میانگین دوقطبی"
 #: TypeScript files
 msgid "Scale Avg"
 msgstr "میانگین مقیاس"
-
-#: TypeScript files
-msgid "Pro Feature"
-msgstr "امکانات حرفه‌ای"
-
-#: TypeScript files
-msgid "Upgrade to Pro to access detailed analytics and reporting features."
-msgstr ""
-"برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید.برای "
-"دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
 
 #: TypeScript files
 msgid "Loading analytics data..."
@@ -377,6 +426,10 @@ msgid "Confirm"
 msgstr "تایید"
 
 #: TypeScript files
+msgid "Pro Feature"
+msgstr "امکانات حرفه‌ای"
+
+#: TypeScript files
 msgid "Select date"
 msgstr "تاریخ را انتخاب کنید"
 
@@ -444,7 +497,7 @@ msgstr "نمایش انفجار کنفتی هنگام کلیک روی دکمه�
 
 #: TypeScript files
 msgid "Advanced Confetti Playground"
-msgstr "بازیگاه پیشرفته کنفتی"
+msgstr "زمین بازی پیشرفته کنفتی"
 
 #: TypeScript files
 msgid "Create & customize amazing effects with our visual editor"
@@ -452,7 +505,7 @@ msgstr "افکت‌های شگفت‌انگیز بسازید و شخصی‌سا�
 
 #: TypeScript files
 msgid "Open Playground"
-msgstr "باز کردن بازیگاه"
+msgstr "باز کردن زمین بازی"
 
 #: TypeScript files
 msgid "Import/Export"
@@ -464,7 +517,7 @@ msgstr "صادر کردن تنظیمات فعلی"
 
 #: TypeScript files
 msgid "Import from Playground"
-msgstr "وارد کردن از بازیگاه"
+msgstr "وارد کردن از زمین بازی"
 
 #: TypeScript files
 msgid "Upload JSON File"
@@ -659,29 +712,6 @@ msgid "No templates available for this category"
 msgstr "قالبی برای این دسته‌بندی موجود نیست"
 
 #: TypeScript files
-msgid "Enable Analytics"
-msgstr "فعال‌سازی آمار"
-
-#: TypeScript files
-msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
-msgstr ""
-"جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال "
-"کنید).جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را "
-"فعال کنید)."
-
-#: TypeScript files
-msgid "Cleanup Analytics (Months)"
-msgstr "پاکسازی آمار (ماه)"
-
-#: TypeScript files
-msgid "0 = disabled. Deletes old analytics data to save space."
-msgstr "۰ = غیرفعال. داده‌های آماری قدیمی را برای صرفه‌جویی در فضا حذف می‌کند."
-
-#: TypeScript files
-msgid "Analytics dashboard coming soon."
-msgstr "داشبورد آمار به‌زودی در دسترس خواهد بود."
-
-#: TypeScript files
 msgid "Anti-Spam"
 msgstr "ضد اسپم"
 
@@ -792,6 +822,10 @@ msgid ""
 msgstr ""
 "۰ = غیرفعال. هشدار: فقط امتیازهای دارای آدرس IP (داده‌های ضد اسپم) را حذف "
 "می‌کند؛ تاریخچه امتیازهای کاربران حفظ می‌شود!"
+
+#: TypeScript files
+msgid "This Week"
+msgstr "این هفته"
 
 #: TypeScript files
 msgid "This Month"
@@ -984,10 +1018,6 @@ msgstr "همه انواع"
 #: TypeScript files
 msgid "Binary (Like)"
 msgstr "دوتایی (لایک)"
-
-#: TypeScript files
-msgid "Bipolar (Like & Dislike)"
-msgstr "دوقطبی (لایک و دیسلایک)"
 
 #: TypeScript files
 msgid "Scale (Stars)"
@@ -1325,14 +1355,6 @@ msgid ""
 msgstr "۰ = نامحدود. امتیازدهی از یک IP را در بازه زمان انتظار محدود می‌کند."
 
 #: TypeScript files
-msgid "Documentation and support resources"
-msgstr "مستندات و منابع پشتیبانی"
-
-#: TypeScript files
-msgid "Documentation and support resources coming soon."
-msgstr "مستندات و منابع پشتیبانی به‌زودی در دسترس خواهند بود."
-
-#: TypeScript files
 msgid "Failed to load templates"
 msgstr "بارگذاری قالب‌ها ناموفق بود"
 
@@ -1415,10 +1437,6 @@ msgid ""
 msgstr ""
 "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی "
 "خواهد شد)"
-
-#: TypeScript files
-msgid "RatePress"
-msgstr "ریت‌پرس"
 
 #: TypeScript files
 msgid "Five Stars"
@@ -1531,10 +1549,6 @@ msgstr "امتیاز خالص (مثبت - منفی)"
 #: TypeScript files
 msgid "Minimum number of ratings required"
 msgstr "حداقل تعداد امتیازهای لازم"
-
-#: TypeScript files
-msgid "This Week"
-msgstr "این هفته"
 
 #: TypeScript files
 msgid "This Year"
@@ -1680,9 +1694,91 @@ msgstr ""
 "این بلوک موارد امتیازدهی‌شده را در بخش کاربری نمایش می‌دهد. تنظیمات را در نوار "
 "کناری پیکربندی کنید."
 
+#: core/includes/Admin/AdminPanel.php:168
+#, fuzzy
+msgid "Rating submitted successfully!"
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+#: core/includes/Admin/AdminPanel.php:172
+#, fuzzy
+msgid "You have already rated this."
+msgstr "هنگامی که کاربر قبلاً به این مورد امتیاز داده باشد نمایش داده می‌شود"
+
+#: core/includes/Admin/AdminPanel.php:176
+#, fuzzy
+msgid "Please log in to rate."
+msgstr "ورود اجباری برای امتیازدهی"
+
+#: core/includes/Admin/AdminPanel.php:180
+#, fuzzy
+msgid "An error occurred. Please try again."
+msgstr "صادرات ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: core/includes/Admin/AdminPanel.php:188
+#, fuzzy
+msgid "Invalid rating value."
+msgstr "کل امتیازها"
+
+#: core/includes/Admin/AdminPanel.php:326
+#, fuzzy
+msgid "Binary (Like Only)"
+msgstr "دوتایی (لایک)"
+
+#. translators: %s: Post title
+#: core/includes/Admin/AdminPanel.php:391
+#, fuzzy, php-format
+msgid "Analytics for \"%s\""
+msgstr "آمار و تحلیل"
+
+#: core/includes/Admin/AdminPanel.php:398
+#, fuzzy
+msgid "Clear Ratings"
+msgstr "امتیازدهی دیدگاه‌ها"
+
+#: core/includes/Admin/AdminPanel.php:400
+#, fuzzy
+msgid "Are you sure you want to clear all ratings for this post?"
+msgstr "آیا مطمئنید که می‌خواهید این داده‌ها را پاکسازی کنید؟"
+
+#: core/includes/Admin/AdminPanel.php:406
+#, fuzzy
+msgid "Clear Analytics"
+msgstr "فعال‌سازی آمار"
+
+#: core/includes/Admin/AdminPanel.php:408
+#, fuzzy
+msgid "Are you sure you want to clear analytics for this post?"
+msgstr "آیا مطمئنید که می‌خواهید این داده‌ها را پاکسازی کنید؟"
+
+#. translators: %s: User name
+#: core/includes/Admin/AdminPanel.php:431
+#, fuzzy, php-format
+msgid "Analytics for %s"
+msgstr "آمار و تحلیل"
+
+#: core/includes/Blocks/BlockRenderer.php:291
+#, fuzzy
+msgid "No ratings found."
+msgstr "نوشته امتیازدهی‌شده‌ای یافت نشد"
+
+#: core/includes/Blocks/BlockRenderer.php:371
+#, fuzzy
+msgid "No rated content found."
+msgstr "نوشته امتیازدهی‌شده‌ای یافت نشد"
+
+#: core/includes/Blocks/BlockRenderer.php:478
+#, fuzzy
+msgid "View Comment"
+msgstr "دیدگاه"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:259
+#, fuzzy
+msgid "Invalid license key"
+msgstr "کل امتیازها"
+
 #: core/includes/Shortcodes/Shortcodes.php:176
-#: core/includes/Shortcodes/Shortcodes.php:434
-#: core/includes/Utils/GlobalHelpers.php:276
+#: core/includes/Shortcodes/Shortcodes.php:437
+#: core/includes/Utils/GlobalHelpers.php:292
 #, fuzzy
 msgid "No ratings yet."
 msgstr "هنوز علاقه‌مندی‌ای وجود ندارد."
@@ -1707,12 +1803,86 @@ msgstr "امتیازدهی دیدگاه‌ها"
 msgid "Rating Breakdown"
 msgstr "روند امتیازدهی"
 
-#: core/includes/Shortcodes/Shortcodes.php:398
+#. translators: %d: Number of people who liked
+#: core/includes/Shortcodes/Shortcodes.php:401
 #, fuzzy, php-format
 msgid "%d person liked this"
 msgid_plural "%d people liked this"
 msgstr[0] "%d نفر این را لایک کرده‌اند"
 msgstr[1] "%d نفر این را لایک کرده‌اند"
+
+#: core/includes/Utils/LanguageLoader.php:329
+#: core/includes/Utils/LanguageLoader.php:352
+#, fuzzy
+msgid "Download Translation"
+msgstr "دانلود CSV"
+
+#: core/includes/Utils/LanguageLoader.php:337
+#, fuzzy
+msgid "Downloading..."
+msgstr "دانلود CSV"
+
+#: core/includes/Utils/LanguageLoader.php:350
+#, fuzzy
+msgid "Failed to download translation"
+msgstr "بارگذاری قالب‌ها ناموفق بود"
+
+#: pro/includes/Licensing/LicenseAjax.php:40
+#, fuzzy
+msgid "Security check failed. Please refresh and try again."
+msgstr "صادرات ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: pro/includes/Licensing/LicenseAjax.php:78
+#: pro/includes/Licensing/LicenseForm.php:442
+#, fuzzy
+msgid "License activated successfully!"
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+#: pro/includes/Licensing/LicenseAjax.php:83
+#, fuzzy
+msgid "Failed to activate license."
+msgstr "ذخیره تنظیمات واردشده ناموفق بود."
+
+#: pro/includes/Licensing/LicenseForm.php:108
+#, fuzzy
+msgid "Email Address"
+msgstr "آدرس IP"
+
+#: pro/includes/Licensing/LicenseForm.php:134
+#, fuzzy
+msgid "Activate License"
+msgstr "کاربران فعال"
+
+#: pro/includes/Licensing/LicenseForm.php:424
+#, fuzzy
+msgid "Activating..."
+msgstr "در حال بروزرسانی..."
+
+#: pro/includes/Licensing/LicenseForm.php:445
+#, fuzzy
+msgid "Failed to activate license"
+msgstr "بارگذاری قالب‌ها ناموفق بود"
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:129
+#, fuzzy
+msgid "Custom Server"
+msgstr "بازه دلخواه"
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:173
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:190
+#: pro/includes/Licensing/Providers/GumroadProvider.php:190
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:177
+#, fuzzy
+msgid "License activated successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:209
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:223
+#: pro/includes/Licensing/Providers/GumroadProvider.php:223
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:210
+#, fuzzy
+msgid "License deactivated successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
 
 #: TypeScript files
 #, fuzzy
@@ -1817,7 +1987,7 @@ msgstr "داده‌ها با موفقیت وارد شدند!"
 #: TypeScript files
 #, fuzzy
 msgid "Enable Particle Effects"
-msgstr "فعال‌سازی آمار"
+msgstr "فعال کردن افکت انفجاری"
 
 #: TypeScript files
 #, fuzzy
@@ -1871,6 +2041,11 @@ msgstr "مقیاس (ستاره)"
 
 #: TypeScript files
 #, fuzzy
+msgid "Better Analytics"
+msgstr "آمار و تحلیل"
+
+#: TypeScript files
+#, fuzzy
 msgid "Settings reset successfully! Reloading..."
 msgstr "تنظیمات با موفقیت ذخیره شد!"
 
@@ -1898,6 +2073,12 @@ msgstr "تنظیمات با موفقیت ذخیره شد!"
 #, fuzzy
 msgid "Export, import, and manage your RatePress data and settings"
 msgstr "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid ""
+"Your ratings, analytics, and settings will be safely kept when you uninstall."
+msgstr "صادرات همه امتیازها، آمار و تنظیمات."
 
 #: TypeScript files
 #, fuzzy
@@ -2053,6 +2234,16 @@ msgstr "درج امتیازها در توضیحات متا"
 #, fuzzy
 msgid "Include Ratings in Twitter Cards"
 msgstr "درج امتیازها در توضیحات متا"
+
+#: TypeScript files
+#, fuzzy
+msgid "Get Help & Support"
+msgstr "راهنمایی و پشتیبانی دریافت کنید"
+
+#: TypeScript files
+#, fuzzy
+msgid "Go to Support Center"
+msgstr "پایین وسط"
 
 #: TypeScript files
 #, fuzzy
@@ -2294,14 +2485,403 @@ msgstr "تعداد منفی‌ها"
 msgid "All ratings"
 msgstr "%d امتیاز"
 
+#: core/includes/Admin/AdminPanel.php:72
+msgid "License"
+msgstr "مجوز"
+
+#: core/includes/Admin/AdminPanel.php:184
+msgid "You have reached the rate limit. Please try again later."
+msgstr "به محدودیت نرخ رسیده‌اید. لطفاً بعداً دوباره امتحان کنید."
+
+#: core/includes/Blocks/BlockRenderer.php:256
+msgid "Please log in to view your ratings."
+msgstr "لطفاً برای مشاهده امتیازهای خود وارد شوید."
+
+#: core/includes/Licensing/BaseLicenseProvider.php:260
+msgid "License has expired"
+msgstr "مجوز منقضی شده است"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:261
+msgid "License is inactive"
+msgstr "مجوز غیرفعال است"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:262
+msgid "License is registered for a different domain"
+msgstr "مجوز برای دامنه دیگری ثبت شده است"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:263
+msgid "License server is temporarily unavailable"
+msgstr "سرور مجوز موقتاً در دسترس نیست"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:264
+msgid "Unable to connect to license server"
+msgstr "نمی‌توان به سرور مجوز متصل شد"
+
+#: core/includes/Licensing/BaseLicenseProvider.php:267
+msgid "Unknown license error"
+msgstr "خطای مجوز ناشناخته"
+
+#: core/includes/REST/Endpoints/DataAPI.php:65
+msgid "Data export is disabled in demo mode"
+msgstr "صادرات داده‌ها در حالت نمایشی غیرفعال است"
+
+#: core/includes/REST/Endpoints/DataAPI.php:87
+msgid "Data import is disabled in demo mode"
+msgstr "واردات داده‌ها در حالت نمایشی غیرفعال است"
+
+#: core/includes/REST/Endpoints/DataAPI.php:110
+msgid "Data cleanup is disabled in demo mode"
+msgstr "پاکسازی داده‌ها در حالت نمایشی غیرفعال است"
+
+#: pro/includes/Licensing/LicenseAjax.php:47
+msgid "You do not have permission to activate licenses."
+msgstr "شما اجازه فعال‌سازی مجوزها را ندارید."
+
+#: pro/includes/Licensing/LicenseAjax.php:57
+msgid "License key is required."
+msgstr "کلید مجوز مورد نیاز است."
+
+#: pro/includes/Licensing/LicenseAjax.php:66
+msgid "Licensing is not configured for this build."
+msgstr "مجوزدهی برای این ساخت تنظیم نشده است."
+
+#: pro/includes/Licensing/LicenseForm.php:64
+msgid "RatePress Pro - License Activation"
+msgstr "ریت‌پرس پرو - فعال‌سازی مجوز"
+
+#: pro/includes/Licensing/LicenseForm.php:68
+#, php-format
+msgid ""
+"Activate your RatePress Pro license from %s to unlock all premium features."
+msgstr ""
+"مجوز ریت‌پرس پرو خود را از %s فعال کنید تا همه ویژگی‌های حرفه‌ای را باز "
+"کنید."
+
+#: pro/includes/Licensing/LicenseForm.php:81
+msgid "License Key"
+msgstr "کلید مجوز"
+
+#: pro/includes/Licensing/LicenseForm.php:116
+msgid "you@example.com"
+msgstr "you@example.com"
+
+#: pro/includes/Licensing/LicenseForm.php:120
+msgid "Email address associated with your license"
+msgstr "آدرس ایمیل مرتبط با مجوز شما"
+
+#: pro/includes/Licensing/LicenseForm.php:143
+msgid "Frequently Asked Questions"
+msgstr "سوالات متداول"
+
+#: pro/includes/Licensing/LicenseForm.php:145
+msgid "Where do I get my license key?"
+msgstr "کلید مجوز خود را از کجا دریافت کنم؟"
+
+#: pro/includes/Licensing/LicenseForm.php:149
+#, php-format
+msgid ""
+"Your license key was sent to your email when you purchased RatePress Pro on "
+"%s. Check your email or log into your %s account."
+msgstr ""
+"کلید مجوز شما هنگام خرید ریت‌پرس پرو از %s به ایمیل شما ارسال شد. ایمیل "
+"خود را بررسی کنید یا وارد حساب %s خود شوید."
+
+#: pro/includes/Licensing/LicenseForm.php:156
+msgid "What can I do with pro features?"
+msgstr "با ویژگی‌های حرفه‌ای چه کاری می‌توانم انجام دهم؟"
+
+#: pro/includes/Licensing/LicenseForm.php:158
+msgid ""
+"RatePress Pro includes advanced analytics, custom templates, team "
+"management, and more. Unlock all premium features by activating your license."
+msgstr ""
+"ریت‌پرس پرو شامل آمار پیشرفته، قالب‌های سفارشی، مدیریت تیم و موارد دیگر "
+"است. با فعال‌سازی مجوز خود همه ویژگی‌های حرفه‌ای را باز کنید."
+
+#: pro/includes/Licensing/LicenseForm.php:161
+msgid "Is my license key secure?"
+msgstr "کلید مجوز من امن است؟"
+
+#: pro/includes/Licensing/LicenseForm.php:163
+msgid ""
+"Yes. License keys are validated securely with the provider and stored "
+"encrypted in WordPress. We never share your information."
+msgstr ""
+"بله. کلیدهای مجوز به صورت امن با ارائه‌دهنده تأیید می‌شوند و رمزگذاری شده "
+"در وردپرس ذخیره می‌شوند. ما هرگز اطلاعات شما را به اشتراک نمی‌گذاریم."
+
+#: pro/includes/Licensing/LicenseForm.php:166
+msgid "Need help?"
+msgstr "نیاز به کمک دارید؟"
+
+#: pro/includes/Licensing/LicenseForm.php:171
+#, php-format
+msgid "Visit %s for support or check your license status."
+msgstr "برای پشتیبانی از %s بازدید کنید یا وضعیت مجوز خود را بررسی کنید."
+
+#: pro/includes/Licensing/LicenseForm.php:448
+msgid "Error activating license"
+msgstr "خطا در فعال‌سازی مجوز"
+
+#: pro/includes/Licensing/LicenseForm.php:502
+#: pro/includes/Licensing/LicenseForm.php:510
+#, php-format
+msgid ""
+"Your license key was provided when you purchased from %s. Check your email "
+"or account dashboard."
+msgstr ""
+"کلید مجوز شما هنگام خرید از %s ارائه شد. ایمیل خود را بررسی کنید یا وارد "
+"داشبورد حساب خود شوید."
+
+#: pro/includes/Licensing/LicenseForm.php:506
+#, php-format
+msgid ""
+"Your license key was provided when you purchased from %s. Check your email "
+"or purchase history."
+msgstr ""
+"کلید مجوز شما هنگام خرید از %s ارائه شد. ایمیل خود را بررسی کنید یا "
+"تاریخچه خرید خود را ببینید."
+
+#: pro/includes/Licensing/LicenseForm.php:513
+msgid "Enter your license key provided by RatePress."
+msgstr "کلید مجوز ارائه شده توسط ریت‌پرس را وارد کنید."
+
+#: pro/includes/Licensing/LicenseForm.php:516
+msgid "Enter your license key."
+msgstr "کلید مجوز خود را وارد کنید."
+
+#: pro/includes/Licensing/LicenseForm.php:529
+msgid ""
+"Envato marketplace for digital products including CodeCanyon and ThemeForest."
+msgstr ""
+"بازارگاه دیجیتال انواتو شامل کدکانیون و تم فارست."
+
+#: pro/includes/Licensing/LicenseForm.php:533
+msgid ""
+"Gumroad platform for independent creators selling digital products and "
+"software."
+msgstr ""
+"پلتفرم گام‌رود برای خالقان مستقل که محصولات و نرم‌افزارهای دیجیتال می‌فروشند."
+
+#: pro/includes/Licensing/LicenseForm.php:537
+msgid ""
+"Zhaket, the leading Iranian digital marketplace for digital products and "
+"services."
+msgstr ""
+"ژاکت، بازارگاه دیجیتال پیشرو ایرانی برای محصولات و خدمات دیجیتال."
+
+#: pro/includes/Licensing/LicenseForm.php:541
+msgid ""
+"Custom license server with full control over licensing and distribution."
+msgstr ""
+"سرور مجوز سفارشی با کنترل کامل بر مجوزدهی و توزیع."
+
+#: pro/includes/Licensing/LicenseManager.php:108
+#: pro/includes/Licensing/LicenseManager.php:139
+msgid "Licensing is not available in this build"
+msgstr "مجوزدهی در این ساخت در دسترس نیست"
+
+#: pro/includes/Licensing/LicenseManager.php:252
+msgid "RatePress Pro - License Required"
+msgstr "ریت‌پرس پرو - مجوز مورد نیاز"
+
+#: pro/includes/Licensing/LicenseManager.php:253
+msgid "To unlock all premium features, please enter your license key."
+msgstr "برای باز کردن همه ویژگی‌های حرفه‌ای، لطفاً کلید مجوز خود را وارد کنید."
+
+#: pro/includes/Licensing/LicenseManager.php:255
+msgid "Enter License"
+msgstr "ورود مجوز"
+
+#: pro/includes/Licensing/LicenseManager.php:270
+msgid "RatePress Pro - License Invalid"
+msgstr "ریت‌پرس پرو - مجوز نامعتبر"
+
+#: pro/includes/Licensing/LicenseManager.php:274
+#, php-format
+msgid ""
+"Your license key is invalid or has expired. <a href=\"%s\">Check license "
+"status</a> or <a href=\"%s\">get support</a>."
+msgstr ""
+"کلید مجوز شما نامعتبر است یا منقضی شده است. <a href=\"%s\">وضعیت مجوز را "
+"بررسی کنید</a> یا <a href=\"%s\">پشتیبانی دریافت کنید</a>."
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:115
+msgid "CodeCanyon, ThemeForest, and other Envato marketplaces"
+msgstr "کدکانیون، تم فارست و سایر بازارگاه‌های انواتو"
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:120
+msgid "Gumroad digital products and licenses"
+msgstr "محصولات و مجوزهای دیجیتال گام‌رود"
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:125
+msgid "Iranian digital marketplace"
+msgstr "بازارگاه دیجیتال ایرانی"
+
+#: pro/includes/Licensing/LicenseProviderFactory.php:130
+msgid "Your own custom license validation server"
+msgstr "سرور تأیید مجوز سفارشی خودتان"
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:94
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:106
+#: pro/includes/Licensing/Providers/GumroadProvider.php:100
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:98
+msgid "License verified (offline mode - grace period)"
+msgstr "مجوز تأیید شد (حالت آفلاین - دوره مهلت)"
+
+#: pro/includes/Licensing/Providers/CustomProvider.php:122
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:139
+#: pro/includes/Licensing/Providers/GumroadProvider.php:139
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:126
+msgid "License is valid and active"
+msgstr "مجوز معتبر و فعال است"
+
+#: pro/includes/Licensing/Providers/EnvatoProvider.php:127
+msgid "This license is for a different product"
+msgstr "این مجوز برای محصول دیگری است"
+
+#: pro/includes/Licensing/Providers/GumroadProvider.php:120
+msgid "License key is invalid or has been revoked"
+msgstr "کلید مجوز نامعتبر است یا لغو شده است"
+
+#: pro/includes/Licensing/Providers/GumroadProvider.php:131
+msgid "License has reached maximum activations"
+msgstr "مجوز به حداکثر فعال‌سازی رسیده است"
+
+#: pro/includes/Licensing/Providers/ZhaketProvider.php:118
+msgid "This license is invalid or for a different product"
+msgstr "این مجوز نامعتبر است یا برای محصول دیگری است"
+
+#: TypeScript files
+msgid "Upgrade to Pro"
+msgstr "ارتقا به نسخه حرفه‌ای"
+
+#: TypeScript files
+msgid "Advanced insights and detailed reporting"
+msgstr "بینش‌های پیشرفته و گزارش‌دهی تفصیلی"
+
+#: TypeScript files
+msgid "Better SEO"
+msgstr "SEO بهتر"
+
+#: TypeScript files
+msgid "Enhanced search engine optimization"
+msgstr "بهینه‌سازی موتور جستجوی پیشرفته"
+
+#: TypeScript files
+msgid "Powerful Effects"
+msgstr "افکت‌های قدرتمند"
+
+#: TypeScript files
+msgid "Confetti and animation features"
+msgstr "ویژگی‌های کنفتی و انیمیشن"
+
+#: TypeScript files
+msgid "Lifetime Access"
+msgstr "دسترسی مادام‌العمر"
+
+#: TypeScript files
+msgid "No limits, no recurring fees"
+msgstr "بدون محدودیت، بدون هزینه‌های تکراری"
+
+#: TypeScript files
+msgid "Close"
+msgstr "بستن"
+
+#: TypeScript files
+msgid "Unlock More Power!"
+msgstr "قدرت بیشتری باز کنید!"
+
+#: TypeScript files
+msgid "Get full access to all premium features"
+msgstr "دسترسی کامل به همه ویژگی‌های حرفه‌ای را دریافت کنید"
+
+#: TypeScript files
+msgid "View Documentation"
+msgstr "مشاهده مستندات"
+
+#: TypeScript files
+msgid "Upgrade today and get lifetime access to all premium features"
+msgstr "امروز ارتقا دهید و دسترسی مادام‌العمر به همه ویژگی‌های حرفه‌ای را دریافت کنید"
+
+#: TypeScript files
+msgid "Data Retention & Uninstall"
+msgstr "نگهداری داده‌ها و حذف نصب"
+
+#: TypeScript files
+msgid "Preserve data on uninstall"
+msgstr "داده‌ها را هنگام حذف نصب حفظ کنید"
+
+#: TypeScript files
+msgid "⚠️ All plugin data will be permanently deleted when you uninstall."
+msgstr "⚠️ همه داده‌های افزونه هنگام حذف نصب به طور دائمی حذف خواهند شد."
+
+#: TypeScript files
+msgid "Demo Mode:"
+msgstr "حالت نمایشی:"
+
+#: TypeScript files
+msgid "Data export is disabled in demo mode to protect the showcase."
+msgstr "صادرات داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+
+#: TypeScript files
+msgid "Data import is disabled in demo mode to protect the showcase."
+msgstr "واردات داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+
+#: TypeScript files
+msgid "Data cleanup is disabled in demo mode to protect the showcase."
+msgstr "پاکسازی داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+
+#: TypeScript files
+msgid ""
+"Need help with RatePress? Get support, report bugs, or request features."
+msgstr ""
+"نیاز به کمک با ریت‌پرس دارید؟ پشتیبانی دریافت کنید، باگ‌ها را گزارش دهید یا "
+"ویژگی‌ها را درخواست کنید."
+
+#: TypeScript files
+msgid ""
+"Visit our support center for documentation, tutorials, and direct assistance "
+"from our team."
+msgstr ""
+"از مرکز پشتیبانی ما برای مستندات، آموزش‌ها و کمک مستقیم از تیم ما بازدید "
+"کنید."
+
+#~ msgid "Upgrade to Pro to access detailed analytics and reporting features."
+#~ msgstr ""
+#~ "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه "
+#~ "کنید.برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه "
+#~ "کنید."
+
+#~ msgid "Enable Analytics"
+#~ msgstr "فعال‌سازی آمار"
+
+#~ msgid "Collect detailed analytics data (increases DB size; enable cleanup)."
+#~ msgstr ""
+#~ "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را "
+#~ "فعال کنید).جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ "
+#~ "پاکسازی را فعال کنید)."
+
+#~ msgid "Cleanup Analytics (Months)"
+#~ msgstr "پاکسازی آمار (ماه)"
+
+#~ msgid "0 = disabled. Deletes old analytics data to save space."
+#~ msgstr "۰ = غیرفعال. داده‌های آماری قدیمی را برای صرفه‌جویی در فضا حذف می‌کند."
+
+#~ msgid "Analytics dashboard coming soon."
+#~ msgstr "داشبورد آمار به‌زودی در دسترس خواهد بود."
+
+#~ msgid "Documentation and support resources"
+#~ msgstr "مستندات و منابع پشتیبانی"
+
+#~ msgid "Documentation and support resources coming soon."
+#~ msgstr "مستندات و منابع پشتیبانی به‌زودی در دسترس خواهند بود."
+
 #~ msgid "Loading chunk..."
 #~ msgstr "در حال بارگذاری..."
 
 #~ msgid "📤 Export Data"
 #~ msgstr "📤 صادرات داده‌ها"
-
-#~ msgid "Export all ratings, analytics, and settings data."
-#~ msgstr "صادرات همه امتیازها، آمار و تنظیمات."
 
 #~ msgid "Export only the ratings data."
 #~ msgstr "فقط داده‌های امتیازها را صادر کنید."
@@ -2320,41 +2900,6 @@ msgstr "%d امتیاز"
 
 #~ msgid "📥 Import Data (Pro)"
 #~ msgstr "📥 وارد کردن داده‌ها (حرفه‌ای)"
-
-#~ msgid "Scale (Stars, 1-10)"
-#~ msgstr "مقیاس (ستاره، ۱-۱۰)"
-
-#~ msgid "You must be logged in to rate this content."
-#~ msgstr "برای امتیازدهی به این محتوا باید وارد شوید."
-
-#~ msgid "Unknown"
-#~ msgstr "نامشخص"
-
-#~ msgid "No data provided"
-#~ msgstr "داده‌ای ارائه نشده است"
-
-#~ msgid "No settings provided"
-#~ msgstr "تنظیماتی ارائه نشده است"
-
-#~ msgid "Settings saved successfully"
-#~ msgstr "تنظیمات با موفقیت ذخیره شد"
-
-#~ msgid "Settings reset to defaults"
-#~ msgstr "تنظیمات به حالت پیش‌فرض بازگشت"
-
-#~ msgid "Invalid cooldown value"
-#~ msgstr "مقدار زمان انتظار نامعتبر است"
-
-#~ msgid "RatePress Translation Available"
-#~ msgstr "ترجمه برای ریت‌پرس در دسترس است"
-
-#, php-format
-#~ msgid ""
-#~ "RatePress is available in %s! Click here to download the translation."
-#~ msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
-
-#~ msgid "Translation downloaded! Refreshing page..."
-#~ msgstr "ترجمه دانلود شد! ریفرش صفحه ..."
 
 #~ msgid "Star rating widget"
 #~ msgstr "ابزارک امتیازدهی ستاره‌ای"

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2025-10-15T21:37:41.032Z",
+    "translation-revision-date": "2025-10-26T18:17:10.769Z",
     "generator": "RatePress JSON Generator",
     "source": "languages/fa_IR/ratepress-fa_IR.po",
     "domain": "ratepress",
@@ -10,6 +10,57 @@
                 "lang": "fa_IR",
                 "plural-forms": "nplurals=2; plural=(n==0 || n==1);"
             },
+            "RatePress": [
+                "ریت‌پرس"
+            ],
+            "Dashboard": [
+                "داشبورد"
+            ],
+            "Settings": [
+                "تنظیمات"
+            ],
+            "Display": [
+                "نمایش"
+            ],
+            "Templates": [
+                "قالب‌ها"
+            ],
+            "Analytics": [
+                "آمار و تحلیل"
+            ],
+            "Data": [
+                "داده‌ها"
+            ],
+            "Support": [
+                "پشتیبانی"
+            ],
+            "Bipolar (Like & Dislike)": [
+                "دوقطبی (لایک و دیسلایک)"
+            ],
+            "Scale (Stars, 1-10)": [
+                "مقیاس (ستاره، ۱-۱۰)"
+            ],
+            "You must be logged in to rate this content.": [
+                "برای امتیازدهی به این محتوا باید وارد شوید."
+            ],
+            "Unknown": [
+                "نامشخص"
+            ],
+            "No data provided": [
+                "داده‌ای ارائه نشده است"
+            ],
+            "No settings provided": [
+                "تنظیماتی ارائه نشده است"
+            ],
+            "Settings saved successfully": [
+                "تنظیمات با موفقیت ذخیره شد"
+            ],
+            "Settings reset to defaults": [
+                "تنظیمات به حالت پیش‌فرض بازگشت"
+            ],
+            "Invalid cooldown value": [
+                "مقدار زمان انتظار نامعتبر است"
+            ],
             "No favorites yet.": [
                 "هنوز علاقه‌مندی‌ای وجود ندارد."
             ],
@@ -25,44 +76,35 @@
             "%d people liked this": [
                 "%d نفر این را لایک کرده‌اند"
             ],
-            "Dashboard": [
-                "داشبورد"
+            "RatePress Translation Available": [
+                "ترجمه برای ریت‌پرس در دسترس است"
+            ],
+            "RatePress is available in %s! Click here to download the translation.": [
+                "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
+            ],
+            "Translation downloaded! Refreshing page...": [
+                "ترجمه دانلود شد! ریفرش صفحه ..."
+            ],
+            "Rating": [
+                "امتیاز"
             ],
             "Monitor your rating system performance and user engagement": [
                 "عملکرد سیستم امتیازدهی و تعامل کاربران را رصد کنید"
             ],
-            "Settings": [
-                "تنظیمات"
-            ],
             "Configure general settings and anti-spam options": [
                 "تنظیمات کلی و گزینه‌های ضد اسپم را پیکربندی کنید"
-            ],
-            "Display": [
-                "نمایش"
             ],
             "Configure how ratings appear on posts and comments": [
                 "نحوه نمایش امتیازها در نوشته‌ها و دیدگاه‌ها را تنظیم کنید"
             ],
-            "Templates": [
-                "قالب‌ها"
-            ],
             "Browse, install, and manage rating templates": [
                 "قالب‌های امتیازدهی را مرور، نصب و مدیریت کنید"
-            ],
-            "Analytics": [
-                "آمار و تحلیل"
             ],
             "Track your rating performance and user engagement": [
                 "عملکرد امتیازدهی و تعامل کاربران را پیگیری کنید"
             ],
-            "Data": [
-                "داده‌ها"
-            ],
             "Import, export, and manage your rating data": [
                 "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
-            ],
-            "Support": [
-                "پشتیبانی"
             ],
             "Get help and support": [
                 "راهنمایی و پشتیبانی دریافت کنید"
@@ -96,9 +138,6 @@
             ],
             "Content": [
                 "محتوا"
-            ],
-            "Rating": [
-                "امتیاز"
             ],
             "Type": [
                 "نوع"
@@ -135,12 +174,6 @@
             ],
             "Scale Avg": [
                 "میانگین مقیاس"
-            ],
-            "Pro Feature": [
-                "امکانات حرفه‌ای"
-            ],
-            "Upgrade to Pro to access detailed analytics and reporting features.": [
-                "برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید.برای دسترسی به آمار تفصیلی و گزارش‌های پیشرفته، نسخه حرفه‌ای را تهیه کنید."
             ],
             "Loading analytics data...": [
                 "در حال بارگذاری داده‌های آماری..."
@@ -268,6 +301,9 @@
             "Confirm": [
                 "تایید"
             ],
+            "Pro Feature": [
+                "امکانات حرفه‌ای"
+            ],
             "Select date": [
                 "تاریخ را انتخاب کنید"
             ],
@@ -317,13 +353,13 @@
                 "نمایش انفجار کنفتی هنگام کلیک روی دکمه‌های امتیازدهی"
             ],
             "Advanced Confetti Playground": [
-                "بازیگاه پیشرفته کنفتی"
+                "زمین بازی پیشرفته کنفتی"
             ],
             "Create & customize amazing effects with our visual editor": [
                 "افکت‌های شگفت‌انگیز بسازید و شخصی‌سازی کنید با ویرایشگر تصویری ما"
             ],
             "Open Playground": [
-                "باز کردن بازیگاه"
+                "باز کردن زمین بازی"
             ],
             "Import/Export": [
                 "وارد کردن / صادر کردن"
@@ -332,7 +368,7 @@
                 "صادر کردن تنظیمات فعلی"
             ],
             "Import from Playground": [
-                "وارد کردن از بازیگاه"
+                "وارد کردن از زمین بازی"
             ],
             "Upload JSON File": [
                 "آپلود فایل JSON"
@@ -478,21 +514,6 @@
             "No templates available for this category": [
                 "قالبی برای این دسته‌بندی موجود نیست"
             ],
-            "Enable Analytics": [
-                "فعال‌سازی آمار"
-            ],
-            "Collect detailed analytics data (increases DB size; enable cleanup).": [
-                "جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید).جمع‌آوری داده‌های آماری تفصیلی (حجم دیتابیس را افزایش می‌دهد؛ پاکسازی را فعال کنید)."
-            ],
-            "Cleanup Analytics (Months)": [
-                "پاکسازی آمار (ماه)"
-            ],
-            "0 = disabled. Deletes old analytics data to save space.": [
-                "۰ = غیرفعال. داده‌های آماری قدیمی را برای صرفه‌جویی در فضا حذف می‌کند."
-            ],
-            "Analytics dashboard coming soon.": [
-                "داشبورد آمار به‌زودی در دسترس خواهد بود."
-            ],
             "Anti-Spam": [
                 "ضد اسپم"
             ],
@@ -564,6 +585,9 @@
             ],
             "0 = disabled. WARNING: Only deletes ratings with IP addresses (anti-spam data); preserves user rating history!": [
                 "۰ = غیرفعال. هشدار: فقط امتیازهای دارای آدرس IP (داده‌های ضد اسپم) را حذف می‌کند؛ تاریخچه امتیازهای کاربران حفظ می‌شود!"
+            ],
+            "This Week": [
+                "این هفته"
             ],
             "This Month": [
                 "این ماه"
@@ -687,9 +711,6 @@
             ],
             "Binary (Like)": [
                 "دوتایی (لایک)"
-            ],
-            "Bipolar (Like & Dislike)": [
-                "دوقطبی (لایک و دیسلایک)"
             ],
             "Scale (Stars)": [
                 "مقیاس (ستاره)"
@@ -919,12 +940,6 @@
             "0 = unlimited. Limits ratings from the same IP within the cooldown period.": [
                 "۰ = نامحدود. امتیازدهی از یک IP را در بازه زمان انتظار محدود می‌کند."
             ],
-            "Documentation and support resources": [
-                "مستندات و منابع پشتیبانی"
-            ],
-            "Documentation and support resources coming soon.": [
-                "مستندات و منابع پشتیبانی به‌زودی در دسترس خواهند بود."
-            ],
             "Failed to load templates": [
                 "بارگذاری قالب‌ها ناموفق بود"
             ],
@@ -984,9 +999,6 @@
             ],
             "Are you sure you want to delete the %s template? (It will be restored on plugin update)": [
                 "آیا مطمئنید که می‌خواهید قالب %s را حذف کنید؟ (با بروزرسانی افزونه بازیابی خواهد شد)"
-            ],
-            "RatePress": [
-                "ریت‌پرس"
             ],
             "Five Stars": [
                 "پنج ستاره"
@@ -1071,9 +1083,6 @@
             ],
             "Minimum number of ratings required": [
                 "حداقل تعداد امتیازهای لازم"
-            ],
-            "This Week": [
-                "این هفته"
             ],
             "This Year": [
                 "امسال"
@@ -1174,6 +1183,54 @@
             "This block will display the rated items on the frontend. Configure settings in the sidebar.": [
                 "این بلوک موارد امتیازدهی‌شده را در بخش کاربری نمایش می‌دهد. تنظیمات را در نوار کناری پیکربندی کنید."
             ],
+            "Rating submitted successfully!": [
+                "تنظیمات با موفقیت ذخیره شد!"
+            ],
+            "You have already rated this.": [
+                "هنگامی که کاربر قبلاً به این مورد امتیاز داده باشد نمایش داده می‌شود"
+            ],
+            "Please log in to rate.": [
+                "ورود اجباری برای امتیازدهی"
+            ],
+            "An error occurred. Please try again.": [
+                "صادرات ناموفق بود. لطفاً دوباره تلاش کنید."
+            ],
+            "Invalid rating value.": [
+                "کل امتیازها"
+            ],
+            "Binary (Like Only)": [
+                "دوتایی (لایک)"
+            ],
+            "Analytics for \\\"%s\\\"": [
+                "آمار و تحلیل"
+            ],
+            "Clear Ratings": [
+                "امتیازدهی دیدگاه‌ها"
+            ],
+            "Are you sure you want to clear all ratings for this post?": [
+                "آیا مطمئنید که می‌خواهید این داده‌ها را پاکسازی کنید؟"
+            ],
+            "Clear Analytics": [
+                "فعال‌سازی آمار"
+            ],
+            "Are you sure you want to clear analytics for this post?": [
+                "آیا مطمئنید که می‌خواهید این داده‌ها را پاکسازی کنید؟"
+            ],
+            "Analytics for %s": [
+                "آمار و تحلیل"
+            ],
+            "No ratings found.": [
+                "نوشته امتیازدهی‌شده‌ای یافت نشد"
+            ],
+            "No rated content found.": [
+                "نوشته امتیازدهی‌شده‌ای یافت نشد"
+            ],
+            "View Comment": [
+                "دیدگاه"
+            ],
+            "Invalid license key": [
+                "کل امتیازها"
+            ],
             "No ratings yet.": [
                 "هنوز علاقه‌مندی‌ای وجود ندارد."
             ],
@@ -1188,6 +1245,45 @@
             ],
             "Rating Breakdown": [
                 "روند امتیازدهی"
+            ],
+            "Download Translation": [
+                "دانلود CSV"
+            ],
+            "Downloading...": [
+                "دانلود CSV"
+            ],
+            "Failed to download translation": [
+                "بارگذاری قالب‌ها ناموفق بود"
+            ],
+            "Security check failed. Please refresh and try again.": [
+                "صادرات ناموفق بود. لطفاً دوباره تلاش کنید."
+            ],
+            "License activated successfully!": [
+                "تنظیمات با موفقیت ذخیره شد!"
+            ],
+            "Failed to activate license.": [
+                "ذخیره تنظیمات واردشده ناموفق بود."
+            ],
+            "Email Address": [
+                "آدرس IP"
+            ],
+            "Activate License": [
+                "کاربران فعال"
+            ],
+            "Activating...": [
+                "در حال بروزرسانی..."
+            ],
+            "Failed to activate license": [
+                "بارگذاری قالب‌ها ناموفق بود"
+            ],
+            "Custom Server": [
+                "بازه دلخواه"
+            ],
+            "License activated successfully": [
+                "تنظیمات با موفقیت ذخیره شد"
+            ],
+            "License deactivated successfully": [
+                "تنظیمات با موفقیت ذخیره شد"
             ],
             "Notifications": [
                 "عملیات"
@@ -1250,7 +1346,7 @@
                 "داده‌ها با موفقیت وارد شدند!"
             ],
             "Enable Particle Effects": [
-                "فعال‌سازی آمار"
+                "فعال کردن افکت انفجاری"
             ],
             "Download JSON": [
                 "دانلود CSV"
@@ -1282,6 +1378,9 @@
             "Scalar (size)": [
                 "مقیاس (ستاره)"
             ],
+            "Better Analytics": [
+                "آمار و تحلیل"
+            ],
             "Settings reset successfully! Reloading...": [
                 "تنظیمات با موفقیت ذخیره شد!"
             ],
@@ -1299,6 +1398,9 @@
             ],
             "Export, import, and manage your RatePress data and settings": [
                 "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
+            ],
+            "Your ratings, analytics, and settings will be safely kept when you uninstall.": [
+                "صادرات همه امتیازها، آمار و تنظیمات."
             ],
             "Panel Settings": [
                 "ذخیره تنظیمات"
@@ -1392,6 +1494,12 @@
             ],
             "Include Ratings in Twitter Cards": [
                 "درج امتیازها در توضیحات متا"
+            ],
+            "Get Help & Support": [
+                "راهنمایی و پشتیبانی دریافت کنید"
+            ],
+            "Go to Support Center": [
+                "پایین وسط"
             ],
             "Templates deleted successfully!": [
                 "قالب با موفقیت حذف شد!"
@@ -1536,6 +1644,234 @@
             ],
             "All ratings": [
                 "%d امتیاز"
+            ],
+            "License": [
+                "مجوز"
+            ],
+            "You have reached the rate limit. Please try again later.": [
+                "به محدودیت نرخ رسیده‌اید. لطفاً بعداً دوباره امتحان کنید."
+            ],
+            "Please log in to view your ratings.": [
+                "لطفاً برای مشاهده امتیازهای خود وارد شوید."
+            ],
+            "License has expired": [
+                "مجوز منقضی شده است"
+            ],
+            "License is inactive": [
+                "مجوز غیرفعال است"
+            ],
+            "License is registered for a different domain": [
+                "مجوز برای دامنه دیگری ثبت شده است"
+            ],
+            "License server is temporarily unavailable": [
+                "سرور مجوز موقتاً در دسترس نیست"
+            ],
+            "Unable to connect to license server": [
+                "نمی‌توان به سرور مجوز متصل شد"
+            ],
+            "Unknown license error": [
+                "خطای مجوز ناشناخته"
+            ],
+            "Data export is disabled in demo mode": [
+                "صادرات داده‌ها در حالت نمایشی غیرفعال است"
+            ],
+            "Data import is disabled in demo mode": [
+                "واردات داده‌ها در حالت نمایشی غیرفعال است"
+            ],
+            "Data cleanup is disabled in demo mode": [
+                "پاکسازی داده‌ها در حالت نمایشی غیرفعال است"
+            ],
+            "You do not have permission to activate licenses.": [
+                "شما اجازه فعال‌سازی مجوزها را ندارید."
+            ],
+            "License key is required.": [
+                "کلید مجوز مورد نیاز است."
+            ],
+            "Licensing is not configured for this build.": [
+                "مجوزدهی برای این ساخت تنظیم نشده است."
+            ],
+            "RatePress Pro - License Activation": [
+                "ریت‌پرس پرو - فعال‌سازی مجوز"
+            ],
+            "Activate your RatePress Pro license from %s to unlock all premium features.": [
+                "مجوز ریت‌پرس پرو خود را از %s فعال کنید تا همه ویژگی‌های حرفه‌ای را باز کنید."
+            ],
+            "License Key": [
+                "کلید مجوز"
+            ],
+            "you@example.com": [
+                "you@example.com"
+            ],
+            "Email address associated with your license": [
+                "آدرس ایمیل مرتبط با مجوز شما"
+            ],
+            "Frequently Asked Questions": [
+                "سوالات متداول"
+            ],
+            "Where do I get my license key?": [
+                "کلید مجوز خود را از کجا دریافت کنم؟"
+            ],
+            "Your license key was sent to your email when you purchased RatePress Pro on %s. Check your email or log into your %s account.": [
+                "کلید مجوز شما هنگام خرید ریت‌پرس پرو از %s به ایمیل شما ارسال شد. ایمیل خود را بررسی کنید یا وارد حساب %s خود شوید."
+            ],
+            "What can I do with pro features?": [
+                "با ویژگی‌های حرفه‌ای چه کاری می‌توانم انجام دهم؟"
+            ],
+            "RatePress Pro includes advanced analytics, custom templates, team management, and more. Unlock all premium features by activating your license.": [
+                "ریت‌پرس پرو شامل آمار پیشرفته، قالب‌های سفارشی، مدیریت تیم و موارد دیگر است. با فعال‌سازی مجوز خود همه ویژگی‌های حرفه‌ای را باز کنید."
+            ],
+            "Is my license key secure?": [
+                "کلید مجوز من امن است؟"
+            ],
+            "Yes. License keys are validated securely with the provider and stored encrypted in WordPress. We never share your information.": [
+                "بله. کلیدهای مجوز به صورت امن با ارائه‌دهنده تأیید می‌شوند و رمزگذاری شده در وردپرس ذخیره می‌شوند. ما هرگز اطلاعات شما را به اشتراک نمی‌گذاریم."
+            ],
+            "Need help?": [
+                "نیاز به کمک دارید؟"
+            ],
+            "Visit %s for support or check your license status.": [
+                "برای پشتیبانی از %s بازدید کنید یا وضعیت مجوز خود را بررسی کنید."
+            ],
+            "Error activating license": [
+                "خطا در فعال‌سازی مجوز"
+            ],
+            "Your license key was provided when you purchased from %s. Check your email or account dashboard.": [
+                "کلید مجوز شما هنگام خرید از %s ارائه شد. ایمیل خود را بررسی کنید یا وارد داشبورد حساب خود شوید."
+            ],
+            "Your license key was provided when you purchased from %s. Check your email or purchase history.": [
+                "کلید مجوز شما هنگام خرید از %s ارائه شد. ایمیل خود را بررسی کنید یا تاریخچه خرید خود را ببینید."
+            ],
+            "Enter your license key provided by RatePress.": [
+                "کلید مجوز ارائه شده توسط ریت‌پرس را وارد کنید."
+            ],
+            "Enter your license key.": [
+                "کلید مجوز خود را وارد کنید."
+            ],
+            "Envato marketplace for digital products including CodeCanyon and ThemeForest.": [
+                "بازارگاه دیجیتال انواتو شامل کدکانیون و تم فارست."
+            ],
+            "Gumroad platform for independent creators selling digital products and software.": [
+                "پلتفرم گام‌رود برای خالقان مستقل که محصولات و نرم‌افزارهای دیجیتال می‌فروشند."
+            ],
+            "Zhaket, the leading Iranian digital marketplace for digital products and services.": [
+                "ژاکت، بازارگاه دیجیتال پیشرو ایرانی برای محصولات و خدمات دیجیتال."
+            ],
+            "Custom license server with full control over licensing and distribution.": [
+                "سرور مجوز سفارشی با کنترل کامل بر مجوزدهی و توزیع."
+            ],
+            "Licensing is not available in this build": [
+                "مجوزدهی در این ساخت در دسترس نیست"
+            ],
+            "RatePress Pro - License Required": [
+                "ریت‌پرس پرو - مجوز مورد نیاز"
+            ],
+            "To unlock all premium features, please enter your license key.": [
+                "برای باز کردن همه ویژگی‌های حرفه‌ای، لطفاً کلید مجوز خود را وارد کنید."
+            ],
+            "Enter License": [
+                "ورود مجوز"
+            ],
+            "RatePress Pro - License Invalid": [
+                "ریت‌پرس پرو - مجوز نامعتبر"
+            ],
+            "Your license key is invalid or has expired. <a href=\\\"%s\\\">Check license status</a> or <a href=\\\"%s\\\">get support</a>.": [
+                "کلید مجوز شما نامعتبر است یا منقضی شده است. <a href=\\\"%s\\\">وضعیت مجوز را بررسی کنید</a> یا <a href=\\\"%s\\\">پشتیبانی دریافت کنید</a>."
+            ],
+            "CodeCanyon, ThemeForest, and other Envato marketplaces": [
+                "کدکانیون، تم فارست و سایر بازارگاه‌های انواتو"
+            ],
+            "Gumroad digital products and licenses": [
+                "محصولات و مجوزهای دیجیتال گام‌رود"
+            ],
+            "Iranian digital marketplace": [
+                "بازارگاه دیجیتال ایرانی"
+            ],
+            "Your own custom license validation server": [
+                "سرور تأیید مجوز سفارشی خودتان"
+            ],
+            "License verified (offline mode - grace period)": [
+                "مجوز تأیید شد (حالت آفلاین - دوره مهلت)"
+            ],
+            "License is valid and active": [
+                "مجوز معتبر و فعال است"
+            ],
+            "This license is for a different product": [
+                "این مجوز برای محصول دیگری است"
+            ],
+            "License key is invalid or has been revoked": [
+                "کلید مجوز نامعتبر است یا لغو شده است"
+            ],
+            "License has reached maximum activations": [
+                "مجوز به حداکثر فعال‌سازی رسیده است"
+            ],
+            "This license is invalid or for a different product": [
+                "این مجوز نامعتبر است یا برای محصول دیگری است"
+            ],
+            "Upgrade to Pro": [
+                "ارتقا به نسخه حرفه‌ای"
+            ],
+            "Advanced insights and detailed reporting": [
+                "بینش‌های پیشرفته و گزارش‌دهی تفصیلی"
+            ],
+            "Better SEO": [
+                "SEO بهتر"
+            ],
+            "Enhanced search engine optimization": [
+                "بهینه‌سازی موتور جستجوی پیشرفته"
+            ],
+            "Powerful Effects": [
+                "افکت‌های قدرتمند"
+            ],
+            "Confetti and animation features": [
+                "ویژگی‌های کنفتی و انیمیشن"
+            ],
+            "Lifetime Access": [
+                "دسترسی مادام‌العمر"
+            ],
+            "No limits, no recurring fees": [
+                "بدون محدودیت، بدون هزینه‌های تکراری"
+            ],
+            "Close": [
+                "بستن"
+            ],
+            "Unlock More Power!": [
+                "قدرت بیشتری باز کنید!"
+            ],
+            "Get full access to all premium features": [
+                "دسترسی کامل به همه ویژگی‌های حرفه‌ای را دریافت کنید"
+            ],
+            "View Documentation": [
+                "مشاهده مستندات"
+            ],
+            "Upgrade today and get lifetime access to all premium features": [
+                "امروز ارتقا دهید و دسترسی مادام‌العمر به همه ویژگی‌های حرفه‌ای را دریافت کنید"
+            ],
+            "Data Retention & Uninstall": [
+                "نگهداری داده‌ها و حذف نصب"
+            ],
+            "Preserve data on uninstall": [
+                "داده‌ها را هنگام حذف نصب حفظ کنید"
+            ],
+            "⚠️ All plugin data will be permanently deleted when you uninstall.": [
+                "⚠️ همه داده‌های افزونه هنگام حذف نصب به طور دائمی حذف خواهند شد."
+            ],
+            "Demo Mode:": [
+                "حالت نمایشی:"
+            ],
+            "Data export is disabled in demo mode to protect the showcase.": [
+                "صادرات داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+            ],
+            "Data import is disabled in demo mode to protect the showcase.": [
+                "واردات داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+            ],
+            "Data cleanup is disabled in demo mode to protect the showcase.": [
+                "پاکسازی داده‌ها در حالت نمایشی برای محافظت از ویترین غیرفعال است."
+            ],
+            "Need help with RatePress? Get support, report bugs, or request features.": [
+                "نیاز به کمک با ریت‌پرس دارید؟ پشتیبانی دریافت کنید، باگ‌ها را گزارش دهید یا ویژگی‌ها را درخواست کنید."
+            ],
+            "Visit our support center for documentation, tutorials, and direct assistance from our team.": [
+                "از مرکز پشتیبانی ما برای مستندات، آموزش‌ها و کمک مستقیم از تیم ما بازدید کنید."
             ]
         }
     }
