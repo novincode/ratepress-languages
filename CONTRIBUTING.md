@@ -16,7 +16,7 @@
 ./script/generate-po.sh es_ES
 
 # Edit with Poedit or any PO editor
-poedit ratepress-es_ES.po
+poedit ratekit-es_ES.po
 
 # Generate binary files
 ./script/generate-mo.sh es_ES

@@ -1,17 +1,17 @@
 {
     "translation-revision-date": "2025-10-09T06:40:33.494Z",
-    "generator": "RatePress JSON Generator",
-    "source": "languages/es_ES/ratepress-es_ES.po",
-    "domain": "ratepress",
+    "generator": "RateKit JSON Generator",
+    "source": "languages/es_ES/ratekit-es_ES.po",
+    "domain": "ratekit",
     "locale_data": {
-        "ratepress": {
+        "ratekit": {
             "": {
-                "domain": "ratepress",
+                "domain": "ratekit",
                 "lang": "es_ES",
                 "plural-forms": "nplurals=2; plural=(n==0 || n==1);"
             },
-            "RatePress": [
-                "RatePress"
+            "RateKit": [
+                "RateKit"
             ],
             "Dashboard": [
                 "Panel de Control"
@@ -64,11 +64,11 @@
             "Invalid cooldown value": [
                 "Valor de tiempo de espera inválido"
             ],
-            "RatePress Translation Available": [
-                "Traducción de RatePress Disponible"
+            "RateKit Translation Available": [
+                "Traducción de RateKit Disponible"
             ],
-            "RatePress is available in %s! Click here to download the translation.": [
-                "¡RatePress está disponible en %s! Haz clic aquí para descargar la traducción."
+            "RateKit is available in %s! Click here to download the translation.": [
+                "¡RateKit está disponible en %s! Haz clic aquí para descargar la traducción."
             ],
             "Download Translation": [
                 "Descargar Traducción"
@@ -874,14 +874,14 @@
             "Data Management": [
                 "Gestión de Datos"
             ],
-            "Export, import, and clean your RatePress data": [
-                "Exporta, importa y limpia tus datos de RatePress"
+            "Export, import, and clean your RateKit data": [
+                "Exporta, importa y limpia tus datos de RateKit"
             ],
             "📤 Export Data": [
                 "📤 Exportar Datos"
             ],
-            "Export your RatePress data as SQL files for backup or migration purposes.": [
-                "Exporta tus datos de RatePress como archivos SQL para respaldo o migración."
+            "Export your RateKit data as SQL files for backup or migration purposes.": [
+                "Exporta tus datos de RateKit como archivos SQL para respaldo o migración."
             ],
             "Export All Data": [
                 "Exportar Todos los Datos"
@@ -931,20 +931,20 @@
             "Are you absolutely sure you want to reset ALL settings to defaults? This cannot be undone!": [
                 "¿Estás absolutamente seguro de que deseas restablecer TODA la configuración a predeterminados? ¡Esto no se puede deshacer!"
             ],
-            "Reset all RatePress settings to their default values.": [
-                "Restablece toda la configuración de RatePress a sus valores predeterminados."
+            "Reset all RateKit settings to their default values.": [
+                "Restablece toda la configuración de RateKit a sus valores predeterminados."
             ],
             "📥 Import Data (Pro)": [
                 "📥 Importar Datos (Pro)"
             ],
-            "Import RatePress data from SQL export files.": [
-                "Importa datos de RatePress desde archivos de exportación SQL."
+            "Import RateKit data from SQL export files.": [
+                "Importa datos de RateKit desde archivos de exportación SQL."
             ],
             "Import Data": [
                 "Importar Datos"
             ],
-            "Select a RatePress SQL export file to import. This will merge data with existing records.": [
-                "Selecciona un archivo de exportación SQL de RatePress para importar. Esto fusionará los datos con los registros existentes."
+            "Select a RateKit SQL export file to import. This will merge data with existing records.": [
+                "Selecciona un archivo de exportación SQL de RateKit para importar. Esto fusionará los datos con los registros existentes."
             ],
             "Clean Data": [
                 "Limpiar Datos"

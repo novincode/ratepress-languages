@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: WP-CLI 2.12.0\n"
-"X-Domain: ratepress\n"
+"X-Domain: ratekit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 
 #: core/includes/Admin/AdminPanel.php:51 core/includes/Admin/AdminPanel.php:52
 #: core/includes/Admin/AdminPanel.php:348
 #: core/includes/Blocks/BlockRenderer.php:161
-msgid "RatePress"
+msgid "RateKit"
 msgstr "ریت‌پرس"
 
 #: core/includes/Admin/AdminPanel.php:61 core/includes/Admin/AdminPanel.php:356
@@ -118,13 +118,13 @@ msgid "%d people liked this"
 msgstr "%d نفر این را لایک کرده‌اند"
 
 #: core/includes/Utils/LanguageLoader.php:317
-msgid "RatePress Translation Available"
+msgid "RateKit Translation Available"
 msgstr "ترجمه برای ریت‌پرس در دسترس است"
 
 #. translators: %s: Language name
 #: core/includes/Utils/LanguageLoader.php:322
 #, php-format
-msgid "RatePress is available in %s! Click here to download the translation."
+msgid "RateKit is available in %s! Click here to download the translation."
 msgstr "ریت‌پرس به زبان %s در دسترس است! برای دانلود ترجمه اینجا کلیک کنید."
 
 #: core/includes/Utils/LanguageLoader.php:347
@@ -903,8 +903,8 @@ msgid "Data Management"
 msgstr "مدیریت داده‌ها"
 
 #: TypeScript files
-msgid "Export or import your RatePress panel configuration as JSON files."
-msgstr "پیکربندی پنل RatePress را به صورت فایل JSON صادر یا وارد کنید."
+msgid "Export or import your RateKit panel configuration as JSON files."
+msgstr "پیکربندی پنل RateKit را به صورت فایل JSON صادر یا وارد کنید."
 
 #: TypeScript files
 msgid "Paste from Clipboard"
@@ -930,9 +930,9 @@ msgstr ""
 
 #: TypeScript files
 msgid ""
-"Export your RatePress database data as SQL files for backup or migration."
+"Export your RateKit database data as SQL files for backup or migration."
 msgstr ""
-"داده‌های پایگاه‌داده RatePress را به صورت فایل‌های SQL برای پشتیبان‌گیری یا "
+"داده‌های پایگاه‌داده RateKit را به صورت فایل‌های SQL برای پشتیبان‌گیری یا "
 "انتقال صادر کنید."
 
 #: TypeScript files
@@ -948,12 +948,12 @@ msgstr ""
 "برای پشتیبان‌گیری یا انتقال داده‌ها بین سایت‌ها استفاده کنید."
 
 #: TypeScript files
-msgid "Import RatePress data from SQL export files."
+msgid "Import RateKit data from SQL export files."
 msgstr "وارد کردن داده‌های ریت‌پرس از فایل‌های SQL صادرشده."
 
 #: TypeScript files
 msgid ""
-"Select a RatePress SQL export file to import. This will merge data with "
+"Select a RateKit SQL export file to import. This will merge data with "
 "existing records."
 msgstr ""
 "یک فایل SQL صادرشده از ریت‌پرس برای وارد کردن انتخاب کنید. این کار داده‌ها را "
@@ -2071,7 +2071,7 @@ msgstr "تنظیمات با موفقیت ذخیره شد!"
 
 #: TypeScript files
 #, fuzzy
-msgid "Export, import, and manage your RatePress data and settings"
+msgid "Export, import, and manage your RateKit data and settings"
 msgstr "داده‌های امتیازدهی را وارد، صادر و مدیریت کنید"
 
 #: TypeScript files
@@ -2546,13 +2546,13 @@ msgid "Licensing is not configured for this build."
 msgstr "مجوزدهی برای این ساخت تنظیم نشده است."
 
 #: pro/includes/Licensing/LicenseForm.php:64
-msgid "RatePress Pro - License Activation"
+msgid "RateKit Pro - License Activation"
 msgstr "ریت‌پرس پرو - فعال‌سازی مجوز"
 
 #: pro/includes/Licensing/LicenseForm.php:68
 #, php-format
 msgid ""
-"Activate your RatePress Pro license from %s to unlock all premium features."
+"Activate your RateKit Pro license from %s to unlock all premium features."
 msgstr ""
 "مجوز ریت‌پرس پرو خود را از %s فعال کنید تا همه ویژگی‌های حرفه‌ای را باز "
 "کنید."
@@ -2580,7 +2580,7 @@ msgstr "کلید مجوز خود را از کجا دریافت کنم؟"
 #: pro/includes/Licensing/LicenseForm.php:149
 #, php-format
 msgid ""
-"Your license key was sent to your email when you purchased RatePress Pro on "
+"Your license key was sent to your email when you purchased RateKit Pro on "
 "%s. Check your email or log into your %s account."
 msgstr ""
 "کلید مجوز شما هنگام خرید ریت‌پرس پرو از %s به ایمیل شما ارسال شد. ایمیل "
@@ -2592,7 +2592,7 @@ msgstr "با ویژگی‌های حرفه‌ای چه کاری می‌توانم
 
 #: pro/includes/Licensing/LicenseForm.php:158
 msgid ""
-"RatePress Pro includes advanced analytics, custom templates, team "
+"RateKit Pro includes advanced analytics, custom templates, team "
 "management, and more. Unlock all premium features by activating your license."
 msgstr ""
 "ریت‌پرس پرو شامل آمار پیشرفته، قالب‌های سفارشی، مدیریت تیم و موارد دیگر "
@@ -2643,7 +2643,7 @@ msgstr ""
 "تاریخچه خرید خود را ببینید."
 
 #: pro/includes/Licensing/LicenseForm.php:513
-msgid "Enter your license key provided by RatePress."
+msgid "Enter your license key provided by RateKit."
 msgstr "کلید مجوز ارائه شده توسط ریت‌پرس را وارد کنید."
 
 #: pro/includes/Licensing/LicenseForm.php:516
@@ -2682,7 +2682,7 @@ msgid "Licensing is not available in this build"
 msgstr "مجوزدهی در این ساخت در دسترس نیست"
 
 #: pro/includes/Licensing/LicenseManager.php:252
-msgid "RatePress Pro - License Required"
+msgid "RateKit Pro - License Required"
 msgstr "ریت‌پرس پرو - مجوز مورد نیاز"
 
 #: pro/includes/Licensing/LicenseManager.php:253
@@ -2694,7 +2694,7 @@ msgid "Enter License"
 msgstr "ورود مجوز"
 
 #: pro/includes/Licensing/LicenseManager.php:270
-msgid "RatePress Pro - License Invalid"
+msgid "RateKit Pro - License Invalid"
 msgstr "ریت‌پرس پرو - مجوز نامعتبر"
 
 #: pro/includes/Licensing/LicenseManager.php:274
@@ -2834,7 +2834,7 @@ msgstr "پاکسازی داده‌ها در حالت نمایشی برای مح�
 
 #: TypeScript files
 msgid ""
-"Need help with RatePress? Get support, report bugs, or request features."
+"Need help with RateKit? Get support, report bugs, or request features."
 msgstr ""
 "نیاز به کمک با ریت‌پرس دارید؟ پشتیبانی دریافت کنید، باگ‌ها را گزارش دهید یا "
 "ویژگی‌ها را درخواست کنید."
@@ -2895,7 +2895,7 @@ msgstr ""
 #~ msgid "Remove all ratings, analytics, and reset settings to defaults."
 #~ msgstr "حذف همه امتیازها، آمار و بازنشانی تنظیمات به حالت پیش‌فرض."
 
-#~ msgid "Reset all RatePress settings to their default values."
+#~ msgid "Reset all RateKit settings to their default values."
 #~ msgstr "بازنشانی همه تنظیمات ریت‌پرس به مقادیر پیش‌فرض."
 
 #~ msgid "📥 Import Data (Pro)"

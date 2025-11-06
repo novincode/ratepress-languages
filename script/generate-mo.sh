@@ -5,7 +5,7 @@
 set -e
 
 LOCALE=${1}
-DOMAIN="ratepress"
+DOMAIN="ratekit"
 
 if [ -z "$LOCALE" ]; then
   echo "Usage: $0 <locale>  # Example: $0 fa_IR"

@@ -6,7 +6,7 @@ set -e
 
 LOCALE=${1}
 VERSION=${2:-"1.0.0"}  # Default to 1.0.0 if not provided
-DOMAIN="ratepress"
+DOMAIN="ratekit"
 
 if [ -z "$LOCALE" ]; then
   echo "Usage: $0 <locale> [version]  # Example: $0 fa_IR 1.0.0"
@@ -87,7 +87,7 @@ function parsePOFile(poContent) {
 
 const locale = process.env.LOCALE;
 const version = process.env.VERSION || '1.0.0';
-const domain = process.env.DOMAIN || 'ratepress';
+const domain = process.env.DOMAIN || 'ratekit';
 const poFile = `languages/${locale}/${domain}-${locale}.po`;
 const jsonFile = `languages/${locale}/${domain}-admin-${locale}-${version}.json`;
 
@@ -102,7 +102,7 @@ const translations = parsePOFile(poContent);
 // Create JSON structure
 const jsonData = {
     "translation-revision-date": new Date().toISOString(),
-    "generator": "RatePress JSON Generator",
+    "generator": "RateKit JSON Generator",
     "source": poFile,
     "domain": domain,
     "locale_data": {

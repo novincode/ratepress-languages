@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: WP-CLI 2.12.0\n"
-"X-Domain: ratepress\n"
+"X-Domain: ratekit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: core/includes/Admin/AdminPanel.php:54 core/includes/Admin/AdminPanel.php:55
 #: core/includes/Blocks/BlockRenderer.php:115
-msgid "RatePress"
-msgstr "RatePress"
+msgid "RateKit"
+msgstr "RateKit"
 
 #: core/includes/Admin/AdminPanel.php:64
 msgid "Dashboard"
@@ -88,13 +88,13 @@ msgid "Invalid cooldown value"
 msgstr "Valor de tiempo de espera inválido"
 
 #: core/includes/Utils/LanguageLoader.php:270
-msgid "RatePress Translation Available"
-msgstr "Traducción de RatePress Disponible"
+msgid "RateKit Translation Available"
+msgstr "Traducción de RateKit Disponible"
 
 #: core/includes/Utils/LanguageLoader.php:272
 #, php-format
-msgid "RatePress is available in %s! Click here to download the translation."
-msgstr "¡RatePress está disponible en %s! Haz clic aquí para descargar la traducción."
+msgid "RateKit is available in %s! Click here to download the translation."
+msgstr "¡RateKit está disponible en %s! Haz clic aquí para descargar la traducción."
 
 #: core/includes/Utils/LanguageLoader.php:278
 #: core/includes/Utils/LanguageLoader.php:301
@@ -1207,16 +1207,16 @@ msgid "Data Management"
 msgstr "Gestión de Datos"
 
 #: TypeScript files
-msgid "Export, import, and clean your RatePress data"
-msgstr "Exporta, importa y limpia tus datos de RatePress"
+msgid "Export, import, and clean your RateKit data"
+msgstr "Exporta, importa y limpia tus datos de RateKit"
 
 #: TypeScript files
 msgid "📤 Export Data"
 msgstr "📤 Exportar Datos"
 
 #: TypeScript files
-msgid "Export your RatePress data as SQL files for backup or migration purposes."
-msgstr "Exporta tus datos de RatePress como archivos SQL para respaldo o migración."
+msgid "Export your RateKit data as SQL files for backup or migration purposes."
+msgstr "Exporta tus datos de RateKit como archivos SQL para respaldo o migración."
 
 #: TypeScript files
 msgid "Export All Data"
@@ -1283,24 +1283,24 @@ msgid "Are you absolutely sure you want to reset ALL settings to defaults? This 
 msgstr "¿Estás absolutamente seguro de que deseas restablecer TODA la configuración a predeterminados? ¡Esto no se puede deshacer!"
 
 #: TypeScript files
-msgid "Reset all RatePress settings to their default values."
-msgstr "Restablece toda la configuración de RatePress a sus valores predeterminados."
+msgid "Reset all RateKit settings to their default values."
+msgstr "Restablece toda la configuración de RateKit a sus valores predeterminados."
 
 #: TypeScript files
 msgid "📥 Import Data (Pro)"
 msgstr "📥 Importar Datos (Pro)"
 
 #: TypeScript files
-msgid "Import RatePress data from SQL export files."
-msgstr "Importa datos de RatePress desde archivos de exportación SQL."
+msgid "Import RateKit data from SQL export files."
+msgstr "Importa datos de RateKit desde archivos de exportación SQL."
 
 #: TypeScript files
 msgid "Import Data"
 msgstr "Importar Datos"
 
 #: TypeScript files
-msgid "Select a RatePress SQL export file to import. This will merge data with existing records."
-msgstr "Selecciona un archivo de exportación SQL de RatePress para importar. Esto fusionará los datos con los registros existentes."
+msgid "Select a RateKit SQL export file to import. This will merge data with existing records."
+msgstr "Selecciona un archivo de exportación SQL de RateKit para importar. Esto fusionará los datos con los registros existentes."
 
 #: TypeScript files
 msgid "Clean Data"

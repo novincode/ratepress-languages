@@ -1,10 +1,10 @@
-# RatePress Translations 🌍
+# RateKit Translations 🌍
 
-Community translations for RatePress WordPress plugin.
+Community translations for RateKit WordPress plugin.
 
 ## 🚀 Quick Start
 
-1. Copy `ratepress.pot` to your local RatePress `languages/` folder
+1. Copy `ratekit.pot` to your local RateKit `languages/` folder
 2. Create PO: `./script/generate-po.sh es_ES`
 3. Translate the PO file with Poedit
 4. Generate MO: `./script/generate-mo.sh es_ES`
@@ -14,10 +14,10 @@ Community translations for RatePress WordPress plugin.
 
 ## 📁 Files
 
-- `ratepress.pot` - Template
-- `ratepress-{locale}.po` - Your translations
-- `ratepress-{locale}.mo` - Compiled
-- `ratepress-admin-{locale}-1.0.0.json` - JS translations
+- `ratekit.pot` - Template
+- `ratekit-{locale}.po` - Your translations
+- `ratekit-{locale}.mo` - Compiled
+- `ratekit-admin-{locale}-1.0.0.json` - JS translations
 - `languages.json` - Available languages
 
 ## 🛠 Tools
@@ -30,4 +30,4 @@ Community translations for RatePress WordPress plugin.
 
 ## 🔗 Links
 
-- [RatePress Plugin](https://github.com/novincode/wp-ratepress)
+- [RateKit Plugin](https://github.com/novincode/wp-ratekit)

@@ -10,9 +10,9 @@
             "completion": 100,
             "last_updated": "2025-10-09",
             "files": {
-                "mo": "fa_IR/ratepress-fa_IR.mo",
-                "po": "fa_IR/ratepress-fa_IR.po",
-                "json": "fa_IR/ratepress-admin-fa_IR-1.0.0.json"
+                "mo": "fa_IR/ratekit-fa_IR.mo",
+                "po": "fa_IR/ratekit-fa_IR.po",
+                "json": "fa_IR/ratekit-admin-fa_IR-1.0.0.json"
             }
         },
         {
@@ -23,12 +23,12 @@
             "completion": 100,
             "last_updated": "2025-10-09",
             "files": {
-                "mo": "es_ES/ratepress-es_ES.mo",
-                "po": "es_ES/ratepress-es_ES.po",
-                "json": "es_ES/ratepress-admin-es_ES-1.0.0.json"
+                "mo": "es_ES/ratekit-es_ES.mo",
+                "po": "es_ES/ratekit-es_ES.po",
+                "json": "es_ES/ratekit-admin-es_ES-1.0.0.json"
             }
         }
     ],
     "in_progress": [],
-    "how_to_contribute": "https://github.com/novincode/ratepress-languages#contributing"
+    "how_to_contribute": "https://github.com/novincode/ratekit-languages#contributing"
 }
